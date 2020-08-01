@@ -16,6 +16,33 @@ intents:
 - affirm_other_crime
 - choose_other_crime_type
 - choose_sub_category
+- reportlinkedIn
+- reporttwitter
+- reportyoutube
+- reportfacebook
+- report_whatsapp
+- reportinsta
+- cybercrime
+- online_fraud
+- online_bullying
+- cybercriminal
+- crime_type
+- personal_crime
+- property_crime
+- Inchoate_crime
+- Statutory_crime
+- financial_crime
+- financial_type
+- deposit
+- fraud_types
+- cyberexamples
+- mobile_hacking
+- employment_fraud
+- social_media
+- protect_yourself_cybercrime
+- childpornography
+- financialsafety
+- matrimonial_fraudsafety
 
 responses:
   utter_greet:

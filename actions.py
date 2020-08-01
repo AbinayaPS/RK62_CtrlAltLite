@@ -96,7 +96,8 @@ class ContentCrimeForm(FormAction):
     ) -> List[Dict]:
 
         # utter submit template
-        message = "Your report: \nType of crime: "+tracker.get_slot("content_crime_type")+ "\n Platform: "+tracker.get_slot("platform")+"\n Link: "+tracker.get_slot("link_ID") + "\n Date: "+tracker.get_slot("date_of_incident")+"\n Information: "+tracker.get_slot("additional_information")
+        #message = "Your report: \nType of crime: "+tracker.get_slot("content_crime_type")+ "\n Platform: "+tracker.get_slot("platform")+"\n Link: "+tracker.get_slot("link_ID") + "\n Date: "+tracker.get_slot("date_of_incident")+"\n Information: "+tracker.get_slot("additional_information")
+        message = "Your report has been taken in. Do not panic!"
         
         dispatcher.utter_message(message)
         return []
@@ -143,6 +144,7 @@ class OtherCrimeForm(FormAction):
     ) -> List[Dict]:
 
         # utter submit template
-        message = "Your report: \nType of crime: "+tracker.get_slot("other_crime_type")+ "\n Sub catgory: "+ tracker.get_slot("other_crime_sub_category")+"\n Platform: "+tracker.get_slot("platform")+"\n Link: "+tracker.get_slot("link_ID") + "\n Date: "+tracker.get_slot("date_of_incident")+"\n Information: "+tracker.get_slot("additional_information")
+        # message = "Your report: \nType of crime: "+tracker.get_slot("other_crime_type")+ "\n Sub catgory: "+ tracker.get_slot("other_crime_sub_category")+"\n Platform: "+tracker.get_slot("platform")+"\n Link: "+tracker.get_slot("link_ID") + "\n Date: "+tracker.get_slot("date_of_incident")+"\n Information: "+tracker.get_slot("additional_information")
+        message = "Your report has been taken in. Do not panic!"
         dispatcher.utter_message(message)
         return []

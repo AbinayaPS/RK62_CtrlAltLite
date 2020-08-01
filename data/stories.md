@@ -46,3 +46,119 @@
   - form{"name":"other_crime_form"}
   - form{"name":null}
   - utter_thanks
+
+## crime path
+* cybercrime
+  - utter_cybercrimedesc
+
+## frauddetech path
+* online_fraud
+  - utter_frauddetect
+
+## onlinebullying path
+* online_bullying
+  - utter_onlinebullying
+
+## cybercriminal path
+* cybercriminal
+  - utter_cybercrimetypes
+
+## crime_type path
+* crime_type
+  -utter_typedesc
+
+## personalcrime path
+* personal_crime
+  - utter_personaldesc
+
+## personalcrime path
+* personal_crime
+  - utter_personaldesc
+
+## propertydesc path
+* property_crime
+  - utter_propertydesc
+
+## Inchoatecrime path
+* Inchoate_crime
+  - utter_Inchoatedesc
+
+## Statutory_crime path
+* Statutory_crime
+  - utter_Statutorydesc
+
+## financial_crime path
+* financial_crime
+  - utter_financialdesc
+
+## financial_type path
+* financial_type
+  - utter_financialtypecrime
+
+## deposit path
+* deposit
+  - utter_deposit
+
+## deposit path
+* fraud_types
+  - utter_fraudtypes
+
+## cyberexamples path
+* cyberexamples
+  - utter_cyberex
+
+## mobile_hackings path
+* mobile_hacking
+  - utter_mobilehacking
+
+## matrimonial_fraudsafety path
+* matrimonial_fraudsafety
+  - utter_matrimonialfraudsafety
+
+## employment_fraud path
+* employment_fraud
+  - utter_employmentfraud
+
+## social_media path
+* social_media
+  - utter_socialmedia
+
+## protect_yourself_cybercrime path
+* protect_yourself_cybercrime
+  - utter_protectyourself_cybercrimes
+
+## protect_yourself_cybercrime path
+* protect_yourself_cybercrime
+  - utter_protectyourself_cybercrimes
+
+## childpornography path
+* childpornography
+  - utter_childpronography
+
+## financialsafety path
+* financialsafety
+  - utter_financialfraud
+
+## reportyoutube path
+* reportyoutube
+  - utter_report_youtube
+
+## reportfacebook path
+* reportfacebook
+  - utter_report_facebook
+
+## reportinsta path
+* reportinsta
+  - utter_report_instagram
+
+## reporttwitter path
+* reporttwitter
+  - utter_report_twitter
+
+## reportlinkedln path
+* reportlinkedIn
+  - utter_report_LinkedIn
+
+## report_whatsapp path
+* report_whatsapp
+  - utter_report_whatsapp

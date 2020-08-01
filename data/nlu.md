@@ -111,3 +111,437 @@
 - They took money from my Paytm Wallet
 - My wallet was looted
 - They cheated on me in online poker
+
+## intent:reportfacebook
+- How can I report an account on facebook?
+- how to report an account on facebook?
+- How to report someone on Facebook?
+- how to report on someone on Facebook for harassment?
+- how to report things on Facebook?
+- what are the ways to report person on facebook?
+- report a person on facebook?
+- Guidelines to report a person on Facebook?
+- Steps to report a person on facebook?
+- what are the steps to report a person on facebook?
+ 
+## intent:reportinsta
+- how to report someone on Instagram?
+- how to report a person on Instagram?
+- how to report an account on Instagram?
+- How can I report an account on instagram?
+- how to report an account on instagram?
+- How to report someone on instagram?
+- how to report on someone on instagram for harassment?
+- how to report things on instagram?
+- what are the ways to report person on instagram?
+- report a person on instagram?
+- Guidelines to report a person on instagram?
+- Steps to report a person on instagram?
+- what are the steps to report a person on instagram?
+ 
+## intent:reporttwitter
+- how to report someone on twitter?
+- how to report a person on twitter?
+- how to report an account on twitter?
+- How can I report an account on twitter?
+- how to report an account of someone on twitter?
+- How to report someone on twitter?
+- how to report on someone on twitter for harassment?
+- how to report things on twitter?
+- what are the ways to report person on twitter?
+- report a person on twitter?
+- Guidelines to report a person on twitter?
+- Steps to report a person on twitter?
+- what are the steps to report a person on twitter?
+ 
+ ## intent:reportyoutube
+- how to report someone channel in youtube
+- how to report a channel in youtube
+- what are the steps to report a channel in youtube
+- how to report channel on youtube ?
+- how to report a channel?
+- how to report an account on youtube?
+- How can I report an channel account on youtube?
+- how to report an channel account of someone on youtube?
+- How to report channel on youtube?
+- how to report channel on youtube for harassment?
+- how to report things on youtube?
+- what are the ways to report channel on youtube?
+- report a channel on youtube?
+- Guidelines to report a channel on youtube?
+- Steps to report a channel account on youtube?
+- what are the steps to report a channel on youtube?
+ 
+## intent:reportlinkedln
+- how to report a person on LinkedIn?
+- how to report someone on LinkedIn?
+- what are the steps to report someone on LinkedIn?
+- how to report someone on LinkedIn?
+- how to report a person on LinkedIn?
+- how to report an account on LinkedIn?
+- How can I report an account on LinkedIn?
+- how to report an account of someone on LinkedIn?
+- How to report someone on LinkedIn?
+- how to report on someone on LinkedIn for harassment?
+- how to report things on LinkedIn?
+- what are the ways to report person on LinkedIn?
+- report a person on LinkedIn?
+- Guidelines to report a person on LinkedIn?
+- Steps to report a person on LinkedIn?
+- what are the steps to report a person on LinkedIn?
+
+## intent:report_whatsapp
+- how to report someone on whatsapp?
+- what is the procedure to report someone on whatsapp?
+- how to report a person on whatsapp?
+- how to report someones number on whatsapp?
+- what are the steps to report someone on whatsapp?
+- how to report a person on whatsapp?
+- how to report an person account on whatsapp?
+- How can I report an account on whatsapp?
+- how to report an number of someone on whatsapp?
+- How to report someone on whatsapp?
+- how to report on someone number on whatsapp for harassment?
+- how to report things on whatsapp?
+- what are the ways to report person on whatsapp?
+- report a person on whatsapp?
+- Guidelines to report a person on whatsapp?
+- Steps to report a person on whatsapp?
+- what are the steps to report a person on whatsapp?
+
+## intent:cybercrime
+- What is cyber crime?
+- Define cyber crime.
+- What do you mean by the term cyber crime?
+- Explain cyber crime?
+- Describe the term cyber crime?
+- Refer the term cyber crime.
+- Describe Cyber crime.
+- Explain about the term cyber crime?
+- Cyber crime! what do you mean by that?
+- Give me an outline about cyber crime?
+- Explain me about Cyber crime?
+
+## intent:online_fraud
+- How to detect online fraud?
+- How to be safe from online fraud?
+- Any measure to protect myself from online fraud.
+- Suggest some ways to protect myself from online fraud.
+- how to safe graud myself from online fraud?
+- how to protect myslef from online fraud?
+- guide me to safeguard myslef from online fraud?
+- how can i keep my online details safe?
+- what are the ways in which i can protect myself from online?
+- measures to detect online fraud?
+- How to find online fraud?
+
+## intent:online_bullying
+- what is online bullying?
+- what do you mean by the term online bullying?
+- can you explain to me about online bullying?
+- how to be safe from online bullying?
+- define online bullying
+- explain about online bullying
+- What is online bullying?
+- Define online bullying.
+- What do you mean by the term online bullying?
+- Explain online bullying?
+- Describe the term online bullying?
+- Refer the term online bullying.
+- Describe online bullying.
+- Explain about the term online bullying?
+- online bullying! what do you mean by that?
+- Give me an outline about online bullying?
+- Explain me about online bullying?
+
+## intent:cybercriminal
+- What are the types of  cyber crime?
+- Can you list the types of cyber crime?
+- Types of cyber crime.
+- list the various types of cyber crimes.
+- various types of cyber crimes.
+- Name the types of cyber crimes?
+- cyber crime types?
+- list the types of cyber crimes.
+- how can one distinguish the types of cyber crimes?
+ 
+## intent:crime_type
+- What are the types of crime?
+- List the types of crime.
+- How can one distinguish the type of crime?
+- What are the types of crime?
+- Can you list the types of crime?
+- Types of crime.
+- list the various types of crimes.
+- various types of crimes.
+- Name the types of crimes?
+- crime types?
+- list the types of crimes.
+
+## intent:personal_crime
+- What is personal crime?
+- Define personal crime.
+- what do you mean by the term personal crime?
+- can you explain to me about personal crime?
+- how to be safe from personal crime?
+- define personal crime
+- explain about personal crime
+- What is personal crime?
+- Define personal crime.
+- What do you mean by the term personal crime?
+- Explain personal crime?
+- Describe the term personal crime?
+- Refer the term personal crime.
+- Describe personal crime.
+- Explain about the term personal crime?
+- personal crime! what do you mean by that?
+- Give me an outline about personal crime?
+- Explain me about personal crime?
+- Tell me about personal crime
+- Briefly explain about personal crime.
+
+## intent:property_crime
+- What do you mean by property crime?
+- What is property crime?
+- Define property crime
+- Tell me about property crime
+- Briefly explain about property crime.
+- what is property crime?
+- what do you mean by the term property crime?
+- can you explain to me about property crime?
+- how to be safe from property crime?
+- define property crime
+- explain about property crime
+- What is property crime?
+- Define property crime.
+- What do you mean by the term property crime?
+- Explain property crime?
+- Describe the term property crime?
+- Refer the term property crime.
+- Describe property crime.
+- Explain about the term property crime?
+- property crime! what do you mean by that?
+- Give me an outline about property crime?
+- Explain me about property crime?
+
+## intent:Inchoate_crime
+- What do you mean by Inchoate crime?
+- What is Inchoate crime?
+- Define Inchoate crime
+- Tell me about Inchoate
+- Briefly explain about Inchoate crime.
+- what do you mean by the term inchoate crime?
+- can you explain to me about inchoate crime?
+- how to be safe from inchoate crime?
+- define inchoate crime
+- explain about inchoate crime
+- What is inchoate crime?
+- Define inchoate crime.
+- What do you mean by the term inchoate crime?
+- Explain inchoate crime?
+- Describe the term inchoate crime?
+- Refer the term inchoate crime.
+- Describe inchoate crime.
+- Explain about the term inchoate crime?
+- inchoate crime! what do you mean by that?
+- Give me an outline about inchoate crime?
+- Explain me about inchoate crime?
+
+## intent:Statutory_crime
+- What do you mean by Statutory crime?
+- What is Statutory Crime?
+- Define Statutory crime
+- Tell me about Statutory crime
+- Briefly explain about Statutory Crime.
+- what is Statutory crime?
+- what do you mean by the term Statutory crime?
+- can you explain to me about Statutory crime?
+- how to be safe from Statutory crime?
+- define Statutory crime
+- explain about Statutory crime
+- What is Statutory crime?
+- Define Statutory crime.
+- What do you mean by the term Statutory crime?
+- Explain Statutory crime?
+- Describe the term Statutory crime?
+- Refer the term Statutory crime.
+- Describe Statutory crime.
+- Explain about the term Statutory crime?
+- Statutory crime! what do you mean by that?
+- Give me an outline about Statutory crime?
+- Explain me about Statutory crime?
+
+## intent:financial_crime
+- What do you mean by financial crime?
+- What is financial Crime?
+- Define financial crime
+- Tell me about financial crime
+- Briefly explain about financial Crime.
+- What are the types of crime?
+- List the types of crime.
+- How can one distinguish the type of financial crime?
+- What are the types of financial crime?
+- Can you list the types of financial crime?
+- Types of financial crime.
+- list the various types of financial crimes.
+- various types of financial crimes.
+- Name the types of financial crimes?
+- financial types?
+- list the types of financial crimes.
+
+## intent:financial_type
+- What are the types of financial crime?
+- How do you split financial crime?
+- What are the types of financial crime?
+- Types of financial crime.
+- List the types of financial crime
+
+## intent:deposit
+- How to detect crime in banks with the amount deposited?
+- The amount of money received by a person is doubted
+- How to detect suspicious transactions?
+- Detect suspicious transactions.
+- how to find crime in bank account?
+- how to find suspicious transactions?
+
+## intent:fraud_types
+- What are the types of fraud?
+- List the type of fraud.
+- Types of fraud.
+- Can you list the types of fraud
+- fraud types
+- gives me the types of fraud
+- list the fraud types
+
+## intent:cyberexamples
+- list some examples of cybercrime
+- Name some examples of cyber crime
+- Give some examples of cybercrime
+- What are the top cybercrime activities?
+- What are top examples of cybercrime?
+- List the major examples of cybercrime?
+- common examples of cyber crime.
+- What are the common examples of cybercrime?
+- cybercrime examples.
+- List the top examples of cyber crime.
+- examples of cyber crime.
+
+## intent:mobile_hacking
+- How can I protect my mobile from hacking?
+- protect my phone from Hackers
+- Measures to be taken to safeguard my mobile from hackers.
+- protect my mobilr phone from hacking
+- How to protect my Android phone rom Hackers?
+- How to safe while using public Wi-Fi?
+- Can I install random apps from any source?
+- Suggest some measures to be followed to prevent my mobile from being hacked.
+- How can I protect my mobile phone from being hacked?
+- How to prevent data theft in my mobile phone?
+- How to prevent loss of data through in mobile phone?
+- List some methods to protect my smart phone.
+- How can I prevent information leak in mobile phone?
+- mobile hacked.
+- mobile hacking, safety measures.
+
+## intent:matrimonial_fraudsafety
+- How to be safe on shaadi.com?
+- How to be safe on the Bharath matrimony website?
+- How to be safe on a community matrimony website?
+- Name some precautions that can be followed on matrimonial websites?
+- Safest measures to be taken on matrimonial websites.
+- Suggest some precautions to be followed before registering through sangam.com matrimonial wesite?
+- List some basic precautions to be followed before meeting the alliance from kalyanammatrimony.com?
+- Are there any documents of The NRI person in the Jeevansaathi.com matrimonial website?
+- How to follow the safety measure while using SimplyMarry.com?
+- Is KMmatrimony.com safe? suggest some ways through which It will be safe?
+- Name some precautions to be followe after registering M4marry.com?
+- Safest measures to be taken on Tamilsuyamvaram.com matrimonial wesite?
+
+## intent:employment_fraud
+- How to safeguard myself from Employment fraud ?
+- Precautions to be followed on employment websites?
+- How to detect a fake job offer letter?
+- what are the possible ways to stay safe from employment fraud?
+- How can I protect myself from employment fraud?
+- How to whether the company and offer letter is fake or not?
+- List some ways through which I can protect myself from employment fraud?
+- What the the basic steps to be noted while using employment websites or portal?
+- How can I be safe on workindia.in ?
+- How to be safe on CareerBuilder.com?
+- List some precautions to be followed while using dice.com
+- How to be prevent fraud in glassdoor.com?
+- How can I be safe on idealist.org?
+- How can I protect myself from fraud comapnies in Indeed.co.in
+- Precautions to be followed onlinkUp.com
+- List some precautions to be followed in Upwork.com
+- Suggest some basic precautions to be followed in ZipRecruiter.com
+
+## intent:social_media
+- Safety measures to be followed while using social media?
+- Whether social media is safe or not? Precautions to be taken while using social media.
+- How can I be safe on social media flatform?
+- Suggest some ways in which I can protect myself in Facebook
+- name some ways through which I can stay safe in instagram
+- How to be safe in Whats app?
+- How can I be safe on LinkedIn?
+- List some safety measures to be followed on Twitter?
+- How can I prevent my social media profile from hackers?
+- what are the basic steps to be noted while using instagram?
+- How I can I secure myself on social media platform?
+- What are the precautitions that can be taken to be safe on intagram?
+- Can I upload my personal informations in facebook?
+- Can I react to posts in any social media platform?
+- Can I accept all the friend request in social media?
+- Suggest ways to use social media safely.
+
+## intent:protect_yourself_cybercrime
+- how to protect ourselves from cybercrime?
+- Is there any precaution to prevent ourselves from cybercrime?
+- can you list the safety measures to be taken to protect ourselves from cybercrime?
+- How to protect myself and my data from hackers?
+- list some guideline to follow to stay away from hackers.
+- List some best exercise or basic precautions to protect mydelf from internet fraud.
+- How can I be safe on internet?
+- name some basic precautions to be followed which using internet.
+- suggest some ways in which I can be safe while using internet?
+- How can I protect myself from hackers?
+- How can I stay away from hackers who breach my data?
+- How can I protect my data in my local machine?
+- how to use the internet safely?
+- list some ways in which I can safeguard ny data while using internet.
+- help me to protect myself against the range of cybercrime.
+
+## intent:childpornography
+- What does child pornography mean?
+- what do you mean by child pornography?
+- What is child pornography?
+- what does the term child pornography refers to?
+- what is child porn?
+- why is child pornography illegal?
+- Is child pronography illegal?
+- who does child pronography involve?
+- Does child pronography include minors?
+- Is child pronograpy legal?
+- What is child sexual abuse?
+- What does child sexual abuse means?
+- Is child sexual abuse legal in India?
+- what do you mean by child sexual abuse?
+
+## intent:financialsafety
+- how to safeguard myself from financial fraud?
+- how to protect myself from financial fraud?
+- list some safety measures to protect myself from financial fruad
+- How can I stay away from financial fraud?
+- guide me to safeguard myself from financial fraud.
+- steps to be followed to protect myself from online transaction fraud
+- How can I keep my bank details safe?
+- Step to ensure during online transaction
+- Step to ensure after online transaction
+- measure for safe online banking
+- How can I transfer my funds safely through internet?
+- How to be safe on online banking?
+- measures to protext myself from online bank fraud
+- how can I stay away from online bank related fraud?
+- suggest some methods to be safe on online banking?
+- What are the ways in which I can protect myself from online banking fraud?
+- online banking fraud, safeguard measures.
