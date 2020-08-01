@@ -1,0 +1,49 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src = "static/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<center><h1>WELCOME TO CRIMEBOT</h1></center>
+	<img class="wave" src="static/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="static/message.svg">
+		</div>
+		<div class="login-content">
+			<form action="" method = "post">
+				<img src="static/logo.png">
+				<h2 class="title">CRIME REGISTRATION</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="text" name = "username" placeholder = "Enter your name" class="input" value="{{
+          request.form.username }}">
+           		   </div>
+           		</div>
+           		<div class="input-div one">
+					  <div class="i">
+           		    	<i class="fa fa-mobile-phone"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<input type="text" name = "phno" placeholder = "Enter your phone number" class="input" value="{{
+          request.form.phno }}">
+            	   </div>
+            	</div>
+            	<input type="submit" class="btn" value="Login">
+		{% if error %}
+        		<p class="error"><strong>Error:</strong> {{ error }}
+	      	{% endif %}
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

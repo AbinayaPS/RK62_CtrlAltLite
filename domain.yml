@@ -1,0 +1,481 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- say_crime_type
+- affirm_content_crime
+- choose_content_crime_type
+- mention_platform
+- mention_link
+- choose_state_ut
+- mention_district
+- mention_date
+- mention_information
+- affirm_other_crime
+- choose_other_crime_type
+- choose_sub_category
+
+responses:
+  utter_greet:
+  - text: Hey! I am CrimeBot, your virtual friend! I can help you file a complaint and give you the list of crimes that happened in your locality. Would you like to report a crime you witnessed?
+
+  utter_crimelist:
+  - text: Alright! Would you like to know the list of crimes in your location?
+
+  utter_help:
+  - text: How can I help you?
+
+  utter_iamabot:
+  - text: I am CrimeBot and I help you register complaints against crimes you've witnessed. I can also give you the list of crimes that happened in your locality!
+
+  utter_goodbye:
+  - text: Thanks for using CrimeBot.
+
+  utter_ask_crime_type:
+  - text: What is the type of crime?
+    buttons:
+    - title: "Content related to online sexual abuse"
+      payload: '/say_crime_type{"type_of_crime":"Content related to online sexual abuse"}'
+    - title: "Other cyber crime"
+      payload: '/say_crime_type{"type_of_crime":"Other cyber crime"}'
+
+  utter_confirm_content_crime:
+  - text: Click yes to confirm your registration!
+    buttons:
+    - title: "Yes"
+      payload: /affirm_content_crime{"content_crime_confirmation":"True"}
+    - title: "No"
+      payload: /affirm_content_crime{"content_crime_confirmation":"False"}
+
+  utter_ask_content_crime_type:
+  - text: "What was the content about?"
+    buttons:
+    - title: "Child pornography"
+      payload: /choose_content_crime_type{"content_crime_type":"child pornography"}
+    - title: "Rape"
+      payload: /choose_content_crime_type{"content_crime_type":"rape"}
+    - title: "Sexual obscenity"
+      payload: /choose_content_crime_type{"content_crime_type":"sexual obscenity"}
+    - title: "Sexually explicit"
+      payload: /choose_content_crime_type{"content_crime_type":"sexually explicit"}
+
+  utter_ask_platform:
+  - text: What website or social media platform did the incident occur in? For eg Facebook, YouTube.
+
+  utter_ask_link_ID:
+  - text: Mention the link or ID on the {platform} platform please!
+
+  utter_ask_state_ut:
+  - text: Pick one from below
+    buttons:
+    - title: “India”
+      payload: ‘/choose_state_ut{“state_ut”:”Total All India”}’
+    - title: “Total States”
+      payload: ‘/choose_state_ut{“state_ut”:”Total State(s)”}’
+    - title: “Total Union Territories”
+      payload: ‘/choose_state_ut{“state_ut”:”Total UT(s)”}’
+    - title: “Andhra Pradesh”
+      payload: ‘/choose_state_ut{“state_ut”:”Andhra Pradesh”}’
+    - title: “Arunachal Pradesh”
+      payload: ‘/choose_state_ut{“state_ut”:”Arunachal Pradesh”}’
+    - title: “Assam”
+      payload: ‘/choose_state_ut{“state_ut”:”Assam”}’
+    - title: “Bihar”
+      payload: ‘/choose_state_ut{“state_ut”:”Bihar”}’
+    - title: “Chhattisgarh”
+      payload: ‘/choose_state_ut{“state_ut”:”Chhattisgarha”}’
+    - title: “Goa”
+      payload: ‘/choose_state_ut{“state_ut”:”Goa”}’
+    - title: “Gujarat”
+      payload: ‘/choose_state_ut{“state_ut”:”Gujarat”}’
+    - title: “Haryana”
+      payload: ‘/choose_state_ut{“state_ut”:”Haryana”}’
+    - title: “Himachal Pradesh”
+      payload: ‘/choose_state_ut{“state_ut”:”Himachal Pradesh”}’
+    - title: “Jammu Kashmir”
+      payload: ‘/choose_state_ut{“state_ut”:”Jammu Kashmir”}’
+    - title: “Jharkhand”
+      payload: ‘/choose_state_ut{“state_ut”:”Jharkhand”}’
+    - title: “Karnataka”
+      payload: ‘/choose_state_ut{“state_ut”:”Karnataka”}’
+    - title: “Kerala”
+      payload: ‘/choose_state_ut{“state_ut”:”Kerala”}’
+    - title: “Madhya Pradesh”
+      payload: ‘/choose_state_ut{“state_ut”:”Madhya Pradesh”}’
+    - title: “Maharashtra”
+      payload: ‘/choose_state_ut{“state_ut”:”Maharashtra”}’
+    - title: “Manipur”
+      payload: ‘/choose_state_ut{“state_ut”:”Manipur”}’
+    - title: “Meghalaya”
+      payload: ‘/choose_state_ut{“state_ut”:”Meghalaya”}’
+    - title: “Mizoram”
+      payload: ‘/choose_state_ut{“state_ut”:”Mizoram”}’
+    - title: “Nagaland”
+      payload: ‘/choose_state_ut{“state_ut”:”Nagaland”}’
+    - title: “Odisha”
+      payload: ‘/choose_state_ut{“state_ut”:”Odisha”}’
+    - title: “Punjab”
+      payload: ‘/choose_state_ut{“state_ut”:”Punjab”}’
+    - title: “Rajasthan”
+      payload: ‘/choose_state_ut{“state_ut”:”Rajasthan”}’
+    - title: “Sikkim”
+      payload: ‘/choose_state_ut{“state_ut”:”Sikkim”}’
+    - title: “Tamil Nadu”
+      payload: ‘/choose_state_ut{“state_ut”:”Tamil Nadu”}’
+    - title: “Telangana”
+      payload: ‘/choose_state_ut{“state_ut”:”Telangana”}’
+    - title: “Tripura”
+      payload: ‘/choose_state_ut{“state_ut”:”Tripura”}’
+    - title: “Uttar Pradesh”
+      payload: ‘/choose_state_ut{“state_ut”:”Uttar Pradesh”}’
+    - title: “Uttarakhand”
+      payload: ‘/choose_state_ut{“state_ut”:”Uttarakhand”}’
+    - title: “West Bengal”
+      payload: ‘/choose_state_ut{“state_ut”:”West Bengal”}’
+    - title: “Andaman and Nicobar islands”
+      payload: ‘/choose_state_ut{“state_ut”:”Andaman and Nicobar islands”}’
+    - title: “Chandigarh”
+      payload: ‘/choose_state_ut{“state_ut”:”Chandigarh”}’
+    - title: “Dadra and Nagar Haveli”
+      payload: ‘/choose_state_ut{“state_ut”:”Dadra and Nagar Haveli”}’
+    - title: “Daman and Diu”
+      payload: ‘/choose_state_ut{“state_ut”:”Daman and Diu”}’
+    - title: “Delhi”
+      payload: ‘/choose_state_ut{“state_ut”:”Delhi”}’
+    - title: “Lakshadweep”
+      payload: ‘/choose_state_ut{“state_ut”:”Lakshadweep”}’
+    - title: “Puducherry”
+      payload: ‘/choose_state_ut{“state_ut”:”Puducherry”}’
+
+  utter_ask_district:
+  - text: What district in {state_ut} state are you currently residing in?
+
+  utter_ask_date_of_incident:
+  - text: On which date did this event occur?
+
+  utter_ask_additional_information:
+  - text: Please type the details of the incident in detail in your next message, please!
+
+  utter_thanks:
+  - text: Thank you for complaining.
+
+  utter_confirm_other_crime:
+  - text: Click yes to confirm your registration!
+    buttons:
+    - title: "Yes"
+      payload: /affirm_other_crime{"other_crime_confirmation":"True"}
+    - title: "No"
+      payload: /affirm_other_crime{"other_crime_confirmation":"False"}
+
+  utter_ask_other_crime_type:
+  - text: Pick one from below
+    buttons:
+    - title: "Did you lose money online?"
+      payload: /choose_other_crime_type{"other_crime_type":"loss of money"}
+    - title: "Are you being harrassed online?"
+      payload: '/choose_other_crime_type{"other_crime_type":"online harrassment"}'
+    - title: "Is your account being hacked?"
+      payload: '/choose_other_crime_type{"other_crime_type":"hacking"}'
+    - title: "Did you notice any national/communal hatred or threat?"
+      payload: '/choose_other_crime_type{"other_crime_type":"hatred and threat"}'
+    - title: "Did you notice any human trafficking?"
+      payload: '/choose_other_crime_type{"other_crime_type":"human trafficking/online prostitution"}'
+    - title: "Did you notice any online prostitution?"
+      payload: '/choose_other_crime_type{"other_crime_type":"human trafficking/online prostitution"}'
+    - title: "Did you notice any online gambling?"
+      payload: '/choose_other_crime_type{"other_crime_type":"online gambling"}'
+
+  utter_LOM_sub_category:
+  - text: How did you lose money?
+    buttons:
+    - title: "ATM/Cards/Banking/Internet banking related fraud"
+      payload: /choose_sub_category{"other_crime_sub_category":"Internet Banking related fraud"}
+    - title: "Bitcoin or other cryptocurrency related fraud"
+      payload: /choose_sub_category{"other_crime_sub_category":"Cryptocurrency Crime"}
+    - title: "E-Wallet/E-commerce related fraud"
+      payload: /choose_sub_category{"other_crime_sub_category":"E-commerce related crime"}
+    - title: "Mutual funds related fraud"
+      payload: /choose_sub_category{"other_crime_sub_category":"Demat/Mutual fund related fraud"}
+    - title: "Matrimonial website fraud"
+      payload: /choose_sub_category{"other_crime_sub_category":"Online Matrimonial fraud"}
+    - title: "Online job fraud"
+      payload: /choose_sub_category{"other_crime_sub_category":"Online Job fraud"}
+    - title: "Fraud calls"
+      payload: /choose_sub_category{"other_crime_sub_category":"Fraud Calls"}
+    - title: "Email Hacking"
+      payload: /choose_sub_category{"other_crime_sub_category":"Email hacking"}
+    - title: "Email Spoofing"
+      payload: /choose_sub_category{"other_crime_sub_category":"Email spoofing"}
+    - title: "Email Phishing"
+      payload: /choose_sub_category{"other_crime_sub_category":"Email phishing"}
+    - title: "Email Threatening"
+      payload: /choose_sub_category{"other_crime_sub_category":"Intimidating Email"}
+
+  utter_hacking_sub_category:
+  - text: How are you being hacked?
+    buttons:
+    - title: "Fake profile/identity theft"
+      payload: /choose_sub_category{"other_crime_sub_category":"Profile hacking"}
+    - title: "Cheating by impersonation"
+      payload: /choose_sub_category{"other_crime_sub_category":"Cheating by impersonation"}
+    - title: "Damage to computer"
+      payload: /choose_sub_category{"other_crime_sub_category":"Damage to computer system"}
+    - title: "Data breach"
+      payload: /choose_sub_category{"other_crime_sub_category":"Data breach"}
+    - title: "Modifying computer programs"
+      payload: /choose_sub_category{"other_crime_sub_category":"Tempering Computer Source Documents"}
+    - title: "Ransomware"
+      payload: /choose_sub_category{"other_crime_sub_category":"Ransomware"}
+    - title: "Website hacking"
+      payload: /choose_sub_category{"other_crime_sub_category":"Website hacking"}
+
+  utter_HAT_sub_category:
+  - text: What is the activity you noticed?
+    buttons:
+    - title: "Provocative content/Unlawful Activities online"
+      payload: /choose_sub_category{"other_crime_sub_category":"Provocative Speech"}
+    - title: "Online drugs/arms selling"
+      payload: /choose_sub_category{"other_crime_sub_category":"Cyber Terrorism"}
+  utter_report_facebook:
+  - text: "1.Go to the profile you want to report.\n
+          2.Click the three dots icon on the bottom right of the cover photo.\n
+          3.Select 'Give feedback or report this profile'\n
+          4.Follow the on-screen instructions and then click 'Send' "
+
+  utter_report_instagram:
+  - text: "Follow the steps to report a person on Instagram,\n
+        1.Tap  (iOS) or  (Android) in the top right of the profile.\n
+        2.Tap Report.\n
+        3.Follow the on-screen instructions."
+
+  utter_report_twitter:
+  - text: "Follow the steps to report a person on twitter,\n
+         1.Open the profile you'd like to report.\n
+         2.Select the overflow icon.\n
+         3.Select Report and then select the type of issue you'd like to report.\n
+         4.If you select They're being abusive or harmful, we'll ask you to provide additional information about the issue you're reporting."
+
+  utter_report_youtube:
+  - text: "Follow the following steps to easily report a youtube channel,\n
+          1.Go to youtube.com and sign into your account,if necessary.\n
+          2.Go to the page of the channel you want to report.\n
+          3.Click on their “About” section.\n
+          4.Click the flag icon under the Stats section and select “Report User” option."
+
+  utter_report_LinkedIn:
+  - text: "Follow the steps to report a person on LinkedIn,\n
+         1.Click the More icon on the member's profile.\n
+         2.Click Report/Block.\n
+         3.Select Report this profile in the What do you want to do? pop-up window.\n
+         4.Select the applicable reason for flagging the profile in the Tell us a little more pop-up window.\n
+         5.Click Submit to proceed or Back to review your options."
+
+  utter_report_whatsapp:
+  - text: "Follow the following steps to report someone on whatsapp,\n
+         1.Open the chat.\n
+         2.Tap on the contact or group name to open their profile information.\n
+         3.Scroll to the bottom and tap Report contact or Report group."
+
+  utter_thankscrime:
+  - text: "Thanks for using crimeBot"
+
+  utter_cybercrimedesc:
+  - text: "Cybercrime, also called computer crime, the use of a computer as an instrument to further illegal ends, such as committing fraud, trafficking in child pornography and intellectual property, stealing identities, or violating privacy."
+
+  utter_frauddetect:
+  - text: "You can detect online fraud and identity theft by the following: \n -Monitor your accounts. \n -Use online alert tools and services (example -signing up gmail account in other device, sends you an alert). \n -Use a credit monitoring service. \n -Watch out for wire transfer email scams. \n -Requests for money (example- You're asked to pay money in advance for administration fees or taxes prior to receiving a prize or winnings.)"
+
+  utter_onlinebullying:
+  - text: "-Report - Most social networks allow you to report offensive and abusive material. \n -Block - The easiest way to stop someone bothering you online. \n -If you are a victim of cyberstalking, report such incidents to the National Cyber Crime Reporting Portal/ Police. Also, save all communications with the stalker as evidence."
+
+  utter_cybercrimetypes:
+  - text: "There are 2 types of Cyber crimes: -Crimes that target networks or devices.\n -Crimes using devices to participate in criminal activities."
+
+  utter_typedesc:
+  - text: "The criminal act has divided the crime into the following \n -Personal Crimes. \n -Property Crimes. \n -Inchoate Crimes.\n -Statutory Crimes.\n -Financial Crimes."
+
+  utter_personaldesc:
+  - text: "Personal crimes are those that result in physical or mental harm to another person. They can be divided into two main categories,\n -Homicide. \n -Violent Crime"
+
+  utter_propertydesc:
+  - text: "Property crimes typically involve interference with the property of another. Although they may involve physical or mental harm to another, they primarily result in the deprivation of the use or enjoyment of property. Many crimes include theft crime"
+
+  utter_Inchoatedesc:
+  - text: "Inchoate crimes refer to those crimes that were initiated but not completed, and acts that assist in the commission of another crime. Inchoate crimes require more than a person simply intending or hoping to commit a crime. Rather, the individual must take a substantial step towards the completion of the crime in order to be found guilty."
+
+  utter_Statutorydesc:
+  - text: "Three significant types of statutory crimes are alcohol related crimes, drug crimes, traffic offenses, and financial/white collar crimes. These crimes are specifically prohibited by statute because society hopes to deter individuals from engaging in them."
+
+  utter_financialdesc:
+  - text: "Financial crimes often involve deception or fraud for financial gain. Although white-collar crimes derive their name from the corporate officers who historically perpetrated them, anyone in any industry can commit a white-collar crime. These crimes include many types of fraud and blackmail, embezzlement and money laundering, tax evasion, and cybercrime."
+
+  utter_financialtypecrime:
+  - text: "The type of financial crime are -fraud \n -bribery and corruption \n -information security \n -terrorist financing \n -market abuse and insider dealing \n -electronic crime -money laundering"
+
+  utter_deposit:
+  - text: "Under the Bank Secrecy Act, banks and other financial institutions must report cash deposits greater than $10,000. But since many criminals are aware of that requirement, banks also are supposed to report any suspicious transactions, including deposit patterns below $10,000."
+
+  utter_fraudtypes:
+  - text: "The type of fraud\n -Job fraud\n -Matrimonial fraud\n -Social media fraud."
+
+  utter_cyberex:
+  - text: "1)Phishing scams - Phishing is a practice of a cybercriminal or hacker attempting to obtain sensitive or personal information from a computer user. \n
+	         2)Identity Theft scams. \n
+           3)Online Harassment. \n
+           4)Cyberstalking. \n
+           5)Invasion of privacy."
+
+  utter_mobilehacking:
+  - text: "1)Install good antivirus on your mobile phone. \n
+           2)Always enable a password on the home screen to restrict unauthorized access to your mobile phone. \n
+           3)Avoid using third-party extensions, plug-ins or add-ons for your web browser as it may secretly track your activity and steal your personal details. \n
+           4)Public Wi-Fi at Airports, Railway Stations, Bus Stops, etc. may be used only for normal internet surfing. It is advisable to avoid making online transactions or accessing personal information while using public/free Wi-Fi."
+
+  utter_employmentfraud:
+  - text: "1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
+           2)Always check the organization's website for Job offers and related details.\n
+           3) It is advisable to search and apply for jobs posted on prominent job portals. Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links."
+
+  utter_socialmedia:
+  - text: "1)Do not give any personal information like your address, phone number, or any kind of financial information on social media platforms.\n
+	   2)It is advisable not to turn on location settings for Apps that allow third party access. \n
+           3)Do not respond or react to unsought or abusive posts."
+
+  utter_protectyourself_cybercrimes:
+  - text: "Following instructions to be noted to protect yourself from or against cybercrimes \n
+                                         1)Use a full-service internet security suite \n
+                                         2)Use strong password \n
+                                         3)Keep your software updated \n
+                                         4)Manage your social media settings \n
+				         5)Strengthen your home network \n
+					 6)Talk to your children about the internet \n
+                                         7)Keep up to date on major security breaches"
+
+  utter_childpronography:
+  - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old).  Images of child pornography are also referred to as child sexual abuse images."
+
+  utter_financialfraud:
+  - text: "1)Always ensure that credit or debit card swipes are done in your presence. \n
+           2)Never reveal your ATM or phone banking PIN, OTP, CVV number, etc. to anyone or respond to unknown emails or calls asking for such details. \n
+           3) After completing an online transaction with your credit/ debit card remember to log off from the website and delete cookies for enhanced protection. \n
+           4) Immediately check SMS or email statements sent by the depository after every transaction in the Demat account. Check holding statements issued by brokers every month."
+
+  utter_matrimonialfraudsafety:
+  - text: "1)Never react to the Matrimonial offers posted on social media platforms.\n
+           2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
+           3)If it is a NRI profile document check their  related to their address and employment abroad.\n
+           4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds."
+
+
+
+entities:
+- type_of_crime
+- content_crime_confirmation
+- content_crime_type
+- platform
+- link_ID
+- state_ut
+- district
+- date_of_incident
+- other_crime_confirmation
+- other_crime_type
+- other_crime_sub_category
+- additional_information
+
+slots:
+  type_of_crime:
+    type: categorical
+    values:
+      - Content related to online sexual abuse
+      - Other cyber crimes
+  content_crime_confirmation:
+    type: text
+  content_crime_type:
+    type: text
+  platform:
+    type: text
+  link_ID:
+    type: text
+  state_ut:
+    type: text
+  district:
+    type: text
+  date_of_incident:
+    type: text
+  additional_information:
+    type: text
+  other_crime_confirmation:
+    type: text
+  other_crime_type:
+    type: categorical
+    values:
+      - loss of money
+      - online harrassment
+      - hacking
+      - hatred and threat
+      - human trafficking
+      - online prostitution
+      - online gambling
+  other_crime_sub_category:
+    type: text
+
+actions:
+- utter_greet
+- utter_help
+- utter_goodbye
+- utter_iamabot
+- utter_crimelist
+- utter_ask_crime_type
+- action_confirm_type
+- utter_confirm_content_crime
+- utter_ask_content_crime_type
+- utter_ask_platform
+- utter_ask_link_ID
+- utter_ask_state_ut
+- utter_ask_district
+- utter_ask_date_of_incident
+- utter_ask_additional_information
+- utter_confirm_other_crime
+- utter_ask_other_crime_type
+- ask_other_crime_sub_category
+- utter_LOM_sub_category
+- utter_hacking_sub_category
+- utter_HAT_sub_category
+- utter_report_facebook
+- utter_report_instagram
+- utter_report_twitter
+- utter_report_youtube
+- utter_report_LinkedIn
+- utter_report_whatsapp
+- utter_thankscrime
+- utter_cybercrimedesc
+- utter_frauddetect
+- utter_onlinebullying
+- utter_cybercrimetypes
+- utter_typedesc
+- utter_personaldesc
+- utter_propertydesc
+- utter_Inchoatedesc
+- utter_Statutorydesc
+- utter_financialdesc
+- utter_financialtypecrime
+- utter_deposit
+- utter_fraudtypes
+- utter_cyberex
+- utter_mobilehacking
+- utter_employmentfraud
+- utter_socialmedia
+- utter_protectyourself_cybercrimes
+- utter_childpronography
+- utter_financialfraud
+- utter_matrimonialfraudsafety
+
+forms:
+- content_crime_form
+- other_crime_form
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title> AUTHENTICATION</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src = "static/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<center><h1>AUTHENTICATION</h1></center>
+	<img class="wave" src="static/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="static/auth.svg">
+		</div>
+		<div class="login-content">
+			<form action="" method = "post">+
+				<img src="static/logo.png">
+				<h3>OTP AUTHENTICATION</h3>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="text" name ="otp" placeholder = "Enter your OTP" class="input" value="{{
+          request.form.otp }}">
+           		   </div>
+           		</div>
+                 <h5 style="color:red;">* Note:An OTP has been sent to your phone number. Please check your messages. * </h5><br>
+            	<input type="submit" class="btn" value="CONFIRM">
+		{% if error %}
+        		<p class="error"><strong>Error:</strong> {{ error }}
+	      	{% endif %}
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
