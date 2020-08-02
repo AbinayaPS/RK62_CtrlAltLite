@@ -1,4 +1,134 @@
+actions:
+- action_confirm_type
+- action_crime_stat
+- ask_other_crime_sub_category
+- custom_fallback
+- utter_ATM_Creditcard_precautions
+- utter_ATM_Creditcard_report
+- utter_Catfishing
+- utter_Cyberbullying
+- utter_Cyberstalking
+- utter_Dogpiling
+- utter_Doxing
+- utter_Ewallet_fraud
+- utter_Ewalletloot_example
+- utter_HAT_sub_category
+- utter_Impersonation
+- utter_Inchoatedesc
+- utter_LOM_sub_category
+- utter_RevengePorn
+- utter_Statutorydesc
+- utter_Swatting
+- utter_Trolling
+- utter_ask_additional_information
+- utter_ask_content_crime_type
+- utter_ask_crime_type
+- utter_ask_crimestatistics
+- utter_ask_date_of_incident
+- utter_ask_district
+- utter_ask_link_ID
+- utter_ask_other_crime_type
+- utter_ask_platform
+- utter_ask_state_ut
+- utter_childponography
+- utter_childpronography
+- utter_confirm_content_crime
+- utter_confirm_other_crime
+- utter_crime_statistics_list
+- utter_crimelist
+- utter_crypto_desc
+- utter_crypto_help
+- utter_crypto_safety
+- utter_cybercrimedesc
+- utter_cybercrimetypes
+- utter_cyberex
+- utter_definesexualexplicit
+- utter_deposit
+- utter_desconlineharss
+- utter_email_hacking
+- utter_email_safety
+- utter_email_phishing
+- utter_employmentfraud
+- utter_ewallet_precaution
+- utter_ewallet_report
+- utter_financialdesc
+- utter_financialfraud
+- utter_financialtypecrime
+- utter_fraudcall_precuations
+- utter_fraudcall_report
+- utter_frauddetect
+- utter_fraudtypes
+- utter_goodbye
+- utter_greet
+- utter_hackedphone
+- utter_hacking
+- utter_hacking_sub_category
+- utter_hatespeech
+- utter_hatredandthreat
+- utter_help
+- utter_helpbulled
+- utter_iamabot
+- utter_ifhacked
+- utter_internetbanking_safely
+- utter_internetbankingfraud
+- utter_jobfraud_precautions
+- utter_jobfraud_report
+- utter_matrimonialfraud_precautions
+- utter_matrimonialfraud_report
+- utter_matrimonialfraudsafety
+- utter_mobilehacking
+- utter_onlinebullying
+- utter_onlinegambling
+- utter_onlineprostitution
+- utter_parentssupport
+- utter_personaldesc
+- utter_preventhack
+- utter_propertydesc
+- utter_protectyourself_cybercrimes
+- utter_punishments
+- utter_rape
+- utter_rape_meaning
+- utter_report_LinkedIn
+- utter_report_facebook
+- utter_report_instagram
+- utter_report_twitter
+- utter_report_whatsapp
+- utter_report_youtube
+- utter_reportcyberbullying
+- utter_reporthacked
+- utter_reporthatespeech
+- utter_reportrevenge
+- utter_security
+- utter_sexualexplicitawar
+- utter_sexualobscenityawar
+- utter_socialmedia
+- utter_thanks
+- utter_thankscrime
+- utter_threatmeasures
+- utter_typedesc
+- utter_typesonlineharass
+- utter_wayshacked
+
+entities:
+- additional_information
+- content_crime_confirmation
+- content_crime_type
+- date_of_incident
+- district
+- link_ID
+- other_crime_confirmation
+- other_crime_sub_category
+- other_crime_type
+- platform
+- state_ut
+- type_of_crime
+forms:
+- content_crime_form
+- other_crime_form
 intents:
+- ATM_Creditcard_precautions
+- ATM_Creditcard_report
+- stop
 - greet
 - goodbye
 - affirm
@@ -86,8 +216,6 @@ intents:
 - Ewallet_example
 - ewallet_precautions
 - ewallet_report
-- ATM_Creditcard_precautions
-- ATM_Creditcard_report
 - jobfraud_precautions
 - jobfraud_report
 - matrimonialfraud_precautions
@@ -98,855 +226,825 @@ intents:
 - help_cryptocurrency
 - email_hacking
 - email_safety
+- email_phishing
 
 responses:
-  utter_greet:
-  - text: Hey! I am CrimeBot, your virtual friend! I can help you file a complaint and give you the list of crimes that happened in your locality. Would you like to report a crime you witnessed?
-
-  utter_crimelist:
-  - text: Alright! Would you like to know the list of crimes in your location?
-
-  utter_help:
-  - text: How can I help you?
-
-  utter_iamabot:
-  - text: I am CrimeBot and I help you register complaints against crimes you've witnessed. I can also give you the list of crimes that happened in your locality!
-
-  utter_goodbye:
-  - text: Thanks for using CrimeBot.
-
-  utter_ask_crime_type:
-  - text: What is the type of crime?
-    buttons:
-    - title: "Content related to online sexual abuse"
-      payload: '/say_crime_type{"type_of_crime":"Content related to online sexual abuse"}'
-    - title: "Other cyber crime"
-      payload: '/say_crime_type{"type_of_crime":"Other cyber crime"}'
-
-  utter_confirm_content_crime:
-  - text: Click yes to confirm your registration!
-    buttons:
-    - title: "Yes"
-      payload: /affirm_content_crime{"content_crime_confirmation":"True"}
-    - title: "No"
-      payload: /affirm_content_crime{"content_crime_confirmation":"False"}
-
+  utter_ATM_Creditcard_precautions:
+  - text: " 1. Do not make it a habit to carry all your credit and debit cards in\
+      \ your wallet. Only carry the card you use on a daily basis.\n 2.Take advantage\
+      \ of online banking to check your account activity regularly\n 3.When using\
+      \ debit/credit cards in stores or restaurants, be aware of how they are being\
+      \ handled. Pay close attention to how the cards are swiped by the clerk or waiter\n\
+      \ 4. Be very careful when using your debit or credit card online.\n 5. Maintain\
+      \ a list of all your cards and keep a separate list for account numbers, dates\
+      \ of expiration and phone numbers of customer service and fraud establishments\n\
+      \ 6. Do not give out any personal information over the phone, or email. \n 7.\
+      \ Do not write your entire credit card number on your checks.\n 8. If you are\
+      \ anticipating the arrival of a new credit card in the mail, keep an eye on\
+      \ your mailbox. If it does not arrive in reasonable time, contact the card company.\n\
+      \ 9. Request a credit report at least once a year."
+  utter_ATM_Creditcard_report:
+  - text: "If you have received financial debit/credit card fraud  transaction related\
+      \ SMS/emails:\n a. Take a screenshot/s or copy of SMSs received related to the\
+      \ alleged transactions and upload this as evidence\n b. Details of date/time\
+      \ when such SMS have been received \n c. keep scan of email to be uploaded as\
+      \ evidence \n d. you lost the money then provide the screenshot/s or copy details\
+      \ of banking transaction details, bank account transaction details, suspect\
+      \ address, company name, website URL,email id, mobile no, or any information\
+      \ of the platform source where the incident has happened.\n e.emails,sms,contact\
+      \ number,screenshots etc. must preserve the original evidence i.e. do not delete\
+      \ SMSs,emails or contact number."
+  utter_Catfishing:
+  - text: Catfishing is a deceptive activity where a person creates a sockpuppet presence
+      or fake identity on a social networking service, usually targeting a specific
+      victim for abuse or fraud. Catfishing is often employed for romance scams on
+      dating websites. The practice may be used for financial gain, to compromise
+      a victim in some way, or simply as forms of trolling or wish fulfillment.
+  utter_Cyberbullying:
+  - text: Cyberbullying or cyberharassment is a form of bullying or harassment using
+      electronic means.Cyberbullying includes sending, posting, or sharing negative,
+      harmful, false, or mean content about someone else. It can include sharing personal
+      or private information about someone else causing embarrassment or humiliation.
+      Some cyberbullying crosses the line into unlawful or criminal behavior.
+  utter_Cyberstalking:
+  - text: Cyberstalking is the use of the Internet or other electronic means to stalk
+      or harass an individual, group, or organization.[1] It may include false accusations,
+      defamation, slander and libel. Motives may be to control or intimidate the victim
+      or to gather information for use in other crimes, like identity theft or offline
+      stalking.
+  utter_Dogpiling:
+  - text: A disagreement on an Internet message board wherein one person says something
+      wrong or offensive, and a large number of people comment in response to tell
+      the person how wrong and/or horrible they are, and continue to disparage the
+      original commenter beyond any reasonable time limit.
+  utter_Doxing:
+  - text: Doxing is the Internet-based practice of researching and publicly broadcasting
+      private or identifying information (especially personally identifying information)
+      about an individual or organization.Doxing may be carried out for various reasons,
+      including inflicting harm, harassment, online shaming, extortion, coercion,
+      business analysis and risk analytics.
+  utter_Ewallet_fraud:
+  - text: ' You can report any fraudulent online transaction in E-Wallet which is
+      being charged to you and occurred without your knowledge. Wallet summary showing
+      the details of fraudulent transactions. '
+  utter_Ewalletloot_example:
+  - text: "Here, some of the examples for Ewallet loot,\n Paytm, Mobikwik, Alipay,\
+      \ American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of\
+      \ the digital wallets."
+  utter_HAT_sub_category:
+  - buttons:
+    - payload: /choose_sub_category{"other_crime_sub_category":"Provocative Speech"}
+      title: Provocative content/Unlawful Activities online
+    - payload: /choose_sub_category{"other_crime_sub_category":"Cyber Terrorism"}
+      title: Online drugs/arms selling
+    text: What is the activity you noticed?
+  utter_Impersonation:
+  - text: "An impersonator is someone who imitates or copies the behavior or actions\
+      \ of another. As part of a criminal act such as identity theft.\n This is usually\
+      \ where the criminal is trying to assume the identity of another, in order to\
+      \ commit fraud, such as accessing confidential information, or to gain property\
+      \ not belonging to them."
+  utter_Inchoatedesc:
+  - text: Inchoate crimes refer to those crimes that were initiated but not completed,
+      and acts that assist in the commission of another crime. Inchoate crimes require
+      more than a person simply intending or hoping to commit a crime. Rather, the
+      individual must take a substantial step towards the completion of the crime
+      in order to be found guilty.
+  utter_LOM_sub_category:
+  - buttons:
+    - payload: /choose_sub_category{"other_crime_sub_category":"Internet Banking related
+        fraud"}
+      title: ATM/Cards/Banking/Internet banking related fraud
+    - payload: /choose_sub_category{"other_crime_sub_category":"Cryptocurrency Crime"}
+      title: Bitcoin or other cryptocurrency related fraud
+    - payload: /choose_sub_category{"other_crime_sub_category":"E-commerce related
+        crime"}
+      title: E-Wallet/E-commerce related fraud
+    - payload: /choose_sub_category{"other_crime_sub_category":"Demat/Mutual fund
+        related fraud"}
+      title: Mutual funds related fraud
+    - payload: /choose_sub_category{"other_crime_sub_category":"Online Matrimonial
+        fraud"}
+      title: Matrimonial website fraud
+    - payload: /choose_sub_category{"other_crime_sub_category":"Online Job fraud"}
+      title: Online job fraud
+    - payload: /choose_sub_category{"other_crime_sub_category":"Fraud Calls"}
+      title: Fraud calls
+    - payload: /choose_sub_category{"other_crime_sub_category":"Email hacking"}
+      title: Email Hacking
+    - payload: /choose_sub_category{"other_crime_sub_category":"Email spoofing"}
+      title: Email Spoofing
+    - payload: /choose_sub_category{"other_crime_sub_category":"Email phishing"}
+      title: Email Phishing
+    - payload: /choose_sub_category{"other_crime_sub_category":"Intimidating Email"}
+      title: Email Threatening
+    text: How did you lose money?
+  utter_RevengePorn:
+  - text: Revenge porn is the distribution of sexually explicit images or videos of
+      individuals without their consent.[1] The sexually explicit images or video
+      may be made by a partner of an intimate relationship with the knowledge and
+      consent of the subject, or it may be made without their knowledge. The possession
+      of the material may be used by the perpetrators to blackmail the subjects into
+      performing other sex acts, to coerce them into continuing the relationship,
+      to punish them for ending the relationship, or to silence them.
+  utter_Statutorydesc:
+  - text: Three significant types of statutory crimes are alcohol related crimes,
+      drug crimes, traffic offenses, and financial/white collar crimes. These crimes
+      are specifically prohibited by statute because society hopes to deter individuals
+      from engaging in them.
+  utter_Swatting:
+  - text: Swatting is a criminal harassment tactic of deceiving an emergency service
+      into sending a police and emergency service response team to another person's
+      address. This is triggered by false reporting of a serious law enforcement emergency,
+      such as a bomb threat, murder, hostage situation, or a false report.
+  utter_Trolling:
+  - text: In Internet slang, a troll is a person who starts flame wars or intentionally
+      upsets people on the Internet by posting inflammatory and digressive, extraneous,
+      or off-topic messages in an online community with the intent of provoking readers
+      into displaying emotional responses and normalizing tangential discussion,either
+      for the troll's amusement or a specific gain.
+  utter_ask_additional_information:
+  - text: Please type the details of the incident in detail in your next message,
+      please!
   utter_ask_content_crime_type:
-  - text: What was the content about?
-    buttons:
-    - title: "Child pornography"
-      payload: /choose_content_crime_type{"content_crime_type":"child pornography"}
-    - title: "Rape"
-      payload: /choose_content_crime_type{"content_crime_type":"rape"}
-    - title: "Sexual obscenity"
-      payload: /choose_content_crime_type{"content_crime_type":"sexual obscenity"}
-    - title: "Sexually explicit"
-      payload: /choose_content_crime_type{"content_crime_type":"sexually explicit"}
-
-  utter_ask_platform:
-  - text: What website or social media platform did the incident occur in? For eg Facebook, YouTube.
-
-  utter_ask_link_ID:
-  - text: Mention the link or ID on the {platform} platform please!
-
-  utter_ask_state_ut:
-  - text: Pick one from below
-    buttons:
-    - title: “India”
-      payload: ‘/choose_state_ut{“state_ut”:”Total All India”}’
-    - title: “Total States”
-      payload: ‘/choose_state_ut{“state_ut”:”Total State(s)”}’
-    - title: “Total Union Territories”
-      payload: ‘/choose_state_ut{“state_ut”:”Total UT(s)”}’
-    - title: “Andhra Pradesh”
-      payload: ‘/choose_state_ut{“state_ut”:”Andhra Pradesh”}’
-    - title: “Arunachal Pradesh”
-      payload: ‘/choose_state_ut{“state_ut”:”Arunachal Pradesh”}’
-    - title: “Assam”
-      payload: ‘/choose_state_ut{“state_ut”:”Assam”}’
-    - title: “Bihar”
-      payload: ‘/choose_state_ut{“state_ut”:”Bihar”}’
-    - title: “Chhattisgarh”
-      payload: ‘/choose_state_ut{“state_ut”:”Chhattisgarha”}’
-    - title: “Goa”
-      payload: ‘/choose_state_ut{“state_ut”:”Goa”}’
-    - title: “Gujarat”
-      payload: ‘/choose_state_ut{“state_ut”:”Gujarat”}’
-    - title: “Haryana”
-      payload: ‘/choose_state_ut{“state_ut”:”Haryana”}’
-    - title: “Himachal Pradesh”
-      payload: ‘/choose_state_ut{“state_ut”:”Himachal Pradesh”}’
-    - title: “Jammu Kashmir”
-      payload: ‘/choose_state_ut{“state_ut”:”Jammu Kashmir”}’
-    - title: “Jharkhand”
-      payload: ‘/choose_state_ut{“state_ut”:”Jharkhand”}’
-    - title: “Karnataka”
-      payload: ‘/choose_state_ut{“state_ut”:”Karnataka”}’
-    - title: “Kerala”
-      payload: ‘/choose_state_ut{“state_ut”:”Kerala”}’
-    - title: “Madhya Pradesh”
-      payload: ‘/choose_state_ut{“state_ut”:”Madhya Pradesh”}’
-    - title: “Maharashtra”
-      payload: ‘/choose_state_ut{“state_ut”:”Maharashtra”}’
-    - title: “Manipur”
-      payload: ‘/choose_state_ut{“state_ut”:”Manipur”}’
-    - title: “Meghalaya”
-      payload: ‘/choose_state_ut{“state_ut”:”Meghalaya”}’
-    - title: “Mizoram”
-      payload: ‘/choose_state_ut{“state_ut”:”Mizoram”}’
-    - title: “Nagaland”
-      payload: ‘/choose_state_ut{“state_ut”:”Nagaland”}’
-    - title: “Odisha”
-      payload: ‘/choose_state_ut{“state_ut”:”Odisha”}’
-    - title: “Punjab”
-      payload: ‘/choose_state_ut{“state_ut”:”Punjab”}’
-    - title: “Rajasthan”
-      payload: ‘/choose_state_ut{“state_ut”:”Rajasthan”}’
-    - title: “Sikkim”
-      payload: ‘/choose_state_ut{“state_ut”:”Sikkim”}’
-    - title: “Tamil Nadu”
-      payload: ‘/choose_state_ut{“state_ut”:”Tamil Nadu”}’
-    - title: “Telangana”
-      payload: ‘/choose_state_ut{“state_ut”:”Telangana”}’
-    - title: “Tripura”
-      payload: ‘/choose_state_ut{“state_ut”:”Tripura”}’
-    - title: “Uttar Pradesh”
-      payload: ‘/choose_state_ut{“state_ut”:”Uttar Pradesh”}’
-    - title: “Uttarakhand”
-      payload: ‘/choose_state_ut{“state_ut”:”Uttarakhand”}’
-    - title: “West Bengal”
-      payload: ‘/choose_state_ut{“state_ut”:”West Bengal”}’
-    - title: “Andaman and Nicobar islands”
-      payload: ‘/choose_state_ut{“state_ut”:”Andaman and Nicobar islands”}’
-    - title: “Chandigarh”
-      payload: ‘/choose_state_ut{“state_ut”:”Chandigarh”}’
-    - title: “Dadra and Nagar Haveli”
-      payload: ‘/choose_state_ut{“state_ut”:”Dadra and Nagar Haveli”}’
-    - title: “Daman and Diu”
-      payload: ‘/choose_state_ut{“state_ut”:”Daman and Diu”}’
-    - title: “Delhi”
-      payload: ‘/choose_state_ut{“state_ut”:”Delhi”}’
-    - title: “Lakshadweep”
-      payload: ‘/choose_state_ut{“state_ut”:”Lakshadweep”}’
-    - title: “Puducherry”
-      payload: ‘/choose_state_ut{“state_ut”:”Puducherry”}’
-
-  utter_ask_district:
-  - text: What district in {state_ut} state are you currently residing in?
-
+  - buttons:
+    - payload: /choose_content_crime_type{"content_crime_type":"child pornography"}
+      title: Child pornography
+    - payload: /choose_content_crime_type{"content_crime_type":"rape"}
+      title: Rape
+    - payload: /choose_content_crime_type{"content_crime_type":"sexual obscenity"}
+      title: Sexual obscenity
+    - payload: /choose_content_crime_type{"content_crime_type":"sexually explicit"}
+      title: Sexually explicit
+    text: What was the content about?
+  utter_ask_crime_type:
+  - buttons:
+    - payload: /say_crime_type{"type_of_crime":"Content related to online sexual abuse"}
+      title: Content related to online sexual abuse
+    - payload: /say_crime_type{"type_of_crime":"Other cyber crime"}
+      title: Other cyber crime
+    text: What is the type of crime?
   utter_ask_crimestatistics:
   - text: Select the type of crime.
-
   utter_ask_date_of_incident:
   - text: On which date did this event occur?
-
-  utter_ask_additional_information:
-  - text: Please type the details of the incident in detail in your next message, please!
-
-  utter_thanks:
-  - text: Thank you for complaining.
-
-  utter_confirm_other_crime:
-  - text: Click yes to confirm your registration!
-    buttons:
-    - title: "Yes"
-      payload: /affirm_other_crime{"other_crime_confirmation":"True"}
-    - title: "No"
-      payload: /affirm_other_crime{"other_crime_confirmation":"False"}
-
+  utter_ask_district:
+  - text: What district in {state_ut} state are you currently residing in?
+  utter_ask_link_ID:
+  - text: Mention the link or ID on the {platform} platform please!
   utter_ask_other_crime_type:
-  - text: Pick one from below
-    buttons:
-    - title: "Did you lose money online?"
-      payload: /choose_other_crime_type{"other_crime_type":"loss of money"}
-    - title: "Are you being harrassed online?"
-      payload: '/choose_other_crime_type{"other_crime_type":"online harrassment"}'
-    - title: "Is your account being hacked?"
-      payload: '/choose_other_crime_type{"other_crime_type":"hacking"}'
-    - title: "Did you notice any national/communal hatred or threat?"
-      payload: '/choose_other_crime_type{"other_crime_type":"hatred and threat"}'
-    - title: "Did you notice any human trafficking?"
-      payload: '/choose_other_crime_type{"other_crime_type":"human trafficking/online prostitution"}'
-    - title: "Did you notice any online prostitution?"
-      payload: '/choose_other_crime_type{"other_crime_type":"human trafficking/online prostitution"}'
-    - title: "Did you notice any online gambling?"
-      payload: '/choose_other_crime_type{"other_crime_type":"online gambling"}'
-
-  utter_LOM_sub_category:
-  - text: How did you lose money?
-    buttons:
-    - title: "ATM/Cards/Banking/Internet banking related fraud"
-      payload: /choose_sub_category{"other_crime_sub_category":"Internet Banking related fraud"}
-    - title: "Bitcoin or other cryptocurrency related fraud"
-      payload: /choose_sub_category{"other_crime_sub_category":"Cryptocurrency Crime"}
-    - title: "E-Wallet/E-commerce related fraud"
-      payload: /choose_sub_category{"other_crime_sub_category":"E-commerce related crime"}
-    - title: "Mutual funds related fraud"
-      payload: /choose_sub_category{"other_crime_sub_category":"Demat/Mutual fund related fraud"}
-    - title: "Matrimonial website fraud"
-      payload: /choose_sub_category{"other_crime_sub_category":"Online Matrimonial fraud"}
-    - title: "Online job fraud"
-      payload: /choose_sub_category{"other_crime_sub_category":"Online Job fraud"}
-    - title: "Fraud calls"
-      payload: /choose_sub_category{"other_crime_sub_category":"Fraud Calls"}
-    - title: "Email Hacking"
-      payload: /choose_sub_category{"other_crime_sub_category":"Email hacking"}
-    - title: "Email Spoofing"
-      payload: /choose_sub_category{"other_crime_sub_category":"Email spoofing"}
-    - title: "Email Phishing"
-      payload: /choose_sub_category{"other_crime_sub_category":"Email phishing"}
-    - title: "Email Threatening"
-      payload: /choose_sub_category{"other_crime_sub_category":"Intimidating Email"}
-
-  utter_hacking_sub_category:
-  - text: How are you being hacked?
-    buttons:
-    - title: "Fake profile/identity theft"
-      payload: /choose_sub_category{"other_crime_sub_category":"Profile hacking"}
-    - title: "Cheating by impersonation"
-      payload: /choose_sub_category{"other_crime_sub_category":"Cheating by impersonation"}
-    - title: "Damage to computer"
-      payload: /choose_sub_category{"other_crime_sub_category":"Damage to computer system"}
-    - title: "Data breach"
-      payload: /choose_sub_category{"other_crime_sub_category":"Data breach"}
-    - title: "Modifying computer programs"
-      payload: /choose_sub_category{"other_crime_sub_category":"Tempering Computer Source Documents"}
-    - title: "Ransomware"
-      payload: /choose_sub_category{"other_crime_sub_category":"Ransomware"}
-    - title: "Website hacking"
-      payload: /choose_sub_category{"other_crime_sub_category":"Website hacking"}
-
-  utter_HAT_sub_category:
-  - text: What is the activity you noticed?
-    buttons:
-    - title: "Provocative content/Unlawful Activities online"
-      payload: /choose_sub_category{"other_crime_sub_category":"Provocative Speech"}
-    - title: "Online drugs/arms selling"
-      payload: /choose_sub_category{"other_crime_sub_category":"Cyber Terrorism"}
-
-  utter_report_facebook:
-  - text: "1.Go to the profile you want to report.\n
-          2.Click the three dots icon on the bottom right of the cover photo.\n
-          3.Select 'Give feedback or report this profile'\n
-          4.Follow the on-screen instructions and then click 'Send' "
-
-  utter_report_instagram:
-  - text: "Follow the steps to report a person on Instagram,\n
-        1.Tap  (iOS) or  (Android) in the top right of the profile.\n
-        2.Tap Report.\n
-        3.Follow the on-screen instructions."
-
-  utter_report_twitter:
-  - text: "Follow the steps to report a person on twitter,\n
-         1.Open the profile you'd like to report.\n
-         2.Select the overflow icon.\n
-         3.Select Report and then select the type of issue you'd like to report.\n
-         4.If you select They're being abusive or harmful, we'll ask you to provide additional information about the issue you're reporting."
-
-  utter_report_youtube:
-  - text: "Follow the following steps to easily report a youtube channel,\n
-          1.Go to youtube.com and sign into your account,if necessary.\n
-          2.Go to the page of the channel you want to report.\n
-          3.Click on their “About” section.\n
-          4.Click the flag icon under the Stats section and select “Report User” option."
-
-  utter_report_LinkedIn:
-  - text: "Follow the steps to report a person on LinkedIn,\n
-         1.Click the More icon on the member's profile.\n
-         2.Click Report/Block.\n
-         3.Select Report this profile in the What do you want to do? pop-up window.\n
-         4.Select the applicable reason for flagging the profile in the Tell us a little more pop-up window.\n
-         5.Click Submit to proceed or Back to review your options."
-
-  utter_report_whatsapp:
-  - text: "Follow the following steps to report someone on whatsapp,\n
-         1.Open the chat.\n
-         2.Tap on the contact or group name to open their profile information.\n
-         3.Scroll to the bottom and tap Report contact or Report group."
-
-  utter_thankscrime:
-  - text: "Thanks for using crimeBot"
-
-  utter_cybercrimedesc:
-  - text: "Cybercrime, also called computer crime, the use of a computer as an instrument to further illegal ends, such as committing fraud, trafficking in child pornography and intellectual property, stealing identities, or violating privacy."
-
-  utter_frauddetect:
-  - text: "You can detect online fraud and identity theft by the following: \n -Monitor your accounts. \n -Use online alert tools and services (example -signing up gmail account in other device, sends you an alert). \n -Use a credit monitoring service. \n -Watch out for wire transfer email scams. \n -Requests for money (example- You're asked to pay money in advance for administration fees or taxes prior to receiving a prize or winnings.)"
-
-  utter_onlinebullying:
-  - text: "-Report - Most social networks allow you to report offensive and abusive material. \n -Block - The easiest way to stop someone bothering you online. \n -If you are a victim of cyberstalking, report such incidents to the National Cyber Crime Reporting Portal/ Police. Also, save all communications with the stalker as evidence."
-
-  utter_cybercrimetypes:
-  - text: "There are 2 types of Cyber crimes: -Crimes that target networks or devices.\n -Crimes using devices to participate in criminal activities."
-
-  utter_typedesc:
-  - text: "The criminal act has divided the crime into the following \n -Personal Crimes. \n -Property Crimes. \n -Inchoate Crimes.\n -Statutory Crimes.\n -Financial Crimes."
-
-  utter_personaldesc:
-  - text: "Personal crimes are those that result in physical or mental harm to another person. They can be divided into two main categories,\n -Homicide. \n -Violent Crime"
-
-  utter_propertydesc:
-  - text: "Property crimes typically involve interference with the property of another. Although they may involve physical or mental harm to another, they primarily result in the deprivation of the use or enjoyment of property. Many crimes include theft crime"
-
-  utter_Inchoatedesc:
-  - text: "Inchoate crimes refer to those crimes that were initiated but not completed, and acts that assist in the commission of another crime. Inchoate crimes require more than a person simply intending or hoping to commit a crime. Rather, the individual must take a substantial step towards the completion of the crime in order to be found guilty."
-
-  utter_Statutorydesc:
-  - text: "Three significant types of statutory crimes are alcohol related crimes, drug crimes, traffic offenses, and financial/white collar crimes. These crimes are specifically prohibited by statute because society hopes to deter individuals from engaging in them."
-
-  utter_financialdesc:
-  - text: "Financial crimes often involve deception or fraud for financial gain. Although white-collar crimes derive their name from the corporate officers who historically perpetrated them, anyone in any industry can commit a white-collar crime. These crimes include many types of fraud and blackmail, embezzlement and money laundering, tax evasion, and cybercrime."
-
-  utter_financialtypecrime:
-  - text: "The type of financial crime are -fraud \n -bribery and corruption \n -information security \n -terrorist financing \n -market abuse and insider dealing \n -electronic crime -money laundering"
-
-  utter_deposit:
-  - text: "Under the Bank Secrecy Act, banks and other financial institutions must report cash deposits greater than $10,000. But since many criminals are aware of that requirement, banks also are supposed to report any suspicious transactions, including deposit patterns below $10,000."
-
-  utter_fraudtypes:
-  - text: "The type of fraud\n -Job fraud\n -Matrimonial fraud\n -Social media fraud. \n -Financial statement fraud. \n -Consumer Fraud. \n -Mail Fraud. \n -Driver's License Fraud. \n -Healthcare Fraud. \n -Voter Fraud. \n -Internet Fraud."
-
-  utter_cyberex:
-  - text: "1)Phishing scams - Phishing is a practice of a cybercriminal or hacker attempting to obtain sensitive or personal information from a computer user. \n
-	         2)Identity Theft scams. \n
-           3)Online Harassment. \n
-           4)Cyberstalking. \n
-           5)Invasion of privacy."
-
-  utter_mobilehacking:
-  - text: "1)Install good antivirus on your mobile phone. \n
-           2)Always enable a password on the home screen to restrict unauthorized access to your mobile phone. \n
-           3)Avoid using third-party extensions, plug-ins or add-ons for your web browser as it may secretly track your activity and steal your personal details. \n
-           4)Public Wi-Fi at Airports, Railway Stations, Bus Stops, etc. may be used only for normal internet surfing. It is advisable to avoid making online transactions or accessing personal information while using public/free Wi-Fi.\n
-           5) Install App from trusted sources.\n 6)Read app permissions before downloading an app"
-
-  utter_employmentfraud:
-  - text: "1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
-           2)Always check the organization's website for Job offers and related details.\n
-           3) It is advisable to search and apply for jobs posted on prominent job portals.\n Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links."
-
-  utter_socialmedia:
-  - text: "1)Do not give any personal information like your address, phone number, or any kind of financial information on social media platforms.\n
-	   2)Become familiar with the privacy policies of the social media channels you use and customize your privacy settings to control who sees what. \n
-           3)Do not respond or react to unsought or abusive posts. \n
-           4)Be selective with friend requests. If you don’t know the person, don’t accept their request.It could be a fake account."
-
-  utter_protectyourself_cybercrimes:
-  - text: "Following instructions to be noted to protect yourself from or against cybercrimes \n
-                                         1)Use a full-service internet security suite \n
-                                         2)Use strong password \n
-                                         3)Keep your software updated \n
-                                         4)Manage your social media settings \n
-				         5)Strengthen your home network \n
-					 6)Talk to your children about the internet \n
-                                         7)Keep up to date on major security breaches"
-
-  utter_childpronography:
-  - text: " Child pronography is illegal. Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old).  Images of child pornography are also referred to as child sexual abuse images."
-
-  utter_financialfraud:
-  - text: "1)Always ensure that credit or debit card swipes are done in your presence. \n
-           2)Never reveal your ATM or phone banking PIN, OTP, CVV number, etc. to anyone or respond to unknown emails or calls asking for such details. \n
-           3) After completing an online transaction with your credit/ debit card remember to log off from the website and delete cookies for enhanced protection. \n
-           4) Immediately check SMS or email statements sent by the depository after every transaction in the Demat account. Check holding statements issued by brokers every month."
-
-  utter_matrimonialfraudsafety:
-  - text: "1)Never react to the Matrimonial offers posted on social media platforms.\n
-           2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
-           3)If it is a NRI profile check their document related to their address and employment abroad.\n
-           4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds."
-
-  utter_sexualexplicitawar:
-  - text: "1)Don't Panic ! report and block that ID or account or website.\n
-           2)Report a cyber crime as sexual explicit undex crimes related to sex.\n
-           3)please keep a screenshot as a proof inorder to take necessary cations."
-
-  utter_sexualobscenityawar:
-  - text: "1)Don't Panic ! report and block that ID or account or website immediately.\n
-           2)Report a cyber crime as sexual obscenity undex crimes related to sex\n
-           3)please keep a screenshot as a proof inorder to take necessary cations."
-
-  utter_definesexualexplicit:
-  - text: "The term sexually explicit is often used as euphemism for pornography. It includes unsimulated sex acts, sexual intercourse and uncovered genitalia."
-
-  utter_crime_statistics_list: 
-  - text: select crime type 
-    buttons: 
-    - title: “Total” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Total”}’ 
-    - title: “Personal Revenge” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Personal_Revenge”}’
-    - title: “Anger” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Anger”}’
-    - title: “Fraud” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Fraud”}’ 
-    - title: “Extortion” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Extortion”}’
-    - title: “Causing Disrepute” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Causing_Disrepute”}’
-    - title: “Prank” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Prank”}’
-    - title: “Sexual Exploitation” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Sexual_Explotation”}’
-    - title: “Political Motives” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Political_Motives”}’
-    - title: “Terrorist Activities” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Terrorist_Activities”}’
-    - title: “Inciting Hate against Country” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Inciting_Hate_against_Country”}’ 
-    - title: “Disrupt Public Service” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Disrupt_Public_Service”}’
-    - title: “Sale Purchase Illegal Drugs” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Sale_Purchase_Illegal_Drugs”}’
-    - title: “Developing own Business” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Developing_own_ Business”}’ 
-    - title: “Spreading Piracy” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Spreading_Piracy”}’
-    - title: “Psycho or Pervert” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Psycho_or_Pervert”}’
-    - title: “Steal Information” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Steal_Information”}’
-    - title: “Abetment to Suicide” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Abetment_to_Suicide”}’
-    - title: “Other crimes” 
-      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Other_crimes”}’ 
-
-  utter_threatmeasures:
-  - text: "1)A online threat is a message or call or notification makes you scared of a thing and blackmailing you to do some task or offense for their use.\n
-           2)Never react to online threats if a website leads you to some random sites.\n
-           3)Always be careful will handling a threat message or call. \n
-           4)Do not login to unwanted site.\n
-           5)Do not give your personal details or image of yours.\n
-           6)Do immediately file a complaint in near by police station."
-
-  utter_hatredandthreat:
-  - text: "1)No panic! just get a screenshot of message and trace of phone call number.\n
-          2)If threat message or call related to bank account hacking immdiately report in cybercrime and respected bank.\n
-          3)If threat notification from facebook,twitter,instagram etc. just log out your account and delete your personal details for a while and just file a complaint in cybercrime department\n
-          4)If threat related to sexual abuse, bombblast,kidnap,terrorism do immdiately note down phone number or screenshot message recieved and contact the police station immediately\n
-          5)Donot scared of threat calls and message its easy trace and find the culprit and follow the above measure."
-
-  utter_onlinegambling:
-  - text: "1)Online gambling (or Internet gambling) is any kind of gambling conducted on the internet. This includes virtual poker, casinos and sports betting. ... In many legal markets, online gambling service providers are required by law to have some form of licence if they wish to provide services or advertise to residents there\n
-          2)it is legal in US but illegal in india.\n
-          3)Example of online gambling is poker,casinos,betting,sports betting,ipl fixingetc..\n
-          4)Stay away from gambling website, if unknowingly directed to it just immediately leave from the site and clear the page and refresh.\n
-          5)Online gambling affects financial status , relationship status, affects younger generation leads to money crisis society is affected by gambling.\n
-          6)Do not involve in online lottery.\n
-          7)If money lost or cheated just make a compliant of the site and the respected person."
-
-  utter_onlineprostitution:
-  - text: "1)Prostitution is sometimes described as sexual services, commercial sex or, colloquially, hooking.\n
-          2)Online prostitution has become new one to engage common people in that.\n
-          3)Unknowingly reaching to such sites just do not panic come out of website if you find some of your content or morphed photos do report to police.\n
-          4)prostitution is legal in india until somebody forced to do so it is illegal.\n
-          5)Child prostitution is banned in india.\n
-          6)If you are struct in a red area or prostitute area just make a emmergency call to police station.\n
-          7)Do not go to unknown place alone, do not use unknown application, donot share personal information in any website or application.\n
-          8)If someone forces you for prostitution just make a complaint over the person and block the numbers that you get a call or message."
-
-  utter_rape_meaning:
-  - text: "Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration carried out against a person without that person's consent. The act may be carried out by physical force, coercion, abuse of authority, or against a person who is incapable of giving valid consent, such as one who is unconscious, incapacitated, has an intellectual disability or is below the legal age of consent. The term rape is sometimes used interchangeably with the term sexual assault"
-
-  utter_rape:
-  - text: "Safety tips to protect from rape threats -\n
-	1. Flee if you are in a potentially dangerous situation. \n
-	2. Yell or scream to attract attention. \n
-	3. Carry a whistle that will make a loud noise. \n
-	4. Carry a pepper spray. \n
-	5.If you are being followed, go to the nearest business or residence for help. \n
-	6. Take a self-defense course. \n
-	7.  If you have a cell phone, call someone for help or call 100 or call 112(National emergency helpline)."
-
+  - buttons:
+    - payload: /choose_other_crime_type{"other_crime_type":"loss of money"}
+      title: Did you lose money online?
+    - payload: /choose_other_crime_type{"other_crime_type":"online harrassment"}
+      title: Are you being harrassed online?
+    - payload: /choose_other_crime_type{"other_crime_type":"hacking"}
+      title: Is your account being hacked?
+    - payload: /choose_other_crime_type{"other_crime_type":"hatred and threat"}
+      title: Did you notice any national/communal hatred or threat?
+    - payload: /choose_other_crime_type{"other_crime_type":"human trafficking/online
+        prostitution"}
+      title: Did you notice any human trafficking?
+    - payload: /choose_other_crime_type{"other_crime_type":"human trafficking/online
+        prostitution"}
+      title: Did you notice any online prostitution?
+    - payload: /choose_other_crime_type{"other_crime_type":"online gambling"}
+      title: Did you notice any online gambling?
+    text: Pick one from below
+  utter_ask_platform:
+  - text: What website or social media platform did the incident occur in? For eg
+      Facebook, YouTube.
+  utter_ask_state_ut:
+  - buttons:
+    - payload: ‘/choose_state_ut{“state_ut”:”Total All India”}’
+      title: “India”
+    - payload: ‘/choose_state_ut{“state_ut”:”Total State(s)”}’
+      title: “Total States”
+    - payload: ‘/choose_state_ut{“state_ut”:”Total UT(s)”}’
+      title: “Total Union Territories”
+    - payload: ‘/choose_state_ut{“state_ut”:”Andhra Pradesh”}’
+      title: “Andhra Pradesh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Arunachal Pradesh”}’
+      title: “Arunachal Pradesh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Assam”}’
+      title: “Assam”
+    - payload: ‘/choose_state_ut{“state_ut”:”Bihar”}’
+      title: “Bihar”
+    - payload: ‘/choose_state_ut{“state_ut”:”Chhattisgarha”}’
+      title: “Chhattisgarh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Goa”}’
+      title: “Goa”
+    - payload: ‘/choose_state_ut{“state_ut”:”Gujarat”}’
+      title: “Gujarat”
+    - payload: ‘/choose_state_ut{“state_ut”:”Haryana”}’
+      title: “Haryana”
+    - payload: ‘/choose_state_ut{“state_ut”:”Himachal Pradesh”}’
+      title: “Himachal Pradesh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Jammu Kashmir”}’
+      title: “Jammu Kashmir”
+    - payload: ‘/choose_state_ut{“state_ut”:”Jharkhand”}’
+      title: “Jharkhand”
+    - payload: ‘/choose_state_ut{“state_ut”:”Karnataka”}’
+      title: “Karnataka”
+    - payload: ‘/choose_state_ut{“state_ut”:”Kerala”}’
+      title: “Kerala”
+    - payload: ‘/choose_state_ut{“state_ut”:”Madhya Pradesh”}’
+      title: “Madhya Pradesh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Maharashtra”}’
+      title: “Maharashtra”
+    - payload: ‘/choose_state_ut{“state_ut”:”Manipur”}’
+      title: “Manipur”
+    - payload: ‘/choose_state_ut{“state_ut”:”Meghalaya”}’
+      title: “Meghalaya”
+    - payload: ‘/choose_state_ut{“state_ut”:”Mizoram”}’
+      title: “Mizoram”
+    - payload: ‘/choose_state_ut{“state_ut”:”Nagaland”}’
+      title: “Nagaland”
+    - payload: ‘/choose_state_ut{“state_ut”:”Odisha”}’
+      title: “Odisha”
+    - payload: ‘/choose_state_ut{“state_ut”:”Punjab”}’
+      title: “Punjab”
+    - payload: ‘/choose_state_ut{“state_ut”:”Rajasthan”}’
+      title: “Rajasthan”
+    - payload: ‘/choose_state_ut{“state_ut”:”Sikkim”}’
+      title: “Sikkim”
+    - payload: ‘/choose_state_ut{“state_ut”:”Tamil Nadu”}’
+      title: “Tamil Nadu”
+    - payload: ‘/choose_state_ut{“state_ut”:”Telangana”}’
+      title: “Telangana”
+    - payload: ‘/choose_state_ut{“state_ut”:”Tripura”}’
+      title: “Tripura”
+    - payload: ‘/choose_state_ut{“state_ut”:”Uttar Pradesh”}’
+      title: “Uttar Pradesh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Uttarakhand”}’
+      title: “Uttarakhand”
+    - payload: ‘/choose_state_ut{“state_ut”:”West Bengal”}’
+      title: “West Bengal”
+    - payload: ‘/choose_state_ut{“state_ut”:”Andaman and Nicobar islands”}’
+      title: “Andaman and Nicobar islands”
+    - payload: ‘/choose_state_ut{“state_ut”:”Chandigarh”}’
+      title: “Chandigarh”
+    - payload: ‘/choose_state_ut{“state_ut”:”Dadra and Nagar Haveli”}’
+      title: “Dadra and Nagar Haveli”
+    - payload: ‘/choose_state_ut{“state_ut”:”Daman and Diu”}’
+      title: “Daman and Diu”
+    - payload: ‘/choose_state_ut{“state_ut”:”Delhi”}’
+      title: “Delhi”
+    - payload: ‘/choose_state_ut{“state_ut”:”Lakshadweep”}’
+      title: “Lakshadweep”
+    - payload: ‘/choose_state_ut{“state_ut”:”Puducherry”}’
+      title: “Puducherry”
+    text: Pick one from below
   utter_childponography:
-  - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old). Images of child pornography are also referred to as child sexual abuse images."
-
-  utter_desconlineharss:
-  - text: "Under the Information Technology Act, 2000, (IT Act) online harassment is used as an umbrella term to describe the use of the internet to harass, threaten or maliciously embarrass another party. It can be in the form of verbal, sexual, emotional, or social abuse and aimed at a person, a group of persons, or even an organization."
-
-  utter_typesonlineharass:
-  - text: "-Cyberstalking. \n -Impersonation. \n -Doxing. \n -Swatting. \n -Catfishing. \n -Trolling. \n -Dogpiling. \n -Revenge Porn. \n -Cyberbullying.\n -Hate Speech"
-
-  utter_hatespeech:
-  - text: "Online hate speech is a type of speech that takes place online, generally social media, with the purpose of attacking a person or a group on the basis of attributes such as race, religion, ethnic origin, sexual orientation, disability, or gender."
-
-  utter_Cyberbullying:
-  - text: "Cyberbullying or cyberharassment is a form of bullying or harassment using electronic means.Cyberbullying includes sending, posting, or sharing negative, harmful, false, or mean content about someone else. It can include sharing personal or private information about someone else causing embarrassment or humiliation. Some cyberbullying crosses the line into unlawful or criminal behavior."
-
-  utter_RevengePorn:
-  - text: "Revenge porn is the distribution of sexually explicit images or videos of individuals without their consent.[1] The sexually explicit images or video may be made by a partner of an intimate relationship with the knowledge and consent of the subject, or it may be made without their knowledge. The possession of the material may be used by the perpetrators to blackmail the subjects into performing other sex acts, to coerce them into continuing the relationship, to punish them for ending the relationship, or to silence them."
-
-  utter_Dogpiling:
-  - text: "A disagreement on an Internet message board wherein one person says something wrong or offensive, and a large number of people comment in response to tell the person how wrong and/or horrible they are, and continue to disparage the original commenter beyond any reasonable time limit."
-
-  utter_Trolling:
-  - text: "In Internet slang, a troll is a person who starts flame wars or intentionally upsets people on the Internet by posting inflammatory and digressive, extraneous, or off-topic messages in an online community with the intent of provoking readers into displaying emotional responses and normalizing tangential discussion,either for the troll's amusement or a specific gain."
-
-  utter_Catfishing:
-  - text: "Catfishing is a deceptive activity where a person creates a sockpuppet presence or fake identity on a social networking service, usually targeting a specific victim for abuse or fraud. Catfishing is often employed for romance scams on dating websites. The practice may be used for financial gain, to compromise a victim in some way, or simply as forms of trolling or wish fulfillment."
-
-  utter_Swatting:
-  - text: "Swatting is a criminal harassment tactic of deceiving an emergency service into sending a police and emergency service response team to another person's address. This is triggered by false reporting of a serious law enforcement emergency, such as a bomb threat, murder, hostage situation, or a false report."
-
-  utter_Doxing:
-  - text: "Doxing is the Internet-based practice of researching and publicly broadcasting private or identifying information (especially personally identifying information) about an individual or organization.Doxing may be carried out for various reasons, including inflicting harm, harassment, online shaming, extortion, coercion, business analysis and risk analytics."
-
-  utter_Impersonation:
-  - text: "An impersonator is someone who imitates or copies the behavior or actions of another. As part of a criminal act such as identity theft.\n This is usually where the criminal is trying to assume the identity of another, in order to commit fraud, such as accessing confidential information, or to gain property not belonging to them."
-
-  utter_Cyberstalking:
-  - text: "Cyberstalking is the use of the Internet or other electronic means to stalk or harass an individual, group, or organization.[1] It may include false accusations, defamation, slander and libel. Motives may be to control or intimidate the victim or to gather information for use in other crimes, like identity theft or offline stalking."
-
-  utter_reporthatespeech:
-  - text: "1)The URL of the account you want to report. \n
-           2)briefly explain how the content violates the Terms or Guidelines.\n
-           and register the complain in https://cybercrime.gov.in/"
-
-  utter_reportcyberbullying:
-  - text: "to report cyberbullying follow the steps given below \n
-           1)The URL of the account you want to report \n
-           2)Collect the proof of abuse (i.e Take screenshot of the chat) \n
-           3)file a complaint in https://cybercrime.gov.in/"
-
-  utter_helpbulled:
-  - text: "-Get the facts. \n -Gather Evidence.\n -Report or share the issue with parents or any elderly you know."
-
-  utter_punishments:
-  - text: "According to Section 66A, Sending any message (through a computer or a communication device) that is grossly offensive or has menacing character; any communication which he knows to be false, but for the purpose of causing insult, annoyance, criminal intimidation comes under this section.\n This crime is punishable upto three years with a fine."
-
-  utter_parentssupport:
-  - text: " It is not possible for parents to watch your children ALL THE TIME, you can certainly lessen the risk by sharing information about cyber fraud and risk with your children. And support them at the needy time."
-
-  utter_security:
-  - text: "Immediately shore up your privacy and security settings on social media and other accounts.\n Make your Facebook and other social media accounts private and hide your friend lists.\n Make sure passwords to all your social media and email accounts are complex and unique.\n Adopt two-step authentication whenever you can." 
-
-  utter_reportrevenge:
-  - text: "Follow the steps given below: \n 1)Take screenshot and copy the URL before it is removed. \n 2)Report the content in the respective platform. \n 3)file a complain in https://cybercrime.gov.in/. \n YOU CAN EVEN REPORT THE CRIME ANONYMOUSLY"
-
-  utter_hacking:
-  - text: " Hacking is an attempt to exploit a computer system or a private network inside a computer.\n Simply put, it is the unauthorised access to or control over computer network security systems for some illicit purpose.\n This is done through cracking of passwords and codes which gives access to the systems. The access to a password is obtained by the hacker through password cracking algorithms programs."
-
-  utter_hackedphone:
-  - text: "Signs your phone may have been hacked. 1)Noticeable decrease in battery life.\n
-                                                  2)Sluggish performance. \n 3)High data usage.\n 4)Outgoing calls or texts you didn’t send. \n 5)Mystery pop-ups. \n 6) Unusual activity on any accounts linked to the device."
-
-  utter_ifhacked:
-  - text: "If your phone is hacked.\n 1)Download Avast in Android which which not only scans for malware but offers a call blocker, firewall, VPN, and a feature to request a PIN every time certain apps are used.\n
-                                      2)iPhones may be less prone to hacks, but they aren’t totally immune. Lookout for iOS flags apps that are acting maliciously, potentially dangerous Wi-Fi networks, and if the iPhone has been jailbroken (which increases its risk for hacking)."
-
-  utter_wayshacked:
-  - text: "Your phone can be hacked in many ways. 1)You could have accidentaly downloaded spy app. \n 2) Phishing messages in your mail or meassages.\n 3)Bluetooth hacking over connection network. \n 4) Apps that over-request permissions. \n 8)Apps with weak encryption."
-
-  utter_reporthacked:
-  - text: "To report hackinh activities, do the following. \n
-           1)Mention the ID that is being hacked along with the platform name. \n
-           2)File a complaint in https://cybercrime.gov.in/ \n
-           3)Briefly describe what happened to the account in the complaint."
-
-  utter_preventhack:
-  - text: "1)Don’t access personal or financial data with public Wi-Fi. \n
-          2)Turn off anything you don’t need. \n
-          3)Choose your apps wisely. \n
-          4)Use a password, lock code or encryption.\n
-          5)Be skeptical about links and attachments.\n
-          6)Erase the cookies."
-
-  utter_internetbankingfraud:
-  - text: "Internet Banking Fraud is a fraud or theft committed using online technology to illegally remove money from a bank account and/or transfer money to an account in a different bank."
-
-  utter_internetbanking_safely:
-  - text: "Follow the following steps to browse safely,\n
-		1.Always use genuine anti-virus software.\n
-		2. Avoid Using Public Wi-Fi or Use VPN software\n
-		3. Check for latest updates of your Smartphone's operating system \n
-		4. Change your password regularly and ensure it's a strong one \n
-		5. Subscribe for mobile notifications\n
-		6. Avoid signing-in to your net-banking account via mailers\n
-		7. Do not use public computers to login to netbanking.\n
-		8. Check your account regularly."
-
-  utter_Ewallet_fraud:
-  - text: " You can report any fraudulent online transaction in E-Wallet which is being charged to you and occurred without your knowledge. Wallet summary showing the details of fraudulent transactions. "
-
-  utter_Ewalletloot_example:
-  - text: "Here, some of the examples for Ewallet loot,\n
-              Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of the digital wallets."
-
-  utter_ewallet_precaution:
-  - text: "1.Regularly monitoring your bank accounts.\n
-           2.Dont share sensitive information with anyone else.\n
-           3.Transfer money into their e-wallets rather then link it directly to their bank accounts.\n
-           4.Change passwords.\n 
-           5.If possible, maintain separate email Ids for e-wallet transactions .\n
-           6.make sure to log out their e-wallets after use"
-
-  utter_ewallet_report:
-  - text: " 1.Report fraud immediately in when you spot it.\n
-	    2.Be very sure of details you reveal or who you reveal it to.\n
-	    3. If you have received an e-wallet fraud transaction on your email. \n
-	    4. You can save details of wallet transactions email of such transactions as .pdf/.eml file and keep it ready for uploading as evidence \n
-            5.Provide the screenshot/s or copy of your ID proof and address proof as shown in the bank records.\n
-            6.You must preserve the original evidence i.e. do not delete transactions."
-
-  utter_ATM_Creditcard_precautions:
-  - text: " 1. Do not make it a habit to carry all your credit and debit cards in your wallet. Only carry the card you use on a daily basis.\n
-            2.Take advantage of online banking to check your account activity regularly\n
-            3.When using debit/credit cards in stores or restaurants, be aware of how they are being handled. Pay close attention to how the cards are swiped by the clerk or waiter\n
-            4. Be very careful when using your debit or credit card online.\n
-            5. Maintain a list of all your cards and keep a separate list for account numbers, dates of expiration and phone numbers of customer service and fraud establishments\n
-            6. Do not give out any personal information over the phone, or email. \n
-            7. Do not write your entire credit card number on your checks.\n
-            8. If you are anticipating the arrival of a new credit card in the mail, keep an eye on your mailbox. If it does not arrive in reasonable time, contact the card company.\n
-            9. Request a credit report at least once a year."
-
-  utter_ATM_Creditcard_report:
-  - text: "If you have received financial debit/credit card fraud  transaction related SMS/emails:\n
-	   a. Take a screenshot/s or copy of SMSs received related to the alleged transactions and upload this as evidence\n
-	   b. Details of date/time when such SMS have been received \n
-	   c. keep scan of email to be uploaded as evidence \n
-	   d. you lost the money then provide the screenshot/s or copy details of banking transaction details, bank account transaction details, suspect address, company name, website URL,email id, mobile no, or any information of the platform source where the incident has happened.\n
-	   e.emails,sms,contact number,screenshots etc. must preserve the original evidence i.e. do not delete SMSs,emails or contact number."
-
-  utter_jobfraud_precautions:
-  - text : "1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
-           2)Always check the organization's website for Job offers and related details.\n
-           3) It is advisable to search and apply for jobs posted on prominent job portals. Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links"
- 
-  utter_jobfraud_report:
-  - text: "1.If you have received job fraud sms\n
-	     a.Take the screenshot/s of the SMS (depicting the content details) and the sender details (name, email, other details) and also note the date and time when you have received the SMS .\n
-           2.If you have received job fraud email:\n
-	     a. Save the received e-mails in pdf or .eml format or take the screenshot/s of the received e-mail and the same needs to be uploaded on the portal as evidence\n
-	     b. If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device for updating the same as an evidence on the portal\n
-          3. If you received or found job fraud related information on social media platforms/forums/blogs such as Facebook, Twitter, LinkedIn etc.\n
-	     a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
-	     b. Provide the other details like user ID, email, contact number, job details etc.\n
-	     c. Take the screen shot of the page or save the page(as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal\n
-          4. If you lost the money then provide the banking transaction details.\n
-          5. You must preserve the original evidence i.e. do not delete SMSs, emails,screenshots, Website URL etc. as these could be needed by law enforcement agencies as evidence for prosecuting the offender."
-
-  utter_matrimonialfraud_precautions:
-  - text:  “1)Never react to the Matrimonial offers posted on social media platforms.\n
-            2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
-            3)If it is a NRI profile document check their  related to their address and employment abroad.\n
-            4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds.”
-
-  utter_matrimonialfraud_report:
-  - text: "1.If you have received matrimonial fraud related details on SMS/email/:\n
-             a.Take the screenshot/s of the SMS/EMAIL (depicting the content details) and the sender details (name, email, other details) need to be updated on the portal as evidence\n
-             b.Note the date and time when you have received the SMS/EMAIL.\n
-             c.If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device\n
-           2.If you received or found online matrimonial fraud related content on social media platforms/forums/blogs such as Facebook, twitter, LinkedIn etc.\n
-             a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
-             b. Provide the other details like user ID, email, contact number, matrimonial details etc.\n
-             c. Take the screen shot of the page or save the page (as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal.\n
-           3.If you lost the money then provide the banking transaction details, bank account, transaction details, suspect address, company name, website URL, email id, mobile no, or any information of the platform source where the incident has happened. "
-
-  utter_fraudcall_precuations:
-  - text: "1. Banks or any of their representatives never send their customers email/SMS or call them over the phone to ask for personal information, password or one time SMS (high security) password. Any such e-mail/SMS or phone call is an attempt to fraudulently withdraw money from the customer’s account through Internet Banking. Never respond to such email/SMS or phone call.\n
-           2. Never respond to emails/embedded links/calls asking you to update or verify User ID/Password/Debit Card Number/PIN/CVV, etc. Inform your bank about such email/SMS or phone call. Immediately change your passwords if you have accidentally revealed your credentials.\n
-           3. Do not provide any personal or confidential information on a page which might have come up as a pop-up window.\n
-           4. Always remember that information like password, PIN, TIN, etc., are strictly confidential and are not known even to employees/service personnel of the bank. You should therefore, never divulge such information even if asked for.\n
-           5. Never provide your identity proof to anyone without any genuine reason.\n
-           6. Never click on any links in any e-mail to access the bank’s site.\n
-           7. Access your bank website only by typing the URL in address bar of browser.\n
-           8. Do not provide your bank account details to emails offering a job or claiming that you have won a lottery. Avoid opening attachment of emails from unknown senders.\n
-           9. Avoid accessing Internet banking accounts from cyber cafes or shared PCs.\n
-          10. When on your bank website, look for the padlock symbol either in the address bar or the status bar (mostly in the address bar) but not within the web page display area. Verify the security certificate by clicking on the padlock.\n
-          11. Keep your system up to date."
-
-  utter_fraudcall_report:
-  - text: "1.Provide the fraud callers number details .\n
-           2.If you received an internet based fraud or vishing call, take the screenshot/s of the sender’s number along with date and time.\n
-           3.In case, if you are having the call recording, then have with you.\n
-           4.If you lost the money then provide the screenshot/s or copy details of banking transaction \n
-           5.Do not delete any  call details, numbers, call recordings, email etc"
-
-  utter_email_hacking: 
-  - text: "In order to check if your email has been hacked/breached, you can visit the website www.haveibeenpwned.com and enter your email there! If you have received any message or malware suggesting your email has been hacked, you can report it in CyberCrime portal with relevant proofs."
-  
-  utter_email_safety:
-  - text: "Here are some safe email practices for you: \n 1) Maintain a strong password and don't share it. \n 2) Keep 2 factor authentications. \n 3) Change your passwords frequently. \n 4) Avoid clicking on dangerous malicious mails or contents and report them immediately."
-  
+  - text: Child pornography is a form of child sexual exploitation. Federal law defines
+      child pornography as any visual depiction of sexually explicit conduct involving
+      a minor (persons less than 18 years old). Images of child pornography are also
+      referred to as child sexual abuse images.
+  utter_childpronography:
+  - text: ' Child pronography is illegal. Child pornography is a form of child sexual
+      exploitation. Federal law defines child pornography as any visual depiction
+      of sexually explicit conduct involving a minor (persons less than 18 years old).  Images
+      of child pornography are also referred to as child sexual abuse images.'
+  utter_confirm_content_crime:
+  - buttons:
+    - payload: /affirm_content_crime{"content_crime_confirmation":"True"}
+      title: Yes
+    - payload: /affirm_content_crime{"content_crime_confirmation":"False"}
+      title: No
+    text: Click yes to confirm your registration!
+  utter_confirm_other_crime:
+  - buttons:
+    - payload: /affirm_other_crime{"other_crime_confirmation":"True"}
+      title: Yes
+    - payload: /affirm_other_crime{"other_crime_confirmation":"False"}
+      title: No
+    text: Click yes to confirm your registration!
+  utter_crime_statistics_list:
+  - buttons:
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Total”}’
+      title: “Total”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Personal_Revenge”}’
+      title: “Personal Revenge”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Anger”}’
+      title: “Anger”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Fraud”}’
+      title: “Fraud”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Extortion”}’
+      title: “Extortion”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Causing_Disrepute”}’
+      title: “Causing Disrepute”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Prank”}’
+      title: “Prank”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Sexual_Explotation”}’
+      title: “Sexual Exploitation”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Political_Motives”}’
+      title: “Political Motives”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Terrorist_Activities”}’
+      title: “Terrorist Activities”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Inciting_Hate_against_Country”}’
+      title: “Inciting Hate against Country”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Disrupt_Public_Service”}’
+      title: “Disrupt Public Service”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Sale_Purchase_Illegal_Drugs”}’
+      title: “Sale Purchase Illegal Drugs”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Developing_own_
+        Business”}’
+      title: “Developing own Business”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Spreading_Piracy”}’
+      title: “Spreading Piracy”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Psycho_or_Pervert”}’
+      title: “Psycho or Pervert”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Steal_Information”}’
+      title: “Steal Information”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Abetment_to_Suicide”}’
+      title: “Abetment to Suicide”
+    - payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Other_crimes”}’
+      title: “Other crimes”
+    text: select crime type
+  utter_crimelist:
+  - text: Alright! Would you like to know the list of crimes in your location?
   utter_crypto_desc:
-  - text: "Cryptocurrency is a form of digital currency that is created and stored by solving a complex mathematical equation. RBI has not given any license to deal with this type of currency. So, proceed with caution if you're using this!"
-  
+  - text: Cryptocurrency is a form of digital currency that is created and stored
+      by solving a complex mathematical equation. RBI has not given any license to
+      deal with this type of currency. So, proceed with caution if you're using this!
   utter_crypto_help:
   - text: "If you are facing any cryptocurrency fraud, do the following: \n 1) Take\
       \ screenshot of the fraud SMS/email. \n 2) Report using the screenshots and\
       \ details of what is being hacked for eg., bitcoin address, wallet details.\
       \ \n 3) Provide relevant information like purchase of bitcoin."
-  
   utter_crypto_safety:
-  - text: "It is advised not to deal with cryptocurrency as criminals use such information in the dark web. Be careful with your digital currency!"
+  - text: It is advised not to deal with cryptocurrency as criminals use such information
+      in the dark web. Be careful with your digital currency!
+  utter_cybercrimedesc:
+  - text: Cybercrime, also called computer crime, the use of a computer as an instrument
+      to further illegal ends, such as committing fraud, trafficking in child pornography
+      and intellectual property, stealing identities, or violating privacy.
+  utter_cybercrimetypes:
+  - text: "There are 2 types of Cyber crimes: -Crimes that target networks or devices.\n\
+      \ -Crimes using devices to participate in criminal activities."
+  utter_cyberex:
+  - text: "1)Phishing scams - Phishing is a practice of a cybercriminal or hacker\
+      \ attempting to obtain sensitive or personal information from a computer user.\
+      \ \n 2)Identity Theft scams. \n 3)Online Harassment. \n 4)Cyberstalking. \n\
+      \ 5)Invasion of privacy."
+  utter_definesexualexplicit:
+  - text: The term sexually explicit is often used as euphemism for pornography. It
+      includes unsimulated sex acts, sexual intercourse and uncovered genitalia.
+  utter_deposit:
+  - text: Under the Bank Secrecy Act, banks and other financial institutions must
+      report cash deposits greater than $10,000. But since many criminals are aware
+      of that requirement, banks also are supposed to report any suspicious transactions,
+      including deposit patterns below $10,000.
+  utter_desconlineharss:
+  - text: Under the Information Technology Act, 2000, (IT Act) online harassment is
+      used as an umbrella term to describe the use of the internet to harass, threaten
+      or maliciously embarrass another party. It can be in the form of verbal, sexual,
+      emotional, or social abuse and aimed at a person, a group of persons, or even
+      an organization.
+  utter_email_hacking:
+  - text: In order to check if your email has been hacked/breached, you can visit
+      the website www.haveibeenpwned.com and enter your email there! If you have received
+      any message or malware suggesting your email has been hacked, you can report
+      it in CyberCrime portal with relevant proofs.
+  utter_email_safety:
+  - text: "Here are some safe email practices for you: \n 1) Maintain a strong password\
+      \ and don't share it. \n 2) Keep 2 factor authentications. \n 3) Change your\
+      \ passwords frequently. \n 4) Avoid clicking on dangerous malicious mails or\
+      \ contents and report them immediately."
+  utter_employmentfraud:
+  - text: "1)Beware of the emails, which offer jobs in exchange for money, such emails\
+      \ are spam.\n 2)Always check the organization's website for Job offers and related\
+      \ details.\n 3) It is advisable to search and apply for jobs posted on prominent\
+      \ job portals.\n Be careful about the jobs posted on social media advertisements\
+      \ and search engine results labeled as sponsored links."
+  utter_ewallet_precaution:
+  - text: "1.Regularly monitoring your bank accounts.\n 2.Dont share sensitive information\
+      \ with anyone else.\n 3.Transfer money into their e-wallets rather then link\
+      \ it directly to their bank accounts.\n 4.Change passwords.\n 5.If possible,\
+      \ maintain separate email Ids for e-wallet transactions .\n 6.make sure to log\
+      \ out their e-wallets after use"
+  utter_ewallet_report:
+  - text: " 1.Report fraud immediately in when you spot it.\n 2.Be very sure of details\
+      \ you reveal or who you reveal it to.\n 3. If you have received an e-wallet\
+      \ fraud transaction on your email. \n 4. You can save details of wallet transactions\
+      \ email of such transactions as .pdf/.eml file and keep it ready for uploading\
+      \ as evidence \n 5.Provide the screenshot/s or copy of your ID proof and address\
+      \ proof as shown in the bank records.\n 6.You must preserve the original evidence\
+      \ i.e. do not delete transactions."
+  utter_financialdesc:
+  - text: Financial crimes often involve deception or fraud for financial gain. Although
+      white-collar crimes derive their name from the corporate officers who historically
+      perpetrated them, anyone in any industry can commit a white-collar crime. These
+      crimes include many types of fraud and blackmail, embezzlement and money laundering,
+      tax evasion, and cybercrime.
+  utter_financialfraud:
+  - text: "1)Always ensure that credit or debit card swipes are done in your presence.\
+      \ \n 2)Never reveal your ATM or phone banking PIN, OTP, CVV number, etc. to\
+      \ anyone or respond to unknown emails or calls asking for such details. \n 3)\
+      \ After completing an online transaction with your credit/ debit card remember\
+      \ to log off from the website and delete cookies for enhanced protection. \n\
+      \ 4) Immediately check SMS or email statements sent by the depository after\
+      \ every transaction in the Demat account. Check holding statements issued by\
+      \ brokers every month."
+  utter_financialtypecrime:
+  - text: "The type of financial crime are -fraud \n -bribery and corruption \n -information\
+      \ security \n -terrorist financing \n -market abuse and insider dealing \n -electronic\
+      \ crime -money laundering"
+  utter_fraudcall_precuations:
+  - text: "1. Banks or any of their representatives never send their customers email/SMS\
+      \ or call them over the phone to ask for personal information, password or one\
+      \ time SMS (high security) password. Any such e-mail/SMS or phone call is an\
+      \ attempt to fraudulently withdraw money from the customer’s account through\
+      \ Internet Banking. Never respond to such email/SMS or phone call.\n 2. Never\
+      \ respond to emails/embedded links/calls asking you to update or verify User\
+      \ ID/Password/Debit Card Number/PIN/CVV, etc. Inform your bank about such email/SMS\
+      \ or phone call. Immediately change your passwords if you have accidentally\
+      \ revealed your credentials.\n 3. Do not provide any personal or confidential\
+      \ information on a page which might have come up as a pop-up window.\n 4. Always\
+      \ remember that information like password, PIN, TIN, etc., are strictly confidential\
+      \ and are not known even to employees/service personnel of the bank. You should\
+      \ therefore, never divulge such information even if asked for.\n 5. Never provide\
+      \ your identity proof to anyone without any genuine reason.\n 6. Never click\
+      \ on any links in any e-mail to access the bank’s site.\n 7. Access your bank\
+      \ website only by typing the URL in address bar of browser.\n 8. Do not provide\
+      \ your bank account details to emails offering a job or claiming that you have\
+      \ won a lottery. Avoid opening attachment of emails from unknown senders.\n\
+      \ 9. Avoid accessing Internet banking accounts from cyber cafes or shared PCs.\n\
+      \ 10. When on your bank website, look for the padlock symbol either in the address\
+      \ bar or the status bar (mostly in the address bar) but not within the web page\
+      \ display area. Verify the security certificate by clicking on the padlock.\n\
+      \ 11. Keep your system up to date."
+  utter_fraudcall_report:
+  - text: "1.Provide the fraud callers number details .\n 2.If you received an internet\
+      \ based fraud or vishing call, take the screenshot/s of the sender’s number\
+      \ along with date and time.\n 3.In case, if you are having the call recording,\
+      \ then have with you.\n 4.If you lost the money then provide the screenshot/s\
+      \ or copy details of banking transaction \n 5.Do not delete any  call details,\
+      \ numbers, call recordings, email etc"
+  utter_frauddetect:
+  - text: "You can detect online fraud and identity theft by the following: \n -Monitor\
+      \ your accounts. \n -Use online alert tools and services (example -signing up\
+      \ gmail account in other device, sends you an alert). \n -Use a credit monitoring\
+      \ service. \n -Watch out for wire transfer email scams. \n -Requests for money\
+      \ (example- You're asked to pay money in advance for administration fees or\
+      \ taxes prior to receiving a prize or winnings.)"
+  utter_fraudtypes:
+  - text: "The type of fraud\n -Job fraud\n -Matrimonial fraud\n -Social media fraud.\
+      \ \n -Financial statement fraud. \n -Consumer Fraud. \n -Mail Fraud. \n -Driver's\
+      \ License Fraud. \n -Healthcare Fraud. \n -Voter Fraud. \n -Internet Fraud."
+  utter_goodbye:
+  - text: Thanks for using CrimeBot.
+  utter_greet:
+  - text: Hey! I am CrimeBot, your virtual friend! I can help you file a complaint
+      and give you the list of crimes that happened in your locality. Would you like
+      to report a crime you witnessed?
+  utter_hackedphone:
+  - text: "Signs your phone may have been hacked. 1)Noticeable decrease in battery\
+      \ life.\n 2)Sluggish performance. \n 3)High data usage.\n 4)Outgoing calls or\
+      \ texts you didn’t send. \n 5)Mystery pop-ups. \n 6) Unusual activity on any\
+      \ accounts linked to the device."
+  utter_hacking:
+  - text: " Hacking is an attempt to exploit a computer system or a private network\
+      \ inside a computer.\n Simply put, it is the unauthorised access to or control\
+      \ over computer network security systems for some illicit purpose.\n This is\
+      \ done through cracking of passwords and codes which gives access to the systems.\
+      \ The access to a password is obtained by the hacker through password cracking\
+      \ algorithms programs."
+  utter_hacking_sub_category:
+  - buttons:
+    - payload: /choose_sub_category{"other_crime_sub_category":"Profile hacking"}
+      title: Fake profile/identity theft
+    - payload: /choose_sub_category{"other_crime_sub_category":"Cheating by impersonation"}
+      title: Cheating by impersonation
+    - payload: /choose_sub_category{"other_crime_sub_category":"Damage to computer
+        system"}
+      title: Damage to computer
+    - payload: /choose_sub_category{"other_crime_sub_category":"Data breach"}
+      title: Data breach
+    - payload: /choose_sub_category{"other_crime_sub_category":"Tempering Computer
+        Source Documents"}
+      title: Modifying computer programs
+    - payload: /choose_sub_category{"other_crime_sub_category":"Ransomware"}
+      title: Ransomware
+    - payload: /choose_sub_category{"other_crime_sub_category":"Website hacking"}
+      title: Website hacking
+    text: How are you being hacked?
+  utter_hatespeech:
+  - text: Online hate speech is a type of speech that takes place online, generally
+      social media, with the purpose of attacking a person or a group on the basis
+      of attributes such as race, religion, ethnic origin, sexual orientation, disability,
+      or gender.
+  utter_hatredandthreat:
+  - text: "1)No panic! just get a screenshot of message and trace of phone call number.\n\
+      \ 2)If threat message or call related to bank account hacking immdiately report\
+      \ in cybercrime and respected bank.\n 3)If threat notification from facebook,twitter,instagram\
+      \ etc. just log out your account and delete your personal details for a while\
+      \ and just file a complaint in cybercrime department\n 4)If threat related to\
+      \ sexual abuse, bombblast,kidnap,terrorism do immdiately note down phone number\
+      \ or screenshot message recieved and contact the police station immediately\n\
+      \ 5)Donot scared of threat calls and message its easy trace and find the culprit\
+      \ and follow the above measure."
+  utter_help:
+  - text: How can I help you?
+  utter_helpbulled:
+  - text: "-Get the facts. \n -Gather Evidence.\n -Report or share the issue with\
+      \ parents or any elderly you know."
+  utter_iamabot:
+  - text: I am CrimeBot and I help you register complaints against crimes you've witnessed.
+      I can also give you the list of crimes that happened in your locality!
+  utter_ifhacked:
+  - text: "If your phone is hacked.\n 1)Download Avast in Android which which not\
+      \ only scans for malware but offers a call blocker, firewall, VPN, and a feature\
+      \ to request a PIN every time certain apps are used.\n 2)iPhones may be less\
+      \ prone to hacks, but they aren’t totally immune. Lookout for iOS flags apps\
+      \ that are acting maliciously, potentially dangerous Wi-Fi networks, and if\
+      \ the iPhone has been jailbroken (which increases its risk for hacking)."
+  utter_internetbanking_safely:
+  - text: "Follow the following steps to browse safely,\n 1.Always use genuine anti-virus\
+      \ software.\n 2. Avoid Using Public Wi-Fi or Use VPN software\n 3. Check for\
+      \ latest updates of your Smartphone's operating system \n 4. Change your password\
+      \ regularly and ensure it's a strong one \n 5. Subscribe for mobile notifications\n\
+      \ 6. Avoid signing-in to your net-banking account via mailers\n 7. Do not use\
+      \ public computers to login to netbanking.\n 8. Check your account regularly."
+  utter_internetbankingfraud:
+  - text: Internet Banking Fraud is a fraud or theft committed using online technology
+      to illegally remove money from a bank account and/or transfer money to an account
+      in a different bank.
+  utter_jobfraud_precautions:
+  - text: "1)Beware of the emails, which offer jobs in exchange for money, such emails\
+      \ are spam.\n 2)Always check the organization's website for Job offers and related\
+      \ details.\n 3) It is advisable to search and apply for jobs posted on prominent\
+      \ job portals. Be careful about the jobs posted on social media advertisements\
+      \ and search engine results labeled as sponsored links"
+  utter_jobfraud_report:
+  - text: "1.If you have received job fraud sms\n a.Take the screenshot/s of the SMS\
+      \ (depicting the content details) and the sender details (name, email, other\
+      \ details) and also note the date and time when you have received the SMS .\n\
+      \ 2.If you have received job fraud email:\n a. Save the received e-mails in\
+      \ pdf or .eml format or take the screenshot/s of the received e-mail and the\
+      \ same needs to be uploaded on the portal as evidence\n b. If the received emails\
+      \ had an attachment/s, then keep the attachment/s ready on your desktop/ device\
+      \ for updating the same as an evidence on the portal\n 3. If you received or\
+      \ found job fraud related information on social media platforms/forums/blogs\
+      \ such as Facebook, Twitter, LinkedIn etc.\n a. Note down/ Copy (to your device/\
+      \ desktop) the URL where you have seen such content\n b. Provide the other details\
+      \ like user ID, email, contact number, job details etc.\n c. Take the screen\
+      \ shot of the page or save the page(as .pdf) showing content on your device/\
+      \ desktop for uploading the same as an evidence on the portal\n 4. If you lost\
+      \ the money then provide the banking transaction details.\n 5. You must preserve\
+      \ the original evidence i.e. do not delete SMSs, emails,screenshots, Website\
+      \ URL etc. as these could be needed by law enforcement agencies as evidence\
+      \ for prosecuting the offender."
+  utter_matrimonialfraud_precautions:
+  - text: “1)Never react to the Matrimonial offers posted on social media platforms.\n
+      2)Always be careful while dealing with 'NRI' profiles on matrimonial websites.
+      Commit to marriage only after verifying their documents. \n 3)If it is a NRI
+      profile document check their  related to their address and employment abroad.\n
+      4) Conduct an end-to-end background check of the prospective match to avoid
+      matrimonial frauds.”
+  utter_matrimonialfraud_report:
+  - text: "1.If you have received matrimonial fraud related details on SMS/email/:\n\
+      \ a.Take the screenshot/s of the SMS/EMAIL (depicting the content details) and\
+      \ the sender details (name, email, other details) need to be updated on the\
+      \ portal as evidence\n b.Note the date and time when you have received the SMS/EMAIL.\n\
+      \ c.If the received emails had an attachment/s, then keep the attachment/s ready\
+      \ on your desktop/ device\n 2.If you received or found online matrimonial fraud\
+      \ related content on social media platforms/forums/blogs such as Facebook, twitter,\
+      \ LinkedIn etc.\n a. Note down/ Copy (to your device/ desktop) the URL where\
+      \ you have seen such content\n b. Provide the other details like user ID, email,\
+      \ contact number, matrimonial details etc.\n c. Take the screen shot of the\
+      \ page or save the page (as .pdf) showing content on your device/ desktop for\
+      \ uploading the same as an evidence on the portal.\n 3.If you lost the money\
+      \ then provide the banking transaction details, bank account, transaction details,\
+      \ suspect address, company name, website URL, email id, mobile no, or any information\
+      \ of the platform source where the incident has happened. "
+  utter_matrimonialfraudsafety:
+  - text: "1)Never react to the Matrimonial offers posted on social media platforms.\n\
+      \ 2)Always be careful while dealing with 'NRI' profiles on matrimonial websites.\
+      \ Commit to marriage only after verifying their documents. \n 3)If it is a NRI\
+      \ profile check their document related to their address and employment abroad.\n\
+      \ 4) Conduct an end-to-end background check of the prospective match to avoid\
+      \ matrimonial frauds."
+  utter_mobilehacking:
+  - text: "1)Install good antivirus on your mobile phone. \n 2)Always enable a password\
+      \ on the home screen to restrict unauthorized access to your mobile phone. \n\
+      \ 3)Avoid using third-party extensions, plug-ins or add-ons for your web browser\
+      \ as it may secretly track your activity and steal your personal details. \n\
+      \ 4)Public Wi-Fi at Airports, Railway Stations, Bus Stops, etc. may be used\
+      \ only for normal internet surfing. It is advisable to avoid making online transactions\
+      \ or accessing personal information while using public/free Wi-Fi.\n 5) Install\
+      \ App from trusted sources.\n 6)Read app permissions before downloading an app"
+  utter_onlinebullying:
+  - text: "-Report - Most social networks allow you to report offensive and abusive\
+      \ material. \n -Block - The easiest way to stop someone bothering you online.\
+      \ \n -If you are a victim of cyberstalking, report such incidents to the National\
+      \ Cyber Crime Reporting Portal/ Police. Also, save all communications with the\
+      \ stalker as evidence."
+  utter_onlinegambling:
+  - text: "1)Online gambling (or Internet gambling) is any kind of gambling conducted\
+      \ on the internet. This includes virtual poker, casinos and sports betting.\
+      \ ... In many legal markets, online gambling service providers are required\
+      \ by law to have some form of licence if they wish to provide services or advertise\
+      \ to residents there\n 2)it is legal in US but illegal in india.\n 3)Example\
+      \ of online gambling is poker,casinos,betting,sports betting,ipl fixingetc..\n\
+      \ 4)Stay away from gambling website, if unknowingly directed to it just immediately\
+      \ leave from the site and clear the page and refresh.\n 5)Online gambling affects\
+      \ financial status , relationship status, affects younger generation leads to\
+      \ money crisis society is affected by gambling.\n 6)Do not involve in online\
+      \ lottery.\n 7)If money lost or cheated just make a compliant of the site and\
+      \ the respected person."
+  utter_onlineprostitution:
+  - text: "1)Prostitution is sometimes described as sexual services, commercial sex\
+      \ or, colloquially, hooking.\n 2)Online prostitution has become new one to engage\
+      \ common people in that.\n 3)Unknowingly reaching to such sites just do not\
+      \ panic come out of website if you find some of your content or morphed photos\
+      \ do report to police.\n 4)prostitution is legal in india until somebody forced\
+      \ to do so it is illegal.\n 5)Child prostitution is banned in india.\n 6)If\
+      \ you are struct in a red area or prostitute area just make a emmergency call\
+      \ to police station.\n 7)Do not go to unknown place alone, do not use unknown\
+      \ application, donot share personal information in any website or application.\n\
+      \ 8)If someone forces you for prostitution just make a complaint over the person\
+      \ and block the numbers that you get a call or message."
+  utter_parentssupport:
+  - text: ' It is not possible for parents to watch your children ALL THE TIME, you
+      can certainly lessen the risk by sharing information about cyber fraud and risk
+      with your children. And support them at the needy time.'
+  utter_personaldesc:
+  - text: "Personal crimes are those that result in physical or mental harm to another\
+      \ person. They can be divided into two main categories,\n -Homicide. \n -Violent\
+      \ Crime"
+  utter_preventhack:
+  - text: "1)Don’t access personal or financial data with public Wi-Fi. \n 2)Turn\
+      \ off anything you don’t need. \n 3)Choose your apps wisely. \n 4)Use a password,\
+      \ lock code or encryption.\n 5)Be skeptical about links and attachments.\n 6)Erase\
+      \ the cookies."
+  utter_propertydesc:
+  - text: Property crimes typically involve interference with the property of another.
+      Although they may involve physical or mental harm to another, they primarily
+      result in the deprivation of the use or enjoyment of property. Many crimes include
+      theft crime
+  utter_protectyourself_cybercrimes:
+  - text: "Following instructions to be noted to protect yourself from or against\
+      \ cybercrimes \n 1)Use a full-service internet security suite \n 2)Use strong\
+      \ password \n 3)Keep your software updated \n 4)Manage your social media settings\
+      \ \n 5)Strengthen your home network \n 6)Talk to your children about the internet\
+      \ \n 7)Keep up to date on major security breaches"
+  utter_punishments:
+  - text: "According to Section 66A, Sending any message (through a computer or a\
+      \ communication device) that is grossly offensive or has menacing character;\
+      \ any communication which he knows to be false, but for the purpose of causing\
+      \ insult, annoyance, criminal intimidation comes under this section.\n This\
+      \ crime is punishable upto three years with a fine."
+  utter_rape:
+  - text: "Safety tips to protect from rape threats -\n 1. Flee if you are in a potentially\
+      \ dangerous situation. \n 2. Yell or scream to attract attention. \n 3. Carry\
+      \ a whistle that will make a loud noise. \n 4. Carry a pepper spray. \n 5.If\
+      \ you are being followed, go to the nearest business or residence for help.\
+      \ \n 6. Take a self-defense course. \n 7.  If you have a cell phone, call someone\
+      \ for help or call 100 or call 112(National emergency helpline)."
+  utter_rape_meaning:
+  - text: Rape is a type of sexual assault usually involving sexual intercourse or
+      other forms of sexual penetration carried out against a person without that
+      person's consent. The act may be carried out by physical force, coercion, abuse
+      of authority, or against a person who is incapable of giving valid consent,
+      such as one who is unconscious, incapacitated, has an intellectual disability
+      or is below the legal age of consent. The term rape is sometimes used interchangeably
+      with the term sexual assault
+  utter_report_LinkedIn:
+  - text: "Follow the steps to report a person on LinkedIn,\n 1.Click the More icon\
+      \ on the member's profile.\n 2.Click Report/Block.\n 3.Select Report this profile\
+      \ in the What do you want to do? pop-up window.\n 4.Select the applicable reason\
+      \ for flagging the profile in the Tell us a little more pop-up window.\n 5.Click\
+      \ Submit to proceed or Back to review your options."
+  utter_report_facebook:
+  - text: "1.Go to the profile you want to report.\n 2.Click the three dots icon on\
+      \ the bottom right of the cover photo.\n 3.Select 'Give feedback or report this\
+      \ profile'\n 4.Follow the on-screen instructions and then click 'Send' "
+  utter_report_instagram:
+  - text: "Follow the steps to report a person on Instagram,\n 1.Tap  (iOS) or  (Android)\
+      \ in the top right of the profile.\n 2.Tap Report.\n 3.Follow the on-screen\
+      \ instructions."
+  utter_report_twitter:
+  - text: "Follow the steps to report a person on twitter,\n 1.Open the profile you'd\
+      \ like to report.\n 2.Select the overflow icon.\n 3.Select Report and then select\
+      \ the type of issue you'd like to report.\n 4.If you select They're being abusive\
+      \ or harmful, we'll ask you to provide additional information about the issue\
+      \ you're reporting."
+  utter_report_whatsapp:
+  - text: "Follow the following steps to report someone on whatsapp,\n 1.Open the\
+      \ chat.\n 2.Tap on the contact or group name to open their profile information.\n\
+      \ 3.Scroll to the bottom and tap Report contact or Report group."
+  utter_report_youtube:
+  - text: "Follow the following steps to easily report a youtube channel,\n 1.Go to\
+      \ youtube.com and sign into your account,if necessary.\n 2.Go to the page of\
+      \ the channel you want to report.\n 3.Click on their “About” section.\n 4.Click\
+      \ the flag icon under the Stats section and select “Report User” option."
+  utter_reportcyberbullying:
+  - text: "to report cyberbullying follow the steps given below \n 1)The URL of the\
+      \ account you want to report \n 2)Collect the proof of abuse (i.e Take screenshot\
+      \ of the chat) \n 3)file a complaint in https://cybercrime.gov.in/"
+  utter_reporthacked:
+  - text: "To report hackinh activities, do the following. \n 1)Mention the ID that\
+      \ is being hacked along with the platform name. \n 2)File a complaint in https://cybercrime.gov.in/\
+      \ \n 3)Briefly describe what happened to the account in the complaint."
+  utter_reporthatespeech:
+  - text: "1)The URL of the account you want to report. \n 2)briefly explain how the\
+      \ content violates the Terms or Guidelines.\n and register the complain in https://cybercrime.gov.in/"
+  utter_reportrevenge:
+  - text: "Follow the steps given below: \n 1)Take screenshot and copy the URL before\
+      \ it is removed. \n 2)Report the content in the respective platform. \n 3)file\
+      \ a complain in https://cybercrime.gov.in/. \n YOU CAN EVEN REPORT THE CRIME\
+      \ ANONYMOUSLY"
+  utter_security:
+  - text: "Immediately shore up your privacy and security settings on social media\
+      \ and other accounts.\n Make your Facebook and other social media accounts private\
+      \ and hide your friend lists.\n Make sure passwords to all your social media\
+      \ and email accounts are complex and unique.\n Adopt two-step authentication\
+      \ whenever you can."
+  utter_sexualexplicitawar:
+  - text: "1)Don't Panic ! report and block that ID or account or website.\n 2)Report\
+      \ a cyber crime as sexual explicit undex crimes related to sex.\n 3)please keep\
+      \ a screenshot as a proof inorder to take necessary cations."
+  utter_sexualobscenityawar:
+  - text: "1)Don't Panic ! report and block that ID or account or website immediately.\n\
+      \ 2)Report a cyber crime as sexual obscenity undex crimes related to sex\n 3)please\
+      \ keep a screenshot as a proof inorder to take necessary cations."
+  utter_socialmedia:
+  - text: "1)Do not give any personal information like your address, phone number,\
+      \ or any kind of financial information on social media platforms.\n 2)Become\
+      \ familiar with the privacy policies of the social media channels you use and\
+      \ customize your privacy settings to control who sees what. \n 3)Do not respond\
+      \ or react to unsought or abusive posts. \n 4)Be selective with friend requests.\
+      \ If you don’t know the person, don’t accept their request.It could be a fake\
+      \ account."
+  utter_thanks:
+  - text: Thank you for complaining.
+  utter_thankscrime:
+  - text: Thanks for using crimeBot
+  utter_threatmeasures:
+  - text: "1)A online threat is a message or call or notification makes you scared\
+      \ of a thing and blackmailing you to do some task or offense for their use.\n\
+      \ 2)Never react to online threats if a website leads you to some random sites.\n\
+      \ 3)Always be careful will handling a threat message or call. \n 4)Do not login\
+      \ to unwanted site.\n 5)Do not give your personal details or image of yours.\n\
+      \ 6)Do immediately file a complaint in near by police station."
+  utter_typedesc:
+  - text: "The criminal act has divided the crime into the following \n -Personal\
+      \ Crimes. \n -Property Crimes. \n -Inchoate Crimes.\n -Statutory Crimes.\n -Financial\
+      \ Crimes."
+  utter_typesonlineharass:
+  - text: "-Cyberstalking. \n -Impersonation. \n -Doxing. \n -Swatting. \n -Catfishing.\
+      \ \n -Trolling. \n -Dogpiling. \n -Revenge Porn. \n -Cyberbullying.\n -Hate\
+      \ Speech"
+  utter_wayshacked:
+  - text: "Your phone can be hacked in many ways. 1)You could have accidentaly downloaded\
+      \ spy app. \n 2) Phishing messages in your mail or meassages.\n 3)Bluetooth\
+      \ hacking over connection network. \n 4) Apps that over-request permissions.\
+      \ \n 8)Apps with weak encryption."
 
+  utter_email_phishing: 
+  - text: "Do not share personal information including bank information to any mail. Report such scam emails! Do not click any malicious linked in such mails." 
 
-entities:
-- type_of_crime
-- content_crime_confirmation
-- content_crime_type
-- platform
-- link_ID
-- state_ut
-- district
-- date_of_incident
-- other_crime_confirmation
-- other_crime_type
-- other_crime_sub_category
-- additional_information
-
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
 slots:
-  type_of_crime:
-    type: categorical
-    values:
-      - Content related to online sexual abuse
-      - Other cyber crimes
+  additional_information:
+    type: text
   content_crime_confirmation:
     type: text
   content_crime_type:
     type: text
-  platform:
-    type: text
-  link_ID:
-    type: text
-  state_ut:
+  date_of_incident:
     type: text
   district:
     type: text
-  date_of_incident:
-    type: text
-  additional_information:
+  link_ID:
     type: text
   other_crime_confirmation:
+    type: text
+  other_crime_sub_category:
     type: text
   other_crime_type:
     type: categorical
     values:
-      - loss of money
-      - online harrassment
-      - hacking
-      - hatred and threat
-      - human trafficking
-      - online prostitution
-      - online gambling
-  other_crime_sub_category:
+    - loss of money
+    - online harrassment
+    - hacking
+    - hatred and threat
+    - human trafficking
+    - online prostitution
+    - online gambling
+    - __other__
+  platform:
     type: text
-  
-
-actions:
-- utter_greet
-- utter_help
-- utter_goodbye
-- utter_iamabot
-- utter_crimelist
-- utter_ask_crime_type
-- action_confirm_type
-- utter_confirm_content_crime
-- utter_ask_content_crime_type
-- utter_ask_platform
-- utter_ask_link_ID
-- utter_ask_state_ut
-- utter_ask_district
-- utter_ask_date_of_incident
-- utter_ask_additional_information
-- utter_confirm_other_crime
-- utter_ask_other_crime_type
-- ask_other_crime_sub_category
-- utter_LOM_sub_category
-- utter_hacking_sub_category
-- utter_HAT_sub_category
-- utter_report_facebook
-- utter_report_instagram
-- utter_report_twitter
-- utter_report_youtube
-- utter_report_LinkedIn
-- utter_report_whatsapp
-- utter_thankscrime
-- utter_cybercrimedesc
-- utter_frauddetect
-- utter_onlinebullying
-- utter_cybercrimetypes
-- utter_typedesc
-- utter_personaldesc
-- utter_propertydesc
-- utter_Inchoatedesc
-- utter_Statutorydesc
-- utter_financialdesc
-- utter_financialtypecrime
-- utter_deposit
-- utter_fraudtypes
-- utter_cyberex
-- utter_mobilehacking
-- utter_employmentfraud
-- utter_socialmedia
-- utter_protectyourself_cybercrimes
-- utter_childpronography
-- utter_financialfraud
-- utter_matrimonialfraudsafety
-- utter_crime_statistics_list
-- utter_ask_crimestatistics
-- action_crime_stat
-- utter_sexualexplicitawar
-- utter_definesexualexplicit
-- utter_sexualobscenityawar
-- utter_threatmeasures
-- utter_hatredandthreat
-- utter_onlinegambling
-- utter_onlineprostitution
-- utter_rape_meaning
-- utter_rape
-- utter_childponography
-- utter_desconlineharss
-- utter_typesonlineharass
-- utter_hatespeech
-- utter_Cyberbullying
-- utter_RevengePorn
-- utter_Dogpiling
-- utter_Trolling
-- utter_Catfishing
-- utter_Swatting
-- utter_Doxing
-- utter_Impersonation
-- utter_Cyberstalking
-- utter_reporthatespeech
-- utter_reportcyberbullying
-- utter_helpbulled
-- utter_punishments
-- utter_parentssupport
-- utter_security
-- utter_reportrevenge
-- utter_hackedphone
-- utter_hacking
-- utter_ifhacked
-- utter_preventhack
-- utter_reporthacked
-- utter_wayshacked
-- utter_internetbankingfraud
-- utter_internetbanking_safely
-- utter_Ewallet_fraud
-- utter_Ewalletloot_example
-- utter_ewallet_precaution
-- utter_ewallet_report
-- utter_ATM_Creditcard_precautions
-- utter_ATM_Creditcard_report
-- utter_jobfraud_precautions
-- utter_jobfraud_report
-- utter_matrimonialfraud_precautions
-- utter_matrimonialfraud_report
-- utter_fraudcall_precuations
-- utter_fraudcall_report
-- utter_crypto_desc
-- utter_crypto_help
-- utter_crypto_safety
-- utter_email_hacking
-- utter_email_safety
-- custom_fallback 
-
-forms:
-- content_crime_form
-- other_crime_form
-
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  requested_slot:
+    type: unfeaturized
+  state_ut:
+    type: text
+  type_of_crime:
+    type: categorical
+    values:
+    - content related to online sexual abuse
+    - other cyber crimes
+    - __other__
