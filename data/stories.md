@@ -65,7 +65,7 @@
 
 ## crime_type path
 * crime_type
-  -utter_typedesc
+  - utter_typedesc
 
 ## personalcrime path
 * personal_crime
@@ -209,7 +209,7 @@
 
 ## typesonlineharass path
 * typesonlineharass
-  -utter_typesonlineharass
+  - utter_typesonlineharass
 
 ## hatespeech path
 * hatespeech
@@ -344,6 +344,15 @@
   - utter_jobfraud_report
 
 ## matrimonialfraud precautions
+* matrimonialfraud_precautions
+  - utter_matrimonialfraud_precautions
+  
+## matrimonial report 
+* matrimonialfraud_report 
+  - utter_matrimonialfraud_report
+  
+## fraud call precaution path 
+* fraudcall_precautions
   - utter_fraudcall_precuations
 
 ## fraudcall report
