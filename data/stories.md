@@ -171,7 +171,7 @@
 * defsexualexplicit
    - utter_definesexualexplicit
 
-##sexualobscenity path
+## sexualobscenity path
 * sexualobscenity
    - utter_sexualobscenityawar
 
