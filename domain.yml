@@ -43,6 +43,17 @@ intents:
 - childpornography
 - financialsafety
 - matrimonial_fraudsafety
+- sexualexplicit
+- defsexualexplicit
+- sexualobscenity
+- threatmeasures
+- hatredandthreat
+- onlinegambling
+- onlineprostitution
+- rape_meaning
+- rape
+- childponography
+
 
 responses:
   utter_greet:
@@ -379,6 +390,19 @@ responses:
 				         5)Strengthen your home network \n
 					 6)Talk to your children about the internet \n
                                          7)Keep up to date on major security breaches"
+  utter_sexualexplicitawar:
+  - text: "1)Don't Panic ! report and block that ID or account or website.\n
+           2)Report a cyber crime as sexual explicit undex crimes related to sex.\n
+           3)please keep a screenshot as a proof inorder to take necessary cations."
+
+  utter_sexualobscenityawar:
+  - text: "1)Don't Panic ! report and block that ID or account or website immediately.\n
+           2)Report a cyber crime as sexual obscenity undex crimes related to sex\n
+           3)please keep a screenshot as a proof inorder to take necessary cations."
+
+
+  utter_definesexualexplicit:
+  - text: "The term sexually explicit is often used as euphemism for pornography. It includes unsimulated sex acts, sexual intercourse and uncovered genitalia."
 
   utter_childpronography:
   - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old).  Images of child pornography are also referred to as child sexual abuse images."
@@ -393,7 +417,57 @@ responses:
   - text: "1)Never react to the Matrimonial offers posted on social media platforms.\n
            2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
            3)If it is a NRI profile document check their  related to their address and employment abroad.\n
-           4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds."
+           4) Conduct an end-to-end background check of the prospective match to avoid matrimonial fraud."
+  utter_threatmeasures:
+  - text: "1)A online threat is a message or call or notification makes you scared of a thing and blackmailing you to do some task or offense for their use.\n
+           2)Never react to online threats if a website leads you to some random sites.\n
+           3)Always be careful will handling a threat message or call. \n
+           4)Do not login to unwanted site.\n
+           5)Do not give your personal details or image of yours.\n
+           6)Do immediately file a complaint in near by police station."
+
+  utter_hatredandthreat:
+  - text: "1)No panic! just get a screenshot of message and trace of phone call number.\n
+          2)If threat message or call related to bank account hacking immdiately report in cybercrime and respected bank.\n
+          3)If threat notification from facebook,twitter,instagram etc. just log out your account and delete your personal details for a while and just file a complaint in cybercrime department\n
+          4)If threat related to sexual abuse, bombblast,kidnap,terrorism do immdiately note down phone number or screenshot message recieved and contact the police station immediately\n
+          5)Donot scared of threat calls and message its easy trace and find the culprit and follow the above measure."
+
+  utter_onlinegambling:
+  - text: "1)Online gambling (or Internet gambling) is any kind of gambling conducted on the internet. This includes virtual poker, casinos and sports betting. ... In many legal markets, online gambling service providers are required by law to have some form of licence if they wish to provide services or advertise to residents there\n
+          2)it is legal in US but illegal in india.\n
+          3)Example of online gambling is poker,casinos,betting,sports betting,ipl fixingetc..\n
+          4)Stay away from gambling website, if unknowingly directed to it just immediately leave from the site and clear the page and refresh.\n
+          5)Online gambling affects financial status , relationship status, affects younger generation leads to money crisis society is affected by gambling.\n
+          6)Do not involve in online lottery.\n
+          7)If money lost or cheated just make a compliant of the site and the respected person."
+
+  utter_onlineprostitution:
+  - text: "1)Prostitution is sometimes described as sexual services, commercial sex or, colloquially, hooking.\n
+          2)Online prostitution has become new one to engage common people in that.\n
+          3)Unknowingly reaching to such sites just do not panic come out of website if you find some of your content or morphed photos do report to police.\n
+          4)prostitution is legal in india until somebody forced to do so it is illegal.\n
+          5)Child prostitution is banned in india.\n
+          6)If you are struct in a red area or prostitute area just make a emmergency call to police station.\n
+          7)Do not go to unknown place alone, do not use unknown application, donot share personal information in any website or application.\n
+          8)If someone forces you for prostitution just make a complaint over the person and block the numbers that you get a call or message."
+
+  utter_rape_meaning:
+  - text: "Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration carried out against a person without that person's consent. The act may be carried out by physical force, coercion, abuse of authority, or against a person who is incapable of giving valid consent, such as one who is unconscious, incapacitated, has an intellectual disability or is below the legal age of consent. The term rape is sometimes used interchangeably with the term sexual assault"
+
+  utter_rape:
+  - text: "Safety tips to protect from rape threats -\n
+	1. Flee if you are in a potentially dangerous situation. \n
+	2. Yell or scream to attract attention. \n
+	3. Carry a whistle that will make a loud noise. \n
+	4. Carry a pepper spray. \n
+	5.If you are being followed, go to the nearest business or residence for help. \n
+	6. Take a self-defense course. \n
+	7.  If you have a cell phone, call someone for help or call 100 or call 112(National emergency helpline)."
+
+  utter_childponography:
+  - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old). Images of child pornography are also referred to as child sexual abuse images."
+
 
 
 
@@ -498,6 +572,16 @@ actions:
 - utter_childpronography
 - utter_financialfraud
 - utter_matrimonialfraudsafety
+- utter_sexualexplicitawar
+- utter_definesexualexplicit
+- utter_sexualobscenityawar
+- utter_threatmeasures
+- utter_hatredandthreat
+- utter_onlinegambling
+- utter_onlineprostitution
+- utter_rape_meaning
+- utter_rape
+- utter_childponography
 
 forms:
 - content_crime_form
