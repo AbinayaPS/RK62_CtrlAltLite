@@ -1045,3 +1045,288 @@
 - my bank account password is being changed without my concern.
 - How to report hacked account?
 - my instagran password is being changed without my knowledge.
+
+## intent:internetbankingfraud
+- what is internet banking fraud?
+- Define internet banking fraud?
+- what do you mean by the term internet banking fraud?
+- Internet Banking fraud! What do you mean by that?
+- What is internet banking fraud?
+- Define internet banking fraud.
+- what do you mean by the term internet banking fraud?
+- can you explain to me about internet banking fraud?
+- how to be safe from internet banking fraud?
+- define internet banking fraud
+- explain about internet banking fraud
+- What is internet banking fraud?
+- Define internet banking fraud.
+- What do you mean by the term internet banking fraud?
+- Explain internet banking fraud?
+- Describe the term internet banking fraud?
+- Refer to the term internet banking fraud.
+- Describe internet banking fraud.
+- Explain about the term internet banking fraud?
+- internet banking fraud! What do you mean by that?
+- Give me an outline about internet banking fraud?
+- Explain to me about internet banking fraud?
+- Tell me about internet banking fraud
+- Briefly explain about internet banking fraud.
+
+
+## intent:internetbanking_safely
+- how to protect ourselves from internet banking ?
+- Is there any precaution to prevent ourselves from internet banking ?
+- can you list the safety measures to be taken to protect ourselves from internet banking ?
+- How to protect myself and my data from internet banking?
+- list some guidelines to follow to stay away from internet banking.
+- List some best exercises or basic precautions to protect myself from internet banking fraud.
+- How can I be safe on the internet banking?
+- name some basic precautions to be followed while using the internet banking.
+- suggest some ways in which I can be safe while using the internet banking?
+- How can I protect myself from internet banking fraud?
+- How can I protect my internet banking data in my local machine?
+- how to use the internet banking safely?
+- list some ways in which I can safeguard any data while using the internet banking.
+- help me to protect myself against the range of internet banking .
+- precautions to protect myself from internet banking fraud?
+- steps to be followed while banking online?
+- guidelines to be followed while banking online?
+
+## intent:Ewallet_fraud
+- what is Ewallet fraud?
+- what is digital wallet fraud?
+- What is ewallet fraud?
+- Define ewallet fraud?
+- what do you mean by the term Digital wallet fraud?
+- ewallet fraud! What do you mean by that?
+- What is ewallet fraud?
+- Define Digital wallet fraud.
+- what do you mean by the term Digital wallet fraud?
+- can you explain to me about ewallet fraud?
+- how to be safe from ewallet fraud?
+- define ewallet fraud
+- explain about Digital wallet fraud
+- What is Digital wallet fraud?
+- Define ewallet fraud
+- What do you mean by the term ewallet fraud?
+- Explain Digital wallet fraud?
+- Describe the term ewallet fraud?
+- Refer to the term ewallet fraud.
+- Describe ewallet fraud.
+- Explain about the term ewallet fraud?
+- Digital wallet fraud! What do you mean by that?
+- Give me an outline about Digital wallet fraud?
+- Explain to me about Digital wallet fraud?
+- Tell me about Digital wallet fraud
+- Briefly explain about Digital wallet fraud.
+
+
+## intent:Ewallet_example
+- what are different examples for ewallet?
+- what are the different examples for digital wallets?
+- examples for digital wallet?
+- examples for ewallet?
+- list some examples of ewallet
+- Name some examples of digital wallet
+- Give some examples of ewallet
+- What are the top ewallet activities?
+- What are the top examples of ewallet?
+- List the major examples of ewallet?
+- common examples of cyber crime.
+- What are the common examples of ewallet?
+- ewallet examples.
+- List the top examples of digital wallet.
+- examples of digital wallet.
+
+## intent:ewallet_precautions
+- how to protect ourselves from ewallet?
+- Is there any precaution to prevent ourselves from ewallet?
+- can you list the safety measures to be taken to protect ourselves from ewallet?
+- How to protect myself and my data from digital wallets?
+- list some guidelines to follow to stay away from digital wallets.
+- List some best exercises or basic precautions to protect myself from ewallet fraud.
+- How can I be safe on the digital wallet?
+- name some basic precautions to be followed while using the ewallet.
+- suggest some ways in which I can be safe while using the ewallet?
+- How can I protect myself from ewallet fraud?
+- How can I protect my ewallet data in my local machine?
+- how to use the ewallet safely?
+- list some ways in which I can safeguard any data while using the digital wallet?
+- help me to protect myself against the range of ewallet.
+- precautions to protect myself from ewallet fraud?
+- steps to be followed while using ewallet?
+- guidelines to be followed while using a digital wallet?
+
+## intent:ewallet_report
+- how to report ewallet based crime?
+- what are the ways
+- Is there any steps to report while receiving ewallet fraud?
+- can you list the measures to be taken to report ewallet frauds?
+- How to report ewallet fraud?
+- list some guidelines to report ewallet  fraud?
+- List some steps to report  ewallet  fraud?
+- How can I report the ewallet fraud?
+- name some basic steps to be followed while reporting the ewallet  fraud?
+- suggest some ways in which I can report while receiving the ewallet  fraud?
+- How can I report ewallet fraud?
+- How can I report my ewallet  fraud data?
+- how to report the ewallet fraud ?
+- list some ways in which I can report ewallet fraud?
+- help me to report the ewallet fraud?
+- report ewallet fraud?
+- Steps to be followed to report ewallet fraud?
+- guidelines to be followed to report ewallet  fraud?
+
+## intent:ATM/Creditcard_precautions
+- how to protect ourselves while using ATM/Credit cards?
+- Is there any precaution to prevent ourselves while using ATM/Credit cards?
+- can you list the safety measures to be taken to protect ourselves from ATM/Credit cards frauds?
+- How to protect myself and my data from Credit cards?
+- list some guidelines to follow to stay away from Credit Cards fraud.
+- List some best exercises or basic precautions to protect myself from ATM/Credit cards fraud.
+- How can I be safe from Credit card fraud?
+- name some basic precautions to be followed while using the ATM/Credit cards.
+- suggest some ways in which I can be safe while using the ATM/Credit cards?
+- How can I protect myself from ATM/Credit card fraud?
+- How can I protect my ATM/Credit card data in my local machine?
+- how to use the ATM/Credit cards safely?
+- list some ways in which I can safeguard any data while using the ATM/Credit cards.
+- help me to protect myself against the range of ATM/Credit cards.
+- precautions to protect myself from ATM/Credit card fraud?
+- steps to be followed while using ATM/Credit cards?
+- guidelines to be followed while using ATM/Credit cards?
+
+## intent:ATM/Creditcard_report
+- how to report while receiving ATM/Credit card fraud?
+- Is there any steps to report while receiving ATM/Credit card fraud?
+- can you list the measures to be taken to report ATM/Credit card frauds?
+- How to report ATM/Credit card fraud?
+- list some guidelines to report ATM/Credit card  fraud?
+- List some steps to report  ATM/Credit card  fraud?
+- How can I report the ATM/Credit card fraud?
+- name some basic steps to be followed while reporting the ATM/Credit card fraud?
+- suggest some ways in which I can report while receiving the ATM/Credit card  fraud?
+- How can I report ATM/Credit card fraud?
+- How can I report my ATM/Credit card fraud data?
+- how to report the ATM/Credit card fraud ?
+- list some ways in which I can report ATM/Credit card fraud?
+- help me to report the ATM/Credit card fraud fraud?
+- report ATM/Credit card fraud?
+- steps to be followed to report ATM/Credit card fraud?
+- guidelines to be followed to report ATM/Credit card  fraud?
+
+## intent:jobfraud_precautions
+- how to protect ourselves while using job fraud?
+- Is there any precaution to prevent ourselves while using job fraud?
+- can you list the safety measures to be taken to protect ourselves from job frauds?
+- How to protect myself and my data from job fraud?
+- list some guidelines to follow to stay away from job  fraud.
+- List some best exercises or basic precautions to protect myself from job  fraud.
+- How can I be safe from job fraud?
+- name some basic precautions to be followed while using the job fraud.
+- suggest some ways in which I can be safe while using job fraud?
+- How can I protect myself from job fraud?
+- How can I protect my job data in my local machine?
+- how to detect the job fraud ?
+- list some ways in which I can safeguard my  job data.
+- help me to protect myself against the job fraud.
+- precautions to protect myself from job fraud?
+- steps to be followed to not face any  job fraud?
+- guidelines to be followed to not face any job fraud?
+
+## intent:jobfraud_report
+- how to report while receiving job fraud?
+- Is there any steps to report while receiving job fraud?
+- can you list the measures to be taken to report job frauds?
+- How to report job fraud?
+- list some guidelines to report job  fraud?
+- List some steps to report  job  fraud?
+- How can I report the job fraud?
+- name some basic steps to be followed while reporting the job fraud?
+- suggest some ways in which I can report while receiving the job fraud?
+- How can I report job fraud?
+- How can I report my job  fraud data?
+- how to report the job fraud ?
+- list some ways in which I can report job fraud ?
+- help me to report the job fraud?
+- report job fraud?
+- steps to be followed to report job fraud?
+- guidelines to be followed to report job  fraud?
+
+## intent:matrimonialfraud_precautions
+- how to protect ourselves while using a matrimonial site?
+- Is there any precaution to prevent ourselves while using a matrimonial site?
+- can you list the safety measures to be taken to protect ourselves from matrimonial frauds?
+- How to protect myself and my data from matrimonial fraud?
+- list some guidelines to follow to stay away from matrimonial  fraud.
+- List some best exercises or basic precautions to protect myself from matrimonial  fraud.
+- How can I be safe on the matrimonial site?
+- name some basic precautions to be followed while using the matrimonial site.
+- suggest some ways in which I can be safe while using the matrimonial site?
+- How can I protect myself from matrimonial fraud?
+- How can I protect my matrimonial data in my local machine?
+- how to detect the matrimonial fraud ?
+- list some ways in which I can safeguard my  matrimonial data.
+- help me to protect myself against the matrimonial fraud.
+- precautions to protect myself from matrimonial fraud?
+- steps to be followed to not face any  matrimonial fraud?
+- guidelines to be followed to not face any matrimonial  fraud?
+
+## intent:matrimonialfraud_report
+- how to report while receiving matrimonial fraud?
+- Is there any steps to report while receiving matrimonial fraud?
+- can you list the measures to be taken to report matrimonial frauds?
+- How to report matrimonial fraud?
+- list some guidelines to report matrimonial  fraud?.
+- List some steps to report  matrimonial  fraud?.
+- How can I report the matrimonial fraud?
+- name some basic steps to be followed while reporting the matrimonial fraud .
+- suggest some ways in which I can report while receiving the matrimonial  fraud?
+- How can I report matrimonial fraud?
+- How can I report my matrimonial fraud data?
+- how to report the matrimonial fraud ?
+- list some ways in which I can report matrimonial fraud.
+- help me to report the matrimonial fraud.
+- report matrimonial fraud?
+- steps to be followed to report matrimonial fraud?
+- guidelines to be followed to report matrimonial  fraud?
+
+
+## intent:fraudcall_precautions
+- how to protect ourselves while receiving fraudcall?
+- Is there any precaution to prevent ourselves from receiving fraudcall?
+- can you list the safety measures to be taken to protect ourselves from fraudcall frauds?
+- How to protect myself and my data from fraudcall fraud?
+- list some guidelines to follow to stay away from fraudcall  fraud.
+- List some best exercises or basic precautions to protect myself from fraudcall  fraud.
+- How can I be safe on the fraudcall fraud?
+- name some basic precautions to be followed while receiving the fraudcall .
+- suggest some ways in which I can be safe while receiving the fraudcall ?
+- How can I protect myself from fraud call?
+- How can I protect my fraudcall data in my local machine?
+- how to detect the fraudcall fraud ?
+- list some ways in which I can safeguard my  fraudcall data.
+- help me to protect myself against the fraudcall fraud.
+- precautions to protect myself from fraudcall fraud?
+- steps to be followed to not face any  fraudcall fraud?
+- guidelines to be followed to not face any fraudcall  fraud?
+
+## intent:fraudcall_report
+- how to report while receiving fraudcall?
+- Is there any steps to report while receiving fraudcall?
+- can you list the measures to be taken to report fraudcall frauds?
+- How to report fraudcall fraud?
+- list some guidelines to report fraudcall  fraud.
+- List some steps to report  fraudcall  fraud.
+- How can I report the fraudcall fraud?
+- name some basic steps to be followed while reporting the fraudcall .
+- suggest some ways in which I can report while receiving the fraudcall ?
+- How can I report fraudcall fraud?
+- How can I report my fraudcall data?
+- how to report the fraud call fraud ?
+- list some ways in which I can report fraud calls.
+- help me to report the fraud call fraud.
+- report fraudcall fraud?
+- steps to be followed to report fraud call fraud?
+- guidelines to be followed to report fraud call  fraud?
+
