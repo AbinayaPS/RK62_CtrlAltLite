@@ -162,3 +162,45 @@
 ## report_whatsapp path
 * report_whatsapp
   - utter_report_whatsapp
+
+## sexualexplicit path
+* sexualexplicit
+   - utter_sexualexplicitawar
+
+## definition_sexualexplicit path
+* defsexualexplicit
+   - utter_definesexualexplicit
+
+##sexualobscenity path
+* sexualobscenity
+   - utter_sexualobscenityawar
+
+## threatmeasures path
+* threatmeasures
+  - utter_threatmeasures
+
+## hatredandthreat path
+* hatredandthreat
+  - utter_hatredandthreat
+
+## onlinegambling path
+* onlinegambling
+  - utter_onlinegambling
+
+## onlineprostitution path
+* onlineprostitution
+  - utter_onlineprostitution
+
+## rape
+* rape
+  - utter_rape
+
+## rape_meaning
+* rape_meaning
+  - utter_rape_meaning
+
+# childponography
+* childponography
+  - utter_childponography
+
+
