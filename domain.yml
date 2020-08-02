@@ -615,7 +615,7 @@ responses:
            2.If you received an internet based fraud or vishing call, take the screenshot/s of the sender’s number along with date and time.\n
            3.In case, if you are having the call recording, then have with you.\n
            4.If you lost the money then provide the screenshot/s or copy details of banking transaction \n
-           5.Do not delete any  call details, numbers, call recordings, email etc”
+           5.Do not delete any  call details, numbers, call recordings, email etc"
 
   utter_desconlineharss:
   - text: "Under the Information Technology Act, 2000, (IT Act) online harassment is used as an umbrella term to describe the use of the internet to harass, threaten or maliciously embarrass another party. It can be in the form of verbal, sexual, emotional, or social abuse and aimed at a person, a group of persons, or even an organization."
