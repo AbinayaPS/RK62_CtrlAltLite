@@ -545,3 +545,230 @@
 - suggest some methods to be safe on online banking?
 - What are the ways in which I can protect myself from online banking fraud?
 - online banking fraud, safeguard measures.
+
+## intent:defsexualexplicit
+- what does sexual explicit mean?
+- what is sexual explicit?
+- can you tell me about sexual explicit?
+- tell me about sexual explicit?
+- sexual explicit
+- sexual explicit meaning
+
+## intent:sexualexplicit
+- I am receiving sexual content from unknown.
+- Somebody is sending unwanted pictures.
+- Somebody is sending unwanted youtube links.
+- Somebody is sending unwanted videos.
+- I am receiving age restricted videos.
+- I am receiving sexual advertisements.
+- I am receiving unauthorized links.
+- I am receiving censored images.
+- I am receiving private images of someone.
+- I am receiving sexual images.
+- I am receiving sexual videos
+- I am receiving sexual links.
+- I am receiving 18+ videos.
+- I am receiving 18+ content.
+- I am receiving 18+ images.
+- I am receiving content that makes me unconfortable.
+- I am receiving sexual content while browsing for other contents.
+- I am receiving pop ups related to sexual content.
+- I am getting pop ups related to sexual content.
+- I feel insecured while somebody shares sexual content.
+- I get sexual content frequently.
+- Somebody is sharing sexual content through ig.
+- Somebody is sharing sexual content through Instagram.
+- Somebody is sharing sexual content through FB.
+- Somebody is sharing sexual content through Facebook.
+- I am receiving sexual images from unknown number.
+- I am receiving sexual content from unknown ID's.
+- someone sends me naked images and videos.
+- sombody sends me nude images and videos.
+- I have been shared with sexual images and videos from public pages.
+- I received sexual related email from unknown emails.
+- A boy sends me sexual images.
+- A boy sends me sexual content.
+- A guy keep on sending unwanted contented images and videos.
+- A man sends unwanted images related to sex.
+- A girl sends her private images.
+- A girl sends sexual selfies.
+- A woman keeps on sending sexual images.
+
+## intent:sexualobscenity
+- My pictures are morphed
+- i received my morphed pictures from someone
+- somebody morphed my pictures and threats me
+- somebody threats me on my morphed pictures.
+- somebody animated my face in sexual images.
+- i am receiving my animated images portrayed wrongly.
+- somebody shares my obscent material.
+- my private images are being shared by someone.
+- someone shares my morphed pictures to my parents.
+- my parents are receiving my morphed pictures
+- i received threat on my morphed images.
+- a boy morphed my pictures.
+- a boy threats by sending my morphed pictures for the sake of love.
+- A guy uses my morphed pictures unwantedly.
+- A guy uses my morphed pictures in wrong manner.
+- somebody sends my morphed photo copies.
+- I am received wrong contented images.
+- some false information about me is spreading.
+- someone spreads false information about me
+- some one shares my pictures without my concern.
+- A guy shares my morphed pictures on social media
+- I feel frustated on seeing my morphed images being shared.
+- A website shares false content sexual images.
+- A website shares my morphed images.
+
+## intent:threatmeasures
+- how to stay safe and secure from online threats?
+- what are the online threats?
+- how to handel threat call?
+- how to handel threat message?
+- what is a online threat?
+- example of online threat?
+- measures to stay safe from threat.
+- threat measures
+- how will be the threat message.
+
+## intent:hatredandthreat
+- I recieved a threat call stating my facebook account is hacked.
+- I recieved a threat message my bank amount is looted by hackers.
+- I recieved a threat message my bank amount is stolen by hackers.
+- I recieved a notification that somebody opened my facebook account at different location.
+- how to secure my social media account from hackers.
+- how to safe my social media account.
+- threat call from stranger stating that he will kidnap my son.
+- my son is kidnapped i recieved threat to pay huge amount.
+- my daughter is kidnapped i recieved threat to pay huge amount.
+- threat call from stranger stating that he will kidnap my daughter.
+- i recieved a blank message which debited by bank account.
+- i got a blank message which debited by bank account.
+- i recieved a call that i will be murdered if am not doing what they say.
+- i got a call that i will be murdered if am not doing what they say.
+- i recieved a message that i will be murdered if am not doing what they say.
+- i got a message that i will be murdered if am not doing what they say.
+- i recieved a threat message stating my photos will be morphed and shared in social media.
+- photo morphing threat message.
+- phone hacking threat message.
+- i recieved a rape kind of threat call.
+- i recieved a sexual abuse threat call.
+- scared of threat calls and message.
+- how to block threat calls and messages.
+- my account is logged by someone else i recieved a notification.
+- my instagram account recieved a threat message.
+- my instagram account is hacked  by a threat call.
+- my instagram account is hacked by a threat message.
+- i recieved a threat while using certain application.
+- i recieved a threat call this morning that there is a bomb blast in my area.
+- i got a threat call this morning that there is a bomb blast in my area.
+- i got a bombblast threat call.
+- i got a bomblast threat message.
+- i got a kidnap threat call.
+- i got a kidnap threat message.
+- i got a sexual abuse threat call.
+- i got a sexual abuse threat message.
+- threat call from terrorist.
+- threat message from terrorist.
+
+## intent:onlinegambling
+- what is online gambling?
+- how to stay safe from online gambling?
+- is online gambling is legal?
+- is online gambling is illegal?
+- safety measures for online gambling.
+- example of online gambling.
+- country which does more online gambling?
+- who are online gamblers?
+- online gambling involved website.
+- online gambling will lead to death.
+- whether online gambling will lead to mental depression.
+- online gambling affects society.
+- how to prevent people from involving into online gambling?
+- online gambling.
+- gambling.
+- effects of gambling.
+- effects of online gambling.
+- online gambling affects financial status.
+- i lost my money in gambling.
+- i lost my money in online gambling.
+- bet money was washed out in gambling.
+- online gambling malpractice.
+- i lost money in lottery.
+- i lost money in casinos.
+- i lost money in poker.
+- i was influenced to do sports betting.
+- online rummycircle made me to loss money.
+- sports betting loss.
+- sports betting leads to lifelong arrest.
+- random website lead me to a online gambling site.
+- random gambling site.
+- duplicate account fund tranfer.
+- fake account fund transfer.
+- sports betting lead to jail.
+- remote gambling creates problem.
+- cheated on betting money.
+- cheated on betting.
+- cheated on gambling.
+- is ipl gambling is legal?
+- is ipl gambling is illegal?
+- issues of ipl gambling.
+
+## intent:onlineprostitution
+- what is online prostitution?
+- how people react to online prostitution.
+- effects of online prostitutions.
+- pop up of online prostitution content.
+- i got a prostitute message.
+- i recieved a prostitute message.
+- i got a online prostitute advirestment in my instagram account.
+- i recieved a online prostitute advirestment in my instagram account.
+- how to avoid online mastribution.
+- how to stop online prostitution.
+- i was redirected from a websiite to a prostitution website.
+- website redirects me to prostitute site.
+- i am struck in a prostitute area.
+- a women made a call for prostitution.
+- my photos are circulated in online prostitute platfrom unknowingly.
+- somebody morphed my photo and put in a prostitute website.
+- message of online prostitution.
+- what should i do when a prostitute site is redirected.
+- how to come out of prostitute site.
+- a page advertise a prostitute content.
+- how to block page giving prostitute content.
+- how to stay safe from prostitute website.
+- a women advertises a prostitute content.
+- a women advertise for prostitute in a public place.
+- a women advertise prostitute in a spa.
+- country which has more prostitution case.
+- a girl involved in online prostitution.
+- my friend invovles me in online prostitution.
+- how stay away from people who try to involve me in prostitution.
+- online prostitution occurs.
+- online prostitution avoiding methods.
+
+## intent:rape_meaning
+- what is rape?
+- what is rape
+- rape
+
+## intent:rape
+- somebody is misbehaving with me
+- he is misbehaving with me
+- i have experienced a bad touch
+- touched me in inappropriate places
+- touching me in inapproprite places
+- touching in my private parts
+- getting rape threats
+- someone is calling me and giving me rape threats
+- somebody attempted to rape me
+- somebody is chasing me
+
+## intent:childponography
+- child ponography
+- What does child pornography mean?
+- what do you mean by child pornography?
+- What is child pornography?
+- what does the term child pornography refers to?
+- what is child porn?
+- why is child pornography illegal?
