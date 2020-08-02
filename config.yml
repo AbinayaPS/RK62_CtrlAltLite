@@ -23,3 +23,7 @@ policies:
   - name: TEDPolicy
   - name: MappingPolicy
   - name: FormPolicy
+  - name: FallbackPolicy 
+    nlu_threshold: 0.2
+    core_threshold: 0.2 
+    fallback_action_name: "custom_fallback"

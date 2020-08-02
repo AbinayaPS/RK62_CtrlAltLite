@@ -27,6 +27,18 @@ class ActionConfirmType(Action):
             dispatcher.utter_message(template="utter_confirm_other_crime")
         return []
 
+class ActionCustomFallback(Action):
+    def name(self) -> Text:
+        return "custom_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message("I'm sorry, I didn't get that. Can you try again?")
+        return []
+
+
 class SubCategoryAction(Action):
     def name(self) -> Text:
         return "ask_other_crime_sub_category"
