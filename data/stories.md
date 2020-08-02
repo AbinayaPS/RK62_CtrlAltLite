@@ -55,35 +55,35 @@
 * online_fraud
   - utter_frauddetect
 
-## onlinebullying path
+## online bullying path
 * online_bullying
   - utter_onlinebullying
 
-## cybercriminal path
+## cyber criminal path
 * cybercriminal
   - utter_cybercrimetypes
 
-## crime_type path
+## crime type path
 * crime_type
   - utter_typedesc
 
-## personalcrime path
+## personal crime path
 * personal_crime
   - utter_personaldesc
 
-## personalcrime path
+## personal crime path
 * personal_crime
   - utter_personaldesc
 
-## propertydesc path
+## property desc path
 * property_crime
   - utter_propertydesc
 
-## Inchoatecrime path
+## Inchoate crime path
 * Inchoate_crime
   - utter_Inchoatedesc
 
-## Statutory_crime path
+## Statutory crime path
 * Statutory_crime
   - utter_Statutorydesc
 
@@ -91,7 +91,7 @@
 * financial_crime
   - utter_financialdesc
 
-## financial_type path
+## financial type path
 * financial_type
   - utter_financialtypecrime
 
@@ -99,7 +99,7 @@
 * deposit
   - utter_deposit
 
-## deposit path
+## deposit path 2
 * fraud_types
   - utter_fraudtypes
 
@@ -107,71 +107,71 @@
 * cyberexamples
   - utter_cyberex
 
-## mobile_hackings path
+## mobile hackings path
 * mobile_hacking
   - utter_mobilehacking
 
-## matrimonial_fraudsafety path
+## matrimonial fraudsafety path
 * matrimonial_fraudsafety
   - utter_matrimonialfraudsafety
 
-## employment_fraud path
+## employment fraud path
 * employment_fraud
   - utter_employmentfraud
 
-## social_media path
+## social media path
 * social_media
   - utter_socialmedia
 
-## protect_yourself_cybercrime path
+## protect yourself cybercrime path
 * protect_yourself_cybercrime
   - utter_protectyourself_cybercrimes
 
-## protect_yourself_cybercrime path
+## protect yourself cybercrime path
 * protect_yourself_cybercrime
   - utter_protectyourself_cybercrimes
 
-## childpornography path
+## child pornography path
 * childpornography
   - utter_childpronography
 
-## financialsafety path
+## financial safety path
 * financialsafety
   - utter_financialfraud
 
-## reportyoutube path
+## report youtube path
 * reportyoutube
   - utter_report_youtube
 
-## reportfacebook path
+## report facebook path
 * reportfacebook
   - utter_report_facebook
 
-## reportinsta path
+## report insta path
 * reportinsta
   - utter_report_instagram
 
-## reporttwitter path
+## report twitter path
 * reporttwitter
   - utter_report_twitter
 
-## reportlinkedln path
+## report linkedln path
 * reportlinkedIn
   - utter_report_LinkedIn
 
-## report_whatsapp path
+## report whatsapp path
 * report_whatsapp
   - utter_report_whatsapp
 
-## sexualexplicit path
+## sexual explicit path
 * sexualexplicit
    - utter_sexualexplicitawar
 
-## definition_sexualexplicit path
+## definition sexualexplicit path
 * defsexualexplicit
    - utter_definesexualexplicit
 
-## sexualobscenity path
+## sexual obscenity path
 * sexualobscenity
    - utter_sexualobscenityawar
 
@@ -179,131 +179,131 @@
 * threatmeasures
   - utter_threatmeasures
 
-## hatredandthreat path
+## hatred and threat path
 * hatredandthreat
   - utter_hatredandthreat
 
-## onlinegambling path
+## online gambling path
 * onlinegambling
   - utter_onlinegambling
 
-## onlineprostitution path
+## online prostitution path
 * onlineprostitution
   - utter_onlineprostitution
 
-## rape
+## rape path 
 * rape
   - utter_rape
 
-## rape_meaning
+## rape meaning path
 * rape_meaning
   - utter_rape_meaning
 
-## childponography
+## child pornography
 * childponography
   - utter_childponography
   
-## defonlineharassment path
+## def online harassment path
 * defonlineharassment
   - utter_desconlineharss
 
-## typesonlineharass path
+## types onlineharass path
 * typesonlineharass
   - utter_typesonlineharass
 
-## hatespeech path
+## hate speech path
 * hatespeech
   - utter_hatespeech
 
-## Cyberbullying path
+## Cyber bullying path
 * Cyberbullying
   - utter_Cyberbullying
 
-## RevengePorn path
+## Revenge Porn path
 * RevengePorn
   - utter_RevengePorn
 
-## Dogpiling path
+## Dog piling path
 * Dogpiling
   - utter_Dogpiling
 
-## Trolling path
+## Troling path
 * Trolling
   - utter_Trolling
 
-## Catfishing path
+## Cat fishing path
 * Catfishing
   - utter_Catfishing
 
-## Swatting path
+## crime swatting path
 * Swatting
   - utter_Swatting
 
-## Doxing
+## crime Doxing path 
 * Doxing
   - utter_Doxing
 
-## Impersonation path
+## crime impersonation path
 * Impersonation
   - utter_Impersonation
 
-## Cyberstalking path
+## Crime cyberstalking path
 * Cyberstalking
   - utter_Cyberstalking
 
-## reporthatespeech path
+## report hate speech path
 * reporthatespeech
   - utter_reporthatespeech
 
-## reportcyberbullying path
+## report cyber bullying path
 * reportcyberbullying
   - utter_reportcyberbullying
 
-## helpbulled path
+## helping bulled path
 * helpbulled
   - utter_helpbulled
 
-## parentssupport path
+## parents support path
 * parentssupport
   - utter_parentssupport
 
-## punishments path
+## punishment path
 * punishments
   - utter_punishments
 
-## security path
+## crime security path
 * security
   - utter_security
 
-## reportrevenge path
+## report revenge path
 * reportrevenge
   -utter_reportrevenge
 
-## hacking path
+## crime hacking path
 * hacking
   - utter_hacking
 
-## hackedphone path
+## crime hackedphone path
 * hackedphone
   - utter_hackedphone
 
-## ifhacked path
+## if hacked path
 * ifhacked
   - utter_ifhacked
 
-##  wayshacked path
+## crime way shacked path
 * wayshacked
   - utter_wayshacked
 
-## preventhack path
+## prevent hack path
 * preventhack
   - preventhack
 
-## reporthacked path
+## report hacked path
 * reporthacked
   - utter_reporthacked  
 
-## internet banking
+## crime internet banking
 * internetbankingfraud
   - utter_internetbankingfraud
 
@@ -311,39 +311,39 @@
 * internetbanking_safely
   - utter_internetbanking_safely
 
-## ewallet fraud
+## e wallet fraud
 * Ewallet_fraud
   - utter_Ewallet_fraud
 
-## ewallet examples
+## e wallet examples
 * Ewallet_example
   - utter_Ewalletloot_example
 
-## ewallet precautions
+## e wallet precautions
 * ewallet_precautions
   - utter_ewallet_precaution
 
-## ewallet report
+## e wallet report
 * ewallet_report
   - utter_ewallet_report
 
-## ATM/Credit card precautions
+## ATM Credit card precautions
 * ATM/Creditcard_precautions
   - utter_ATM/Creditcard_precautions
 
-## ATM/Credit card report
+## ATM Credit card report
 * ATM/Creditcard_report
   - utter_ATM/Creditcard_report
 
-## jobfraud precautions
+## job fraud precautions
 * jobfraud_precautions
   - utter_jobfraud_precautions
 
-## jobfraud_report
+## job fraud report path
 * jobfraud_report
   - utter_jobfraud_report
 
-## matrimonialfraud precautions
+## matrimonial fraud precautions
 * matrimonialfraud_precautions
   - utter_matrimonialfraud_precautions
   
@@ -355,7 +355,7 @@
 * fraudcall_precautions
   - utter_fraudcall_precuations
 
-## fraudcall report
+## fraud call report
 * fraudcall_report
   - utter_fraudcall_report
 
