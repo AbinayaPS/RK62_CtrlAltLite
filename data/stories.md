@@ -350,4 +350,20 @@
 * fraudcall_report
   - utter_fraudcall_report
 
+## crypto currency path 
+* desc_cryptocurrency 
+  - utter_crypto_desc
 
+## crypto path 2
+* help_cryptocurrency 
+  - utter_crypto_help
+  - utter_crypto_safety
+
+## email path 
+* email_hacking 
+  - utter_email_hacking
+  - utter_email_safety 
+
+## email 2 
+* email_safety 
+  - utter_email_safety
