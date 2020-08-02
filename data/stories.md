@@ -29,10 +29,10 @@
 
 ## content crime reg path
 * affirm_content_crime{"content_crime_confirmation":"True"}
- - content_crime_form  
- - form{"name":"content_crime_form"}
- - form{"name":null}
- - utter_thanks
+  - content_crime_form  
+  - form{"name":"content_crime_form"}
+  - form{"name":null}
+  - utter_thanks
 
 ## other crime reg path
 * affirm_other_crime{"other_crime_confirmation":"True"}
