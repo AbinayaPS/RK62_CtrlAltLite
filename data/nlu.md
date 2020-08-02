@@ -772,3 +772,276 @@
 - what does the term child pornography refers to?
 - what is child porn?
 - why is child pornography illegal?
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:defonlineharassment
+- what is online harassment?
+- Define online harassment.
+- what do you mean by online harassment?
+- what does the term online harassment refers to?
+- definition of online harassment.
+- define online harassment shortly.
+- briefly explain online harassment.
+
+## intent:typesonlineharass
+- What are the types of online harassment?
+- list the types of online harassment.
+- give the types of online harassment.
+- Let me know the types of online harassment.
+
+## intent:hatespeech
+- What is Hate speech?
+- Define hate speech
+- what do you mean by hate speech?
+- shortly describe hate speech
+- what does the term hate speech refers to?
+
+## intent:Cyberbullying
+- what do you mean by cyberbullying?
+- describe cyberbullying
+- define cyberbullying
+- briefly explain cyberbullying
+- what is cyberbullying?
+
+## intent:RevengePorn
+- what does the term revenge porn refern to?
+- what is revenge porn?
+- explain briefly about revenge porn
+- definition of revenge porn
+- what does the term revenge porn mean?
+
+## intent:Dogpiling
+- What is Dogpiling?
+- describe Dogpiling.
+- explain about Dogpiling
+- what does the term Dogpiling mean?
+- what does the term Dogpiling refern to
+
+## intent:Trolling
+- What is Trolling?
+- Define Trolling
+- what do you mean by Trolling?
+- shortly describe Trolling
+- what does the term Trolling refers to?
+
+## intent:Catfishing
+- what is Cat fishing?
+- Define Cat fishing.
+- what do you mean by Cat fishing?
+- what does the term Cat fishing refers to?
+- definition of Cat fishing.
+- define Cat fishing shortly.
+- briefly explain Cat fishing.
+
+## intent:Swatting
+- what do you mean by swatting?
+- describe Swatting
+- define Swatting
+- briefly explain Swatting
+- what is Swatting?
+
+## intent:Doxing
+- what does the term doxing refern to?
+- what is doxing?
+- explain briefly about doxing
+- definition of doxing
+- what does the term doxing mean?
+
+## intent:Impersonation
+- what do you mean by impersonation?
+- describe impersonation
+- define impersonation
+- briefly explain impersonation
+- what is impersonation?
+
+## intent:Cyberstalking
+- what is cyber stalking?
+- Define cyber stalking.
+- what do you mean by cyber stalking?
+- what does the term cyber stalking refers to?
+- definition of cyber stalking.
+- define cyber stalking shortly.
+- briefly explain cyber stalking.
+
+## intent:reporthatespeech
+- How can I report hate speech?
+- tell me the ways to file complain against hate speech in youtube.
+- How can hate speech be reported in facebook?
+- Someone is spreading hated speech against me, How to reort it?
+- Spreading false information about me on internet, how to report it?
+
+## intent:reportcyberbullying
+- how to report cyber bullying?
+- someone is sending me inappropriate images and called me for sex chat
+- someone on facebook is invited me for sex chat.
+- some stranger is sending me inappropriate in my mail.
+- Some stranger in instagram is verbally abusing me for no reason.
+- help me! some stranger is threatening me to chat with him.
+- some stranger is sending me some of his  embarrassing photos online.
+- My wife is cyberbullied by her colleague.
+- I get all hatered comments in instagram.
+- I found a fake ID in instagram which post absuive contents
+- Someone has hacked my friend account and talking to me in her account
+- Someone in Linked pretended like my friend
+- some stranger in pretented to act like my sister.
+- Some meme page is trolling about my appearance.
+- Some Stranger is commenting unparlimentary words to my body shaming video.
+- some one is body shaming me in whatsapp
+- A group of people is abusing my image.
+- I am being trolled as I supported femenist.
+- They morphed my image with someother guy and asking me for sexting
+- The boy is forcing me for sexting
+- someone is instagram is stalking my account
+- some stranger is keep on stalking my account in facebook
+- how to stop someone who is harassing me?
+- someone keeps on texting me in instagram
+- blackmailing me and forcing me to chat with them. 
+- some stranger is demanding money and blackmailing me through online.
+- Some fake Id is approaching me and demanding for money in Linkedin.
+- Some stranger is blackmailing me to love him and go for a date with him
+- Someone in instagram is asking me for a date and threatening me that he will leak my pictures in internet.
+- a person from linkedin is pretended as a COE of google and offering me fake job letter.
+- A person in twitter as morphed my pictures with some guys and released it in porn websites.
+- a person in dating app is forcing me for sexting.
+- Some stranger in Happn spp is blavkmialing me.
+- a person in bubmble dating app is forcing me for a date.
+- some stranger in TrulyMadly app is stalkinh my pictures.
+- a person in Aisle is torturing me for a date 
+- some fake id in Tinder is asking me to lend my phone number 
+
+## intent:helpbulled
+- my friend is bullied in facebook
+- my sister is bullied by some stranger in instagram
+- My brother is cyberbullied by someone in instagram
+- How to support my bullied friend?
+
+## intent:parentssupport
+- As a parent how can i prevent my children from cyber crimes?
+- How can I watch my children online activities?
+- How to protect my children from cyber crime?
+- How to safeguard my children online activities?
+
+## intent:punishments
+- What punishment is given for cyberbullying?
+- What punishment is sentenced for cyberstalking?
+- Are the person involved in cyberbullying punished?
+- How many years of prison in sentenced for people who involve in cyberbullying?
+- How long are the people involved in cyberbullying in prison?
+
+## intent:security
+- My image is spread in facebook as a prostitute
+- My data is spread in various websites.
+- Photos and phone number of mine is being misused in facebook
+- My video is gone viral among the social media. How to safeguard my profile now?
+- steps to protect my profile at the time of misuse.
+
+## intent:reportrevenge
+- my intimate photos are leaked in social media by my boyfriend.
+- My friend uploaded my intimate photos in porn website.
+- My friend's intimate photo is leaked in the internet
+- how to file complain for the leak of intimate photos
+- someone is blackmailing me with my intimate pictures
+
+## intent:hacking
+- what is hacking?
+- what does teh term hacking refers to>
+- what do you mean by hacking?
+- define hacking in simple words.
+- describe about hacking activities.
+
+## intent:hackedphone
+- how to find whether my phone is hacked?
+- Signs that my mobile pnone is hacked.
+- How to find whether my cell phone is hacked?
+- suggest some ways to find whether my phone.
+- what will happen if my phone is being hacked?
+- what are the changes that will happen if my phone is hacked?
+
+## intent:ifhacked
+- my phone is hacked, what should i do?
+- my phone is being hacked, what should i do?
+- I think my phone is hacked by someone, what should i do?
+- is there any antivirus to prevent my phone as my phone is hacked.
+
+## intent:wayshacked
+- what are the ways in which my phone can be hacked.
+- what are the different ways in which my phone can be hacked?
+- how is my phone hacked?
+- what re the ways in which the hackers try to get into my mobile phone?
+- list the ways in which hacker gain access to my cell phone.
+- how the hackers gain access to the datas in my phone?
+- how can the hackers get my data?
+
+## intent:preventhack
+- suggest some ways to prevent my phone from being hacked.
+- list some methods to prevent my phone from being hacked.
+- how can i safegurd my phone from being hacked?
+- prevent hacking in my mobile phone.
+- how to prevent hacking?
+- how to stay away from hackers?
+
+## intent:reporthacked
+- my facebook is being hacked.
+- my instagram is being hacked.
+- my twitter account is hacked by someone.
+- my phone is being hacked.
+- my bank account is being hacked my someone.
+- my bank account password is being changed without my concern.
+- How to report hacked account?
+- my instagran password is being changed without my knowledge.
