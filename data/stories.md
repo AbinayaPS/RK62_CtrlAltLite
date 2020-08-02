@@ -199,8 +199,108 @@
 * rape_meaning
   - utter_rape_meaning
 
-# childponography
+## childponography
 * childponography
   - utter_childponography
+  
+## defonlineharassment path
+* defonlineharassment
+  - utter_desconlineharss
+
+## typesonlineharass path
+* typesonlineharass
+  -utter_typesonlineharass
+
+## hatespeech path
+* hatespeech
+  - utter_hatespeech
+
+## Cyberbullying path
+* Cyberbullying
+  - utter_Cyberbullying
+
+## RevengePorn path
+* RevengePorn
+  - utter_RevengePorn
+
+## Dogpiling path
+* Dogpiling
+  - utter_Dogpiling
+
+## Trolling path
+* Trolling
+  - utter_Trolling
+
+## Catfishing path
+* Catfishing
+  - utter_Catfishing
+
+## Swatting path
+* Swatting
+  - utter_Swatting
+
+## Doxing
+* Doxing
+  - utter_Doxing
+
+## Impersonation path
+* Impersonation
+  - utter_Impersonation
+
+## Cyberstalking path
+* Cyberstalking
+  - utter_Cyberstalking
+
+## reporthatespeech path
+* reporthatespeech
+  - utter_reporthatespeech
+
+## reportcyberbullying path
+* reportcyberbullying
+  - utter_reportcyberbullying
+
+## helpbulled path
+* helpbulled
+  - utter_helpbulled
+
+## parentssupport path
+* parentssupport
+  - utter_parentssupport
+
+## punishments path
+* punishments
+  - utter_punishments
+
+## security path
+* security
+  - utter_security
+
+## reportrevenge path
+* reportrevenge
+  -utter_reportrevenge
+
+## hacking path
+* hacking
+  - utter_hacking
+
+## hackedphone path
+* hackedphone
+  - utter_hackedphone
+
+## ifhacked path
+* ifhacked
+  - utter_ifhacked
+
+##  wayshacked path
+* wayshacked
+  - utter_wayshacked
+
+## preventhack path
+* preventhack
+  - preventhack
+
+## reporthacked path
+* reporthacked
+  - utter_reporthacked  
 
 
