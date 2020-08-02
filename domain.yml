@@ -596,7 +596,6 @@ responses:
           5)Be skeptical about links and attachments.\n
           6)Erase the cookies."
 	  
- 
   utter_internetbankingfraud:
   - text: "Internet Banking Fraud is a fraud or theft committed using online technology to illegally remove money from a bank account and/or transfer money to an account in a different bank."
 
