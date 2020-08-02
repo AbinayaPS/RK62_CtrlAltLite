@@ -49,13 +49,9 @@
 - [loss of money](other_crime_type)
 - [hatred and threat](other_crime_type)
 - [online harrassment](other_crime_type)
-- [online gambling](other_crime_type)
 
 ## intent:choose_content_crime_type
 - [rape](content_crime_type)
-- [sexual obscenity](content_crime_type)
-- [sexually explicit](content_crime_type) content
-- [other](content_crime_type)
 
 ## intent:mention_platform
 - It happened on [Instagram](platform)
@@ -75,9 +71,6 @@
 - The instagram account was abc
 - The youtube link is www.youtube.com/sdf4Wcny
 - The facebook account name is xyzxyz
-- Facebook account abcdef
-- Linkedin account lmno
-- Twitter handle is aaaabbbb
 
 ## intent:choose_state_ut
 - [Tamil Nadu](state_ut)
@@ -91,9 +84,7 @@
 - [Mumbai](district)
 - [Pune](district)
 - [Delhi](district)
-- [Kolkatta](district)]
-- [Bhopal](district)
-- [Indore](district)
+- [Kolkatta](district)
 
 ## intent:mention_date
 - It happened [today](date_of_incident)
@@ -104,13 +95,6 @@
 - The video uploaded on Youtube has four men gang raping a girl.
 - The account keeps sending me pictures of their private parts.
 - This account has morphed my pictures obscenely.
-- I am being stalked by this account
-- They collected my ATM pin and cheated
-- I saw their ads selling drugs to teenagers
-- They were promoting hatred in their video
-- They took money from my Paytm Wallet
-- My wallet was looted
-- They cheated on me in online poker
 
 ## intent:reportfacebook
 - How can I report an account on facebook?
@@ -544,7 +528,20 @@
 - how can I stay away from online bank related fraud?
 - suggest some methods to be safe on online banking?
 - What are the ways in which I can protect myself from online banking fraud?
-- online banking fraud, safeguard measures.
+- online banking fraud, safeguard measures. 
+
+## intent:crimestatistics
+- [Total](statistics)
+- [Anger](statistics)
+- [Fraud](statistics)
+- [Prank](statistics)
+
+## intent:askstatistics
+- Display the crime events.
+- Display the statistics of crime event occured.
+- show the statistics of crime event.
+- Display the crime record.
+- Give me the crime statistics.
 
 ## intent:defsexualexplicit
 - what does sexual explicit mean?
@@ -773,63 +770,6 @@
 - what is child porn?
 - why is child pornography illegal?
 
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-
 ## intent:defonlineharassment
 - what is online harassment?
 - Define online harassment.
@@ -1046,6 +986,7 @@
 - How to report hacked account?
 - my instagran password is being changed without my knowledge.
 
+
 ## intent:internetbankingfraud
 - what is internet banking fraud?
 - Define internet banking fraud?
@@ -1177,7 +1118,7 @@
 - Steps to be followed to report ewallet fraud?
 - guidelines to be followed to report ewallet  fraud?
 
-## intent:ATM/Creditcard_precautions
+## intent:ATM_Creditcard_precautions
 - how to protect ourselves while using ATM/Credit cards?
 - Is there any precaution to prevent ourselves while using ATM/Credit cards?
 - can you list the safety measures to be taken to protect ourselves from ATM/Credit cards frauds?
@@ -1196,7 +1137,7 @@
 - steps to be followed while using ATM/Credit cards?
 - guidelines to be followed while using ATM/Credit cards?
 
-## intent:ATM/Creditcard_report
+## intent:ATM_Creditcard_report
 - how to report while receiving ATM/Credit card fraud?
 - Is there any steps to report while receiving ATM/Credit card fraud?
 - can you list the measures to be taken to report ATM/Credit card frauds?
@@ -1329,6 +1270,7 @@
 - report fraudcall fraud?
 - steps to be followed to report fraud call fraud?
 - guidelines to be followed to report fraud call  fraud?
+
 
 ## intent:desc_cryptocurrency
 - What is cryptocurrency?

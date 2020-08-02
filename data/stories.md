@@ -2,15 +2,15 @@
 * greet
   - utter_greet
 
-## say goodbye
+## story 2
 * goodbye
   - utter_goodbye
 
-## bot challenge
+## story 3
 * bot_challenge
   - utter_iamabot
 
-## crime list path
+## story 4
 * greet
   - utter_greet
 * deny
@@ -18,7 +18,7 @@
 * affirm
   - utter_iamabot
 
-## crime reg path
+## story 5
 * greet
   - utter_greet
 * affirm
@@ -27,14 +27,14 @@
   - slot{"type_of_crime":"Content related to online sexual abuse"}
   - action_confirm_type
 
-## content crime reg path
+## story 6
 * affirm_content_crime{"content_crime_confirmation":"True"}
   - content_crime_form  
   - form{"name":"content_crime_form"}
   - form{"name":null}
   - utter_thanks
 
-## other crime reg path
+## story 7
 * affirm_other_crime{"other_crime_confirmation":"True"}
   - slot{"other_crime_confirmation":"True"}
   - utter_ask_other_crime_type
@@ -46,7 +46,7 @@
   - form{"name":"other_crime_form"}
   - form{"name":null}
   - utter_thanks
-
+ 
 ## crime path
 * cybercrime
   - utter_cybercrimedesc
@@ -55,35 +55,35 @@
 * online_fraud
   - utter_frauddetect
 
-## online bullying path
+## onlinebullying path
 * online_bullying
   - utter_onlinebullying
 
-## cyber criminal path
+## cybercriminal path
 * cybercriminal
   - utter_cybercrimetypes
 
-## crime type path
+## crime_type path
 * crime_type
-  - utter_typedesc
+  -utter_typedesc
 
-## personal crime path
+## personalcrime path
 * personal_crime
   - utter_personaldesc
 
-## personal crime path
+## personalcrime path
 * personal_crime
   - utter_personaldesc
 
-## property desc path
+## propertydesc path
 * property_crime
   - utter_propertydesc
 
-## Inchoate crime path
+## Inchoatecrime path
 * Inchoate_crime
   - utter_Inchoatedesc
 
-## Statutory crime path
+## Statutory_crime path
 * Statutory_crime
   - utter_Statutorydesc
 
@@ -91,7 +91,7 @@
 * financial_crime
   - utter_financialdesc
 
-## financial type path
+## financial_type path
 * financial_type
   - utter_financialtypecrime
 
@@ -99,7 +99,7 @@
 * deposit
   - utter_deposit
 
-## deposit path 2
+## deposit path
 * fraud_types
   - utter_fraudtypes
 
@@ -107,71 +107,71 @@
 * cyberexamples
   - utter_cyberex
 
-## mobile hackings path
+## mobile_hackings path
 * mobile_hacking
   - utter_mobilehacking
 
-## matrimonial fraudsafety path
+## matrimonial_fraudsafety path
 * matrimonial_fraudsafety
   - utter_matrimonialfraudsafety
 
-## employment fraud path
+## employment_fraud path
 * employment_fraud
   - utter_employmentfraud
 
-## social media path
+## social_media path
 * social_media
   - utter_socialmedia
 
-## protect yourself cybercrime path
+## protect_yourself_cybercrime path
 * protect_yourself_cybercrime
   - utter_protectyourself_cybercrimes
 
-## protect yourself cybercrime path
+## protect_yourself_cybercrime path
 * protect_yourself_cybercrime
   - utter_protectyourself_cybercrimes
 
-## child pornography path
+## childpornography path
 * childpornography
   - utter_childpronography
 
-## financial safety path
+## financialsafety path
 * financialsafety
   - utter_financialfraud
 
-## report youtube path
+## reportyoutube path
 * reportyoutube
   - utter_report_youtube
 
-## report facebook path
+## reportfacebook path
 * reportfacebook
   - utter_report_facebook
 
-## report insta path
+## reportinsta path
 * reportinsta
   - utter_report_instagram
 
-## report twitter path
+## reporttwitter path
 * reporttwitter
   - utter_report_twitter
 
-## report linkedln path
+## reportlinkedln path
 * reportlinkedIn
   - utter_report_LinkedIn
 
-## report whatsapp path
+## report_whatsapp path
 * report_whatsapp
   - utter_report_whatsapp
 
-## sexual explicit path
+## sexualexplicit path
 * sexualexplicit
    - utter_sexualexplicitawar
 
-## definition sexualexplicit path
+## definition_sexualexplicit path
 * defsexualexplicit
    - utter_definesexualexplicit
 
-## sexual obscenity path
+##sexualobscenity path
 * sexualobscenity
    - utter_sexualobscenityawar
 
@@ -179,200 +179,196 @@
 * threatmeasures
   - utter_threatmeasures
 
-## hatred and threat path
+## hatredandthreat path
 * hatredandthreat
   - utter_hatredandthreat
 
-## online gambling path
+## onlinegambling path
 * onlinegambling
   - utter_onlinegambling
 
-## online prostitution path
+## onlineprostitution path
 * onlineprostitution
   - utter_onlineprostitution
 
-## rape path 
+## rape
 * rape
   - utter_rape
 
-## rape meaning path
+## rape_meaning
 * rape_meaning
   - utter_rape_meaning
 
-## child pornography
+# childponography
 * childponography
   - utter_childponography
-  
-## def online harassment path
+
+## defonlineharassment path
 * defonlineharassment
   - utter_desconlineharss
 
-## types onlineharass path
+## typesonlineharass path
 * typesonlineharass
   - utter_typesonlineharass
 
-## hate speech path
+## hatespeech path
 * hatespeech
   - utter_hatespeech
 
-## Cyber bullying path
+## Cyberbullying path
 * Cyberbullying
   - utter_Cyberbullying
 
-## Revenge Porn path
+## RevengePorn path
 * RevengePorn
   - utter_RevengePorn
 
-## Dog piling path
+## Dogpiling path
 * Dogpiling
   - utter_Dogpiling
 
-## Troling path
+## Trolling path
 * Trolling
   - utter_Trolling
 
-## Cat fishing path
+## Catfishing path
 * Catfishing
   - utter_Catfishing
 
-## crime swatting path
+## Swatting path
 * Swatting
   - utter_Swatting
 
-## crime Doxing path 
+## Doxing
 * Doxing
   - utter_Doxing
 
-## crime impersonation path
+## Impersonation path
 * Impersonation
   - utter_Impersonation
 
-## Crime cyberstalking path
+## Cyberstalking path
 * Cyberstalking
   - utter_Cyberstalking
 
-## report hate speech path
+## reporthatespeech path
 * reporthatespeech
   - utter_reporthatespeech
 
-## report cyber bullying path
+## reportcyberbullying path
 * reportcyberbullying
   - utter_reportcyberbullying
 
-## helping bulled path
+## helpbulled path
 * helpbulled
   - utter_helpbulled
 
-## parents support path
+## parentssupport path
 * parentssupport
   - utter_parentssupport
 
-## punishment path
+## punishments path
 * punishments
   - utter_punishments
 
-## crime security path
+## security path
 * security
   - utter_security
 
-## report revenge path
+## reportrevenge path
 * reportrevenge
   -utter_reportrevenge
 
-## crime hacking path
+## hacking path
 * hacking
   - utter_hacking
 
-## crime hackedphone path
+## hackedphone path
 * hackedphone
   - utter_hackedphone
 
-## if hacked path
+## ifhacked path
 * ifhacked
   - utter_ifhacked
 
-## crime way shacked path
+##  wayshacked path
 * wayshacked
   - utter_wayshacked
 
-## prevent hack path
+## preventhack path
 * preventhack
-  - preventhack
+  - utter_preventhack
 
-## report hacked path
+## reporthacked path
 * reporthacked
-  - utter_reporthacked  
+  - utter_reporthacked
 
-## crime internet banking
-* internetbankingfraud
+## internet banking path 1
+* internetbankingfraud 
   - utter_internetbankingfraud
 
-## internet banking safely
-* internetbanking_safely
-  - utter_internetbanking_safely
+## internet banking path 2
+* internetbanking_safely 
+  - utter_internetbanking_safely 
 
-## e wallet fraud
+## e wallet 1
 * Ewallet_fraud
   - utter_Ewallet_fraud
 
-## e wallet examples
-* Ewallet_example
-  - utter_Ewalletloot_example
+## e wallet 2
+* ewallet_precautions 
+  - utter_ewallet_precaution 
 
-## e wallet precautions
-* ewallet_precautions
-  - utter_ewallet_precaution
-
-## e wallet report
-* ewallet_report
+## e wallet 3 
+* ewallet_report 
   - utter_ewallet_report
 
-## ATM Credit card precautions
-* ATM/Creditcard_precautions
-  - utter_ATM/Creditcard_precautions
+## atm path 1
+* ATM_Creditcard_report
+  - utter_ATM_Creditcard_report
 
-## ATM Credit card report
-* ATM/Creditcard_report
-  - utter_ATM/Creditcard_report
+## atm path 2
+* ATM_Creditcard_precautions
+  - utter_ATM_Creditcard_precautions 
 
-## job fraud precautions
-* jobfraud_precautions
+## job fraud 1
+* jobfraud_precautions 
   - utter_jobfraud_precautions
 
-## job fraud report path
-* jobfraud_report
-  - utter_jobfraud_report
+## job fraud 2
+* jobfraud_report 
+  - utter_jobfraud_report 
 
-## matrimonial fraud precautions
-* matrimonialfraud_precautions
-  - utter_matrimonialfraud_precautions
-  
-## matrimonial report 
-* matrimonialfraud_report 
-  - utter_matrimonialfraud_report
-  
-## fraud call precaution path 
-* fraudcall_precautions
-  - utter_fraudcall_precuations
+## matrimonial 1 
+* matrimonialfraud_precautions 
+  - utter_matrimonialfraud_precautions 
 
-## fraud call report
-* fraudcall_report
-  - utter_fraudcall_report
+## matrimonial 2
+* matrimonialfraud_report
+  - utter_matrimonialfraud_report 
 
-## crypto currency path 
+## fraud call 1
+* fraudcall_precautions 
+  - utter_fraudcall_precuations 
+
+## fraud call 2
+* fraudcall_report 
+  - utter_fraudcall_report 
+
+## story 86
 * desc_cryptocurrency 
   - utter_crypto_desc
 
-## crypto path 2
+## story 87
 * help_cryptocurrency 
   - utter_crypto_help
   - utter_crypto_safety
 
-## email path 
+## story 88 
 * email_hacking 
   - utter_email_hacking
   - utter_email_safety 
 
-## email 2 
+## story 89
 * email_safety 
   - utter_email_safety
