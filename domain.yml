@@ -78,6 +78,20 @@ intents:
 - wayshacked
 - preventhack
 - reporthacked
+- internetbankingfraud
+- internetbanking_safely
+- Ewallet_fraud
+- Ewallet_example
+- ewallet_precautions
+- ewallet_report
+- ATM/Creditcard_precautions
+- ATM/Creditcard_report
+- jobfraud_precautions
+- jobfraud_report
+- matrimonialfraud_precautions
+- matrimonialfraud_report
+- fraudcall_precautions
+- fraudcall_report
 
 responses:
   utter_greet:
@@ -581,6 +595,118 @@ responses:
           4)Use a password, lock code or encryption.\n
           5)Be skeptical about links and attachments.\n
           6)Erase the cookies."
+	  
+ 
+  utter_internetbankingfraud:
+  - text: "Internet Banking Fraud is a fraud or theft committed using online technology to illegally remove money from a bank account and/or transfer money to an account in a different bank."
+
+  utter_internetbanking_safely:
+  - text: "Follow the following steps to browse safely,\n
+		1.Always use genuine anti-virus software.\n
+		2. Avoid Using Public Wi-Fi or Use VPN software\n
+		3. Check for latest updates of your Smartphone's operating system \n
+		4. Change your password regularly and ensure it's a strong one \n
+		5. Subscribe for mobile notifications\n
+		6. Avoid signing-in to your net-banking account via mailers\n
+		7. Do not use public computers to login to netbanking.\n
+		8. Check your account regularly."
+
+  utter_Ewallet_fraud:
+  - text: " You can report any fraudulent online transaction in E-Wallet which is being charged to you and occurred without your knowledge. Wallet summary showing the details of fraudulent transactions. "
+
+  utter_Ewalletloot_example:
+  - text: "Here, some of the examples for Ewallet loot,\n
+Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of the digital wallets."
+
+  utter_ewallet_precaution:
+  - text: "1.Regularly monitoring your bank accounts.\n
+           2.Dont share sensitive information with anyone else.\n
+           3.Transfer money into their e-wallets rather then link it directly to their bank accounts.\n
+           4.Change passwords.\n 
+           5.If possible, maintain separate email Ids for e-wallet transactions .\n
+           6.make sure to log out their e-wallets after use"
+
+  utter_ewallet_report:
+  - text: " 1.Report fraud immediately in when you spot it.\n
+	    2.Be very sure of details you reveal or who you reveal it to.\n
+	    3. If you have received an e-wallet fraud transaction on your email. \n
+	    4. You can save details of wallet transactions email of such transactions as .pdf/.eml file and keep it ready for uploading as evidence \n
+            5.Provide the screenshot/s or copy of your ID proof and address proof as shown in the bank records.\n
+            6.You must preserve the original evidence i.e. do not delete transactions."
+
+  utter_ATM/Creditcard_precautions:
+  - text: " 1. Do not make it a habit to carry all your credit and debit cards in your wallet. Only carry the card you use on a daily basis.\n
+            2.Take advantage of online banking to check your account activity regularly\n
+            3.When using debit/credit cards in stores or restaurants, be aware of how they are being handled. Pay close attention to how the cards are swiped by the clerk or waiter\n
+            4. Be very careful when using your debit or credit card online.\n
+            5. Maintain a list of all your cards and keep a separate list for account numbers, dates of expiration and phone numbers of customer service and fraud establishments\n
+            6. Do not give out any personal information over the phone, or email. \n
+            7. Do not write your entire credit card number on your checks.\n
+            8. If you are anticipating the arrival of a new credit card in the mail, keep an eye on your mailbox. If it does not arrive in reasonable time, contact the card company.\n
+            9. Request a credit report at least once a year."
+
+  utter_ATM/Creditcard_report:
+  - text: "If you have received financial debit/credit card fraud  transaction related SMS/emails:\n
+	   a. Take a screenshot/s or copy of SMSs received related to the alleged transactions and upload this as evidence\n
+	   b. Details of date/time when such SMS have been received \n
+	   c. keep scan of email to be uploaded as evidence \n
+	   d. you lost the money then provide the screenshot/s or copy details of banking transaction details, bank account transaction details, suspect address, company name, website URL,email id, mobile no, or any information of the platform source where the incident has happened.\n
+	   e.emails,sms,contact number,screenshots etc. must preserve the original evidence i.e. do not delete SMSs,emails or contact number."
+
+  utter_jobfraud_precautions:
+  -text : “1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
+           2)Always check the organization's website for Job offers and related details.\n
+           3) It is advisable to search and apply for jobs posted on prominent job portals. Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links”
+ 
+  utter_jobfraud_report:
+  - text: "1.If you have received job fraud sms\n
+	     a.Take the screenshot/s of the SMS (depicting the content details) and the sender details (name, email, other details) and also note the date and time when you have received the SMS .\n
+           2.If you have received job fraud email:\n
+	     a. Save the received e-mails in pdf or .eml format or take the screenshot/s of the received e-mail and the same needs to be uploaded on the portal as evidence\n
+	     b. If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device for updating the same as an evidence on the portal\n
+          3. If you received or found job fraud related information on social media platforms/forums/blogs such as Facebook, Twitter, LinkedIn etc.\n
+	     a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
+	     b. Provide the other details like user ID, email, contact number, job details etc.\n
+	     c. Take the screen shot of the page or save the page(as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal\n
+          4. If you lost the money then provide the banking transaction details.\n
+          5. You must preserve the original evidence i.e. do not delete SMSs, emails,screenshots, Website URL etc. as these could be needed by law enforcement agencies as evidence for prosecuting the offender."
+
+  utter_matrimonialfraud_percautions:
+  - text:  “1)Never react to the Matrimonial offers posted on social media platforms.\n
+            2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
+            3)If it is a NRI profile document check their  related to their address and employment abroad.\n
+            4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds.”
+
+  utter_matrimonialfraud_report:
+  - text: "1.If you have received matrimonial fraud related details on SMS/email/:\n
+             a.Take the screenshot/s of the SMS/EMAIL (depicting the content details) and the sender details (name, email, other details) need to be updated on the portal as evidence\n
+             b.Note the date and time when you have received the SMS/EMAIL.\n
+             c.If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device\n
+           2.If you received or found online matrimonial fraud related content on social media platforms/forums/blogs such as Facebook, twitter, LinkedIn etc.\n
+             a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
+             b. Provide the other details like user ID, email, contact number, matrimonial details etc.\n
+             c. Take the screen shot of the page or save the page (as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal.\n
+           3.If you lost the money then provide the banking transaction details, bank account, transaction details, suspect address, company name, website URL, email id, mobile no, or any information of the platform source where the incident has happened. "
+
+  utter_fraudcall_precuations:
+  - text: "1. Banks or any of their representatives never send their customers email/SMS or call them over the phone to ask for personal information, password or one time SMS (high security) password. Any such e-mail/SMS or phone call is an attempt to fraudulently withdraw money from the customer’s account through Internet Banking. Never respond to such email/SMS or phone call.\n
+           2. Never respond to emails/embedded links/calls asking you to update or verify User ID/Password/Debit Card Number/PIN/CVV, etc. Inform your bank about such email/SMS or phone call. Immediately change your passwords if you have accidentally revealed your credentials.\n
+           3. Do not provide any personal or confidential information on a page which might have come up as a pop-up window.\n
+           4. Always remember that information like password, PIN, TIN, etc., are strictly confidential and are not known even to employees/service personnel of the bank. You should therefore, never divulge such information even if asked for.\n
+           5. Never provide your identity proof to anyone without any genuine reason.\n
+           6. Never click on any links in any e-mail to access the bank’s site.\n
+           7. Access your bank website only by typing the URL in address bar of browser.\n
+           8. Do not provide your bank account details to emails offering a job or claiming that you have won a lottery. Avoid opening attachment of emails from unknown senders.\n
+           9. Avoid accessing Internet banking accounts from cyber cafes or shared PCs.\n
+          10. When on your bank website, look for the padlock symbol either in the address bar or the status bar (mostly in the address bar) but not within the web page display area. Verify the security certificate by clicking on the padlock.\n
+          11. Keep your system up to date."
+
+  utter_fraudcall_report:
+  - text: "1.Provide the fraud callers number details .\n
+           2.If you received an internet based fraud or vishing call, take the screenshot/s of the sender’s number along with date and time.\n
+           3.In case, if you are having the call recording, then have with you.\n
+           4.If you lost the money then provide the screenshot/s or copy details of banking transaction \n
+           5.Do not delete any  call details, numbers, call recordings, email etc”
 
 
 entities:
@@ -719,6 +845,20 @@ actions:
 - utter_rape_meaning
 - utter_rape
 - utter_childponography
+- utter_internetbankingfraud
+- utter_internetbanking_safely
+- utter_Ewallet_fraud
+- utter_Ewalletloot_example
+- utter_ewallet_precaution
+- utter_ewallet_report
+- utter_ATM/Creditcard_precautions
+- utter_ATM/Creditcard_report
+- utter_jobfraud_precautions
+- utter_jobfraud_report
+- utter_matrimonialfraud_percautions
+- utter_matrimonialfraud_report
+- utter_fraudcall_precuations
+- utter_fraudcall_report
 
 forms:
 - content_crime_form
