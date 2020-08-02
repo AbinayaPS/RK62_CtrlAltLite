@@ -505,97 +505,7 @@ responses:
 
   utter_childponography:
   - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old). Images of child pornography are also referred to as child sexual abuse images."
-
-  utter_desconlineharss:
-  - text: "Under the Information Technology Act, 2000, (IT Act) online harassment is used as an umbrella term to describe the use of the internet to harass, threaten or maliciously embarrass another party. It can be in the form of verbal, sexual, emotional, or social abuse and aimed at a person, a group of persons, or even an organization."
-
-  utter_typesonlineharass:
-  - text: "-Cyberstalking. \n -Impersonation. \n -Doxing. \n -Swatting. \n -Catfishing. \n -Trolling. \n -Dogpiling. \n -Revenge Porn. \n -Cyberbullying.\n -Hate Speech"
-
-  utter_hatespeech:
-  - text: "Online hate speech is a type of speech that takes place online, generally social media, with the purpose of attacking a person or a group on the basis of attributes such as race, religion, ethnic origin, sexual orientation, disability, or gender."
-
-  utter_Cyberbullying:
-  - text: "Cyberbullying or cyberharassment is a form of bullying or harassment using electronic means.Cyberbullying includes sending, posting, or sharing negative, harmful, false, or mean content about someone else. It can include sharing personal or private information about someone else causing embarrassment or humiliation. Some cyberbullying crosses the line into unlawful or criminal behavior."
-
-  utter_RevengePorn:
-  -text: "Revenge porn is the distribution of sexually explicit images or videos of individuals without their consent.[1] The sexually explicit images or video may be made by a partner of an intimate relationship with the knowledge and consent of the subject, or it may be made without their knowledge. The possession of the material may be used by the perpetrators to blackmail the subjects into performing other sex acts, to coerce them into continuing the relationship, to punish them for ending the relationship, or to silence them."
-
-  utter_Dogpiling:
-  - text: "A disagreement on an Internet message board wherein one person says something wrong or offensive, and a large number of people comment in response to tell the person how wrong and/or horrible they are, and continue to disparage the original commenter beyond any reasonable time limit."
-
-  utter_Trolling:
-  - text: "In Internet slang, a troll is a person who starts flame wars or intentionally upsets people on the Internet by posting inflammatory and digressive, extraneous, or off-topic messages in an online community with the intent of provoking readers into displaying emotional responses and normalizing tangential discussion,either for the troll's amusement or a specific gain.
-
-  utter_Catfishing:
-  - text: "Catfishing is a deceptive activity where a person creates a sockpuppet presence or fake identity on a social networking service, usually targeting a specific victim for abuse or fraud. Catfishing is often employed for romance scams on dating websites. The practice may be used for financial gain, to compromise a victim in some way, or simply as forms of trolling or wish fulfillment."
-
-  utter_Swatting:
-  - text: "Swatting is a criminal harassment tactic of deceiving an emergency service into sending a police and emergency service response team to another person's address. This is triggered by false reporting of a serious law enforcement emergency, such as a bomb threat, murder, hostage situation, or a false report."
-
-  utter_Doxing:
-  - text: "Doxing is the Internet-based practice of researching and publicly broadcasting private or identifying information (especially personally identifying information) about an individual or organization.Doxing may be carried out for various reasons, including inflicting harm, harassment, online shaming, extortion, coercion, business analysis and risk analytics."
-
-  utter_Impersonation:
-  - text: "An impersonator is someone who imitates or copies the behavior or actions of another. As part of a criminal act such as identity theft.\n This is usually where the criminal is trying to assume the identity of another, in order to commit fraud, such as accessing confidential information, or to gain property not belonging to them."
-
-  utter_Cyberstalking:
-  - text: "Cyberstalking is the use of the Internet or other electronic means to stalk or harass an individual, group, or organization.[1] It may include false accusations, defamation, slander and libel. Motives may be to control or intimidate the victim or to gather information for use in other crimes, like identity theft or offline stalking."
-
-  utter_reporthatespeech:
-  - text: "1)The URL of the account you want to report. \n
-           2)briefly explain how the content violates the Terms or Guidelines.\n
-           and register the complain in https://cybercrime.gov.in/"
-
-  utter_reportcyberbullying:
-  - text: "to report cyberbullying follow the steps given below \n
-           1)The URL of the account you want to report \n
-           2)Collect the proof of abuse (i.e Take screenshot of the chat) \n
-           3)file a complaint in https://cybercrime.gov.in/"
-
-  utter_helpbulled:
-  - text: "-Get the facts. \n -Gather Evidence.\n -Report or share the issue with parents or any elderly you know."
-
-  utter_punishments:
-  - text: "According to Section 66A, Sending any message (through a computer or a communication device) that is grossly offensive or has menacing character; any communication which he knows to be false, but for the purpose of causing insult, annoyance, criminal intimidation comes under this section.\n This crime is punishable upto three years with a fine."
-
-  utter_parentssupport:
-  - text: " It is not possible for parents to watch your children ALL THE TIME, you can certainly lessen the risk by sharing information about cyber fraud and risk with your children. And support them at the needy time."
-
-  utter_security:
-  - text: "Immediately shore up your privacy and security settings on social media and other accounts.\n Make your Facebook and other social media accounts private and hide your friend lists.\n Make sure passwords to all your social media and email accounts are complex and unique.\n Adopt two-step authentication whenever you can." 
-
-  utter_reportrevenge:
-  - text: "Follow the steps given below: \n 1)Take screenshot and copy the URL before it is removed. \n 2)Report the content in the respective platform. \n 3)file a complain in https://cybercrime.gov.in/. \n YOU CAN EVEN REPORT THE CRIME ANONYMOUSLY"
-
-  utter_hacking:
-  -text: " Hacking is an attempt to exploit a computer system or a private network inside a computer.\n Simply put, it is the unauthorised access to or control over computer network security systems for some illicit purpose.\n This is done through cracking of passwords and codes which gives access to the systems. The access to a password is obtained by the hacker through password cracking algorithms programs."
-
-  utter_hackedphone:
-  - text: "Signs your phone may have been hacked. 1)Noticeable decrease in battery life.\n
-                                                  2)Sluggish performance. \n 3)High data usage.\n 4)Outgoing calls or texts you didn’t send. \n 5)Mystery pop-ups. \n 6) Unusual activity on any accounts linked to the device."
-
-  utter_ifhacked:
-  - text: "If your phone is hacked.\n 1)Download Avast in Android which which not only scans for malware but offers a call blocker, firewall, VPN, and a feature to request a PIN every time certain apps are used.\n
-                                      2)iPhones may be less prone to hacks, but they aren’t totally immune. Lookout for iOS flags apps that are acting maliciously, potentially dangerous Wi-Fi networks, and if the iPhone has been jailbroken (which increases its risk for hacking)."
-
-  utter_wayshacked:
-  - text: "Your phone can be hacked in many ways. 1)You could have accidentaly downloaded spy app. \n 2) Phishing messages in your mail or meassages.\n 3)Bluetooth hacking over connection network. \n 4) Apps that over-request permissions. \n 8)Apps with weak encryption."
-
-  utter_reporthacked:
-  - text: "To report hackinh activities, do the following. \n
-           1)Mention the ID that is being hacked along with the platform name. \n
-           2)File a complaint in https://cybercrime.gov.in/ \n
-           3)Briefly describe what happened to the account in the complaint."
-
-  utter_preventhack:
-  -text: "1)Don’t access personal or financial data with public Wi-Fi. \n
-          2)Turn off anything you don’t need. \n
-          3)Choose your apps wisely. \n
-          4)Use a password, lock code or encryption.\n
-          5)Be skeptical about links and attachments.\n
-          6)Erase the cookies."
-	  
+  
   utter_internetbankingfraud:
   - text: "Internet Banking Fraud is a fraud or theft committed using online technology to illegally remove money from a bank account and/or transfer money to an account in a different bank."
 
@@ -615,7 +525,7 @@ responses:
 
   utter_Ewalletloot_example:
   - text: "Here, some of the examples for Ewallet loot,\n
-Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of the digital wallets."
+           Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of the digital wallets."
 
   utter_ewallet_precaution:
   - text: "1.Regularly monitoring your bank accounts.\n
@@ -707,6 +617,95 @@ Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung 
            4.If you lost the money then provide the screenshot/s or copy details of banking transaction \n
            5.Do not delete any  call details, numbers, call recordings, email etc”
 
+  utter_desconlineharss:
+  - text: "Under the Information Technology Act, 2000, (IT Act) online harassment is used as an umbrella term to describe the use of the internet to harass, threaten or maliciously embarrass another party. It can be in the form of verbal, sexual, emotional, or social abuse and aimed at a person, a group of persons, or even an organization."
+
+  utter_typesonlineharass:
+  - text: "-Cyberstalking. \n -Impersonation. \n -Doxing. \n -Swatting. \n -Catfishing. \n -Trolling. \n -Dogpiling. \n -Revenge Porn. \n -Cyberbullying.\n -Hate Speech"
+
+  utter_hatespeech:
+  - text: "Online hate speech is a type of speech that takes place online, generally social media, with the purpose of attacking a person or a group on the basis of attributes such as race, religion, ethnic origin, sexual orientation, disability, or gender."
+
+  utter_Cyberbullying:
+  - text: "Cyberbullying or cyberharassment is a form of bullying or harassment using electronic means.Cyberbullying includes sending, posting, or sharing negative, harmful, false, or mean content about someone else. It can include sharing personal or private information about someone else causing embarrassment or humiliation. Some cyberbullying crosses the line into unlawful or criminal behavior."
+
+  utter_RevengePorn:
+  -text: "Revenge porn is the distribution of sexually explicit images or videos of individuals without their consent.[1] The sexually explicit images or video may be made by a partner of an intimate relationship with the knowledge and consent of the subject, or it may be made without their knowledge. The possession of the material may be used by the perpetrators to blackmail the subjects into performing other sex acts, to coerce them into continuing the relationship, to punish them for ending the relationship, or to silence them."
+
+  utter_Dogpiling:
+  - text: "A disagreement on an Internet message board wherein one person says something wrong or offensive, and a large number of people comment in response to tell the person how wrong and/or horrible they are, and continue to disparage the original commenter beyond any reasonable time limit."
+
+  utter_Trolling:
+  - text: "In Internet slang, a troll is a person who starts flame wars or intentionally upsets people on the Internet by posting inflammatory and digressive, extraneous, or off-topic messages in an online community with the intent of provoking readers into displaying emotional responses and normalizing tangential discussion,either for the troll's amusement or a specific gain."
+
+  utter_Catfishing:
+  - text: "Catfishing is a deceptive activity where a person creates a sockpuppet presence or fake identity on a social networking service, usually targeting a specific victim for abuse or fraud. Catfishing is often employed for romance scams on dating websites. The practice may be used for financial gain, to compromise a victim in some way, or simply as forms of trolling or wish fulfillment."
+
+  utter_Doxing:
+  - text: "Doxing is the Internet-based practice of researching and publicly broadcasting private or identifying information (especially personally identifying information) about an individual or organization.Doxing may be carried out for various reasons, including inflicting harm, harassment, online shaming, extortion, coercion, business analysis and risk analytics."
+
+  utter_Impersonation:
+  - text: "An impersonator is someone who imitates or copies the behavior or actions of another. As part of a criminal act such as identity theft.\n This is usually where the criminal is trying to assume the identity of another, in order to commit fraud, such as accessing confidential information, or to gain property not belonging to them."
+
+  utter_Cyberstalking:
+  - text: "Cyberstalking is the use of the Internet or other electronic means to stalk or harass an individual, group, or organization.[1] It may include false accusations, defamation, slander and libel. Motives may be to control or intimidate the victim or to gather information for use in other crimes, like identity theft or offline stalking."
+
+  utter_reporthatespeech:
+  - text: "1)The URL of the account you want to report. \n
+           2)briefly explain how the content violates the Terms or Guidelines.\n
+           and register the complain in https://cybercrime.gov.in/"
+
+  utter_reportcyberbullying:
+  - text: "to report cyberbullying follow the steps given below \n
+           1)The URL of the account you want to report \n
+           2)Collect the proof of abuse (i.e Take screenshot of the chat) \n
+           3)file a complaint in https://cybercrime.gov.in/"
+
+  utter_helpbulled:
+  - text: "-Get the facts. \n -Gather Evidence.\n -Report or share the issue with parents or any elderly you know."
+
+  utter_punishments:
+  - text: "According to Section 66A, Sending any message (through a computer or a communication device) that is grossly offensive or has menacing character; any communication which he knows to be false, but for the purpose of causing insult, annoyance, criminal intimidation comes under this section.\n This crime is punishable upto three years with a fine."
+
+  utter_parentssupport:
+  - text: " It is not possible for parents to watch your children ALL THE TIME, you can certainly lessen the risk by sharing information about cyber fraud and risk with your children. And support them at the needy time."
+
+  utter_security:
+  - text: "Immediately shore up your privacy and security settings on social media and other accounts.\n Make your Facebook and other social media accounts private and hide your friend lists.\n Make sure passwords to all your social media and email accounts are complex and unique.\n Adopt two-step authentication whenever you can." 
+
+  utter_reportrevenge:
+  - text: "Follow the steps given below: \n 1)Take screenshot and copy the URL before it is removed. \n 2)Report the content in the respective platform. \n 3)file a complain in https://cybercrime.gov.in/. \n YOU CAN EVEN REPORT THE CRIME ANONYMOUSLY"
+
+  utter_hacking:
+  - text: " Hacking is an attempt to exploit a computer system or a private network inside a computer.\n Simply put, it is the unauthorised access to or control over computer network security systems for some illicit purpose.\n This is done through cracking of passwords and codes which gives access to the systems. The access to a password is obtained by the hacker through password cracking algorithms programs."
+
+  utter_hackedphone:
+  - text: "Signs your phone may have been hacked. 1)Noticeable decrease in battery life.\n
+                                                  2)Sluggish performance. \n 3)High data usage.\n 4)Outgoing calls or texts you didn’t send. \n 5)Mystery pop-ups. \n 6) Unusual activity on any accounts linked to the device."
+
+  utter_ifhacked:
+  - text: "If your phone is hacked.\n 1)Download Avast in Android which which not only scans for malware but offers a call blocker, firewall, VPN, and a feature to request a PIN every time certain apps are used.\n
+                                      2)iPhones may be less prone to hacks, but they aren’t totally immune. Lookout for iOS flags apps that are acting maliciously, potentially dangerous Wi-Fi networks, and if the iPhone has been jailbroken (which increases its risk for hacking)."
+
+  utter_wayshacked:
+  - text: "Your phone can be hacked in many ways. 1)You could have accidentaly downloaded spy app. \n 2) Phishing messages in your mail or meassages.\n 3)Bluetooth hacking over connection network. \n 4) Apps that over-request permissions. \n 8)Apps with weak encryption."
+
+  utter_reporthacked:
+  - text: "To report hackinh activities, do the following. \n
+           1)Mention the ID that is being hacked along with the platform name. \n
+           2)File a complaint in https://cybercrime.gov.in/ \n
+           3)Briefly describe what happened to the account in the complaint."
+
+  utter_preventhack:
+  - text: "1)Don’t access personal or financial data with public Wi-Fi. \n
+          2)Turn off anything you don’t need. \n
+          3)Choose your apps wisely. \n
+          4)Use a password, lock code or encryption.\n
+          5)Be skeptical about links and attachments.\n
+          6)Erase the cookies."
+
+  utter_Swatting:
+  - text: "Swatting is a criminal harassment tactic of deceiving an emergency service into sending a police and emergency service response team to another person's address. This is triggered by false reporting of a serious law enforcement emergency, such as a bomb threat, murder, hostage situation, or a false report."
 
 entities:
 - type_of_crime
