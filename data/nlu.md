@@ -107,7 +107,7 @@
 - Guidelines to report a person on Facebook?
 - Steps to report a person on facebook?
 - what are the steps to report a person on facebook?
- 
+
 ## intent:reportinsta
 - how to report someone on Instagram?
 - how to report a person on Instagram?
@@ -122,7 +122,7 @@
 - Guidelines to report a person on instagram?
 - Steps to report a person on instagram?
 - what are the steps to report a person on instagram?
- 
+
 ## intent:reporttwitter
 - how to report someone on twitter?
 - how to report a person on twitter?
@@ -137,8 +137,8 @@
 - Guidelines to report a person on twitter?
 - Steps to report a person on twitter?
 - what are the steps to report a person on twitter?
- 
- ## intent:reportyoutube
+
+## intent:reportyoutube
 - how to report someone channel in youtube
 - how to report a channel in youtube
 - what are the steps to report a channel in youtube
@@ -155,13 +155,11 @@
 - Guidelines to report a channel on youtube?
 - Steps to report a channel account on youtube?
 - what are the steps to report a channel on youtube?
- 
+
 ## intent:reportlinkedln
 - how to report a person on LinkedIn?
 - how to report someone on LinkedIn?
 - what are the steps to report someone on LinkedIn?
-- how to report someone on LinkedIn?
-- how to report a person on LinkedIn?
 - how to report an account on LinkedIn?
 - How can I report an account on LinkedIn?
 - how to report an account of someone on LinkedIn?
@@ -180,7 +178,6 @@
 - how to report a person on whatsapp?
 - how to report someones number on whatsapp?
 - what are the steps to report someone on whatsapp?
-- how to report a person on whatsapp?
 - how to report an person account on whatsapp?
 - How can I report an account on whatsapp?
 - how to report an number of someone on whatsapp?
@@ -248,12 +245,11 @@
 - cyber crime types?
 - list the types of cyber crimes.
 - how can one distinguish the types of cyber crimes?
- 
+
 ## intent:crime_type
 - What are the types of crime?
 - List the types of crime.
 - How can one distinguish the type of crime?
-- What are the types of crime?
 - Can you list the types of crime?
 - Types of crime.
 - list the various types of crimes.
@@ -270,8 +266,6 @@
 - how to be safe from personal crime?
 - define personal crime
 - explain about personal crime
-- What is personal crime?
-- Define personal crime.
 - What do you mean by the term personal crime?
 - Explain personal crime?
 - Describe the term personal crime?
@@ -296,7 +290,6 @@
 - how to be safe from property crime?
 - define property crime
 - explain about property crime
-- What is property crime?
 - Define property crime.
 - What do you mean by the term property crime?
 - Explain property crime?
@@ -376,7 +369,6 @@
 ## intent:financial_type
 - What are the types of financial crime?
 - How do you split financial crime?
-- What are the types of financial crime?
 - Types of financial crime.
 - List the types of financial crime
 
@@ -528,7 +520,7 @@
 - how can I stay away from online bank related fraud?
 - suggest some methods to be safe on online banking?
 - What are the ways in which I can protect myself from online banking fraud?
-- online banking fraud, safeguard measures. 
+- online banking fraud, safeguard measures.
 
 ## intent:crimestatistics
 - [Total](statistics)
@@ -616,6 +608,7 @@
 - I feel frustated on seeing my morphed images being shared.
 - A website shares false content sexual images.
 - A website shares my morphed images.
+- my photos are morphed
 
 ## intent:threatmeasures
 - how to stay safe and secure from online threats?
@@ -710,6 +703,7 @@
 - is ipl gambling is legal?
 - is ipl gambling is illegal?
 - issues of ipl gambling.
+- online gambling
 
 ## intent:onlineprostitution
 - what is online prostitution?
@@ -891,7 +885,7 @@
 - some stranger is keep on stalking my account in facebook
 - how to stop someone who is harassing me?
 - someone keeps on texting me in instagram
-- blackmailing me and forcing me to chat with them. 
+- blackmailing me and forcing me to chat with them.
 - some stranger is demanding money and blackmailing me through online.
 - Some fake Id is approaching me and demanding for money in Linkedin.
 - Some stranger is blackmailing me to love him and go for a date with him
@@ -902,8 +896,10 @@
 - Some stranger in Happn spp is blavkmialing me.
 - a person in bubmble dating app is forcing me for a date.
 - some stranger in TrulyMadly app is stalkinh my pictures.
-- a person in Aisle is torturing me for a date 
-- some fake id in Tinder is asking me to lend my phone number 
+- a person in Aisle is torturing me for a date
+- some fake id in Tinder is asking me to lend my phone number
+- someone is stalking me on facebook
+- someone commented abusively under my tweet
 
 ## intent:helpbulled
 - my friend is bullied in facebook
@@ -930,6 +926,7 @@
 - Photos and phone number of mine is being misused in facebook
 - My video is gone viral among the social media. How to safeguard my profile now?
 - steps to protect my profile at the time of misuse.
+- I am tagged in an irrelevant Instagram post
 
 ## intent:reportrevenge
 - my intimate photos are leaked in social media by my boyfriend.
@@ -958,6 +955,7 @@
 - my phone is being hacked, what should i do?
 - I think my phone is hacked by someone, what should i do?
 - is there any antivirus to prevent my phone as my phone is hacked.
+- what to do if my phone is being hacked?
 
 ## intent:wayshacked
 - what are the ways in which my phone can be hacked.
@@ -986,7 +984,6 @@
 - How to report hacked account?
 - my instagran password is being changed without my knowledge.
 
-
 ## intent:internetbankingfraud
 - what is internet banking fraud?
 - Define internet banking fraud?
@@ -994,13 +991,10 @@
 - Internet Banking fraud! What do you mean by that?
 - What is internet banking fraud?
 - Define internet banking fraud.
-- what do you mean by the term internet banking fraud?
 - can you explain to me about internet banking fraud?
 - how to be safe from internet banking fraud?
 - define internet banking fraud
 - explain about internet banking fraud
-- What is internet banking fraud?
-- Define internet banking fraud.
 - What do you mean by the term internet banking fraud?
 - Explain internet banking fraud?
 - Describe the term internet banking fraud?
@@ -1012,7 +1006,6 @@
 - Explain to me about internet banking fraud?
 - Tell me about internet banking fraud
 - Briefly explain about internet banking fraud.
-
 
 ## intent:internetbanking_safely
 - how to protect ourselves from internet banking ?
@@ -1040,9 +1033,7 @@
 - Define ewallet fraud?
 - what do you mean by the term Digital wallet fraud?
 - ewallet fraud! What do you mean by that?
-- What is ewallet fraud?
 - Define Digital wallet fraud.
-- what do you mean by the term Digital wallet fraud?
 - can you explain to me about ewallet fraud?
 - how to be safe from ewallet fraud?
 - define ewallet fraud
@@ -1060,7 +1051,7 @@
 - Explain to me about Digital wallet fraud?
 - Tell me about Digital wallet fraud
 - Briefly explain about Digital wallet fraud.
-
+- someone stole money from my UPI wallet
 
 ## intent:Ewallet_example
 - what are different examples for ewallet?
@@ -1136,6 +1127,7 @@
 - precautions to protect myself from ATM/Credit card fraud?
 - steps to be followed while using ATM/Credit cards?
 - guidelines to be followed while using ATM/Credit cards?
+- someone is asking for my ATM pin number
 
 ## intent:ATM_Creditcard_report
 - how to report while receiving ATM/Credit card fraud?
@@ -1155,6 +1147,7 @@
 - report ATM/Credit card fraud?
 - steps to be followed to report ATM/Credit card fraud?
 - guidelines to be followed to report ATM/Credit card  fraud?
+- I gave my ATM pin to unknown person what should I do
 
 ## intent:jobfraud_precautions
 - how to protect ourselves while using job fraud?
@@ -1232,7 +1225,6 @@
 - steps to be followed to report matrimonial fraud?
 - guidelines to be followed to report matrimonial  fraud?
 
-
 ## intent:fraudcall_precautions
 - how to protect ourselves while receiving fraudcall?
 - Is there any precaution to prevent ourselves from receiving fraudcall?
@@ -1271,7 +1263,6 @@
 - steps to be followed to report fraud call fraud?
 - guidelines to be followed to report fraud call  fraud?
 
-
 ## intent:desc_cryptocurrency
 - What is cryptocurrency?
 - whats crypto currency?
@@ -1309,18 +1300,21 @@
 - My bitcoin is missing
 
 ## intent:email_hacking
-- My email has been hacked. 
+- My email has been hacked.
 - How to check if my email has been hacked
-- I feel like my email has been hacked 
-- My gmail was logged in an unknown device 
-- My email is hacked 
-- I have been pwned 
-- How to know if my email has been hacked 
+- I feel like my email has been hacked
+- My gmail was logged in an unknown device
+- My email is hacked
+- I have been pwned
+- How to know if my email has been hacked
 - Did someone hack my email
 
 ## intent:email_safety
 - Can you tell me some safe practices of email
 - How to be safe with email?
 - How to protect my mail ID
-- How to protect my mail 
+- How to protect my mail
 - Safe practices for mail ID
+
+## intent:email_phishing
+- I got a scam mail what should I do
