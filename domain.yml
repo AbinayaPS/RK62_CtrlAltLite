@@ -43,6 +43,8 @@ intents:
 - childpornography
 - financialsafety
 - matrimonial_fraudsafety
+- crimestatistics
+- askstatistics
 - sexualexplicit
 - defsexualexplicit
 - sexualobscenity
@@ -84,8 +86,8 @@ intents:
 - Ewallet_example
 - ewallet_precautions
 - ewallet_report
-- ATM/Creditcard_precautions
-- ATM/Creditcard_report
+- ATM_Creditcard_precautions
+- ATM_Creditcard_report
 - jobfraud_precautions
 - jobfraud_report
 - matrimonialfraud_precautions
@@ -95,7 +97,7 @@ intents:
 - desc_cryptocurrency
 - help_cryptocurrency
 - email_hacking
-- email_safety 
+- email_safety
 
 responses:
   utter_greet:
@@ -130,7 +132,7 @@ responses:
       payload: /affirm_content_crime{"content_crime_confirmation":"False"}
 
   utter_ask_content_crime_type:
-  - text: "What was the content about?"
+  - text: What was the content about?
     buttons:
     - title: "Child pornography"
       payload: /choose_content_crime_type{"content_crime_type":"child pornography"}
@@ -232,6 +234,9 @@ responses:
   utter_ask_district:
   - text: What district in {state_ut} state are you currently residing in?
 
+  utter_ask_crimestatistics:
+  - text: Select the type of crime.
+
   utter_ask_date_of_incident:
   - text: On which date did this event occur?
 
@@ -318,6 +323,7 @@ responses:
       payload: /choose_sub_category{"other_crime_sub_category":"Provocative Speech"}
     - title: "Online drugs/arms selling"
       payload: /choose_sub_category{"other_crime_sub_category":"Cyber Terrorism"}
+
   utter_report_facebook:
   - text: "1.Go to the profile you want to report.\n
           2.Click the three dots icon on the bottom right of the cover photo.\n
@@ -398,7 +404,7 @@ responses:
   - text: "Under the Bank Secrecy Act, banks and other financial institutions must report cash deposits greater than $10,000. But since many criminals are aware of that requirement, banks also are supposed to report any suspicious transactions, including deposit patterns below $10,000."
 
   utter_fraudtypes:
-  - text: "The type of fraud\n -Job fraud\n -Matrimonial fraud\n -Social media fraud."
+  - text: "The type of fraud\n -Job fraud\n -Matrimonial fraud\n -Social media fraud. \n -Financial statement fraud. \n -Consumer Fraud. \n -Mail Fraud. \n -Driver's License Fraud. \n -Healthcare Fraud. \n -Voter Fraud. \n -Internet Fraud."
 
   utter_cyberex:
   - text: "1)Phishing scams - Phishing is a practice of a cybercriminal or hacker attempting to obtain sensitive or personal information from a computer user. \n
@@ -411,17 +417,19 @@ responses:
   - text: "1)Install good antivirus on your mobile phone. \n
            2)Always enable a password on the home screen to restrict unauthorized access to your mobile phone. \n
            3)Avoid using third-party extensions, plug-ins or add-ons for your web browser as it may secretly track your activity and steal your personal details. \n
-           4)Public Wi-Fi at Airports, Railway Stations, Bus Stops, etc. may be used only for normal internet surfing. It is advisable to avoid making online transactions or accessing personal information while using public/free Wi-Fi."
+           4)Public Wi-Fi at Airports, Railway Stations, Bus Stops, etc. may be used only for normal internet surfing. It is advisable to avoid making online transactions or accessing personal information while using public/free Wi-Fi.\n
+           5) Install App from trusted sources.\n 6)Read app permissions before downloading an app"
 
   utter_employmentfraud:
   - text: "1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
            2)Always check the organization's website for Job offers and related details.\n
-           3) It is advisable to search and apply for jobs posted on prominent job portals. Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links."
+           3) It is advisable to search and apply for jobs posted on prominent job portals.\n Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links."
 
   utter_socialmedia:
   - text: "1)Do not give any personal information like your address, phone number, or any kind of financial information on social media platforms.\n
-	   2)It is advisable not to turn on location settings for Apps that allow third party access. \n
-           3)Do not respond or react to unsought or abusive posts."
+	   2)Become familiar with the privacy policies of the social media channels you use and customize your privacy settings to control who sees what. \n
+           3)Do not respond or react to unsought or abusive posts. \n
+           4)Be selective with friend requests. If you don’t know the person, don’t accept their request.It could be a fake account."
 
   utter_protectyourself_cybercrimes:
   - text: "Following instructions to be noted to protect yourself from or against cybercrimes \n
@@ -432,22 +440,9 @@ responses:
 				         5)Strengthen your home network \n
 					 6)Talk to your children about the internet \n
                                          7)Keep up to date on major security breaches"
-  utter_sexualexplicitawar:
-  - text: "1)Don't Panic ! report and block that ID or account or website.\n
-           2)Report a cyber crime as sexual explicit undex crimes related to sex.\n
-           3)please keep a screenshot as a proof inorder to take necessary cations."
-
-  utter_sexualobscenityawar:
-  - text: "1)Don't Panic ! report and block that ID or account or website immediately.\n
-           2)Report a cyber crime as sexual obscenity undex crimes related to sex\n
-           3)please keep a screenshot as a proof inorder to take necessary cations."
-
-
-  utter_definesexualexplicit:
-  - text: "The term sexually explicit is often used as euphemism for pornography. It includes unsimulated sex acts, sexual intercourse and uncovered genitalia."
 
   utter_childpronography:
-  - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old).  Images of child pornography are also referred to as child sexual abuse images."
+  - text: " Child pronography is illegal. Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old).  Images of child pornography are also referred to as child sexual abuse images."
 
   utter_financialfraud:
   - text: "1)Always ensure that credit or debit card swipes are done in your presence. \n
@@ -458,8 +453,64 @@ responses:
   utter_matrimonialfraudsafety:
   - text: "1)Never react to the Matrimonial offers posted on social media platforms.\n
            2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
-           3)If it is a NRI profile document check their  related to their address and employment abroad.\n
-           4) Conduct an end-to-end background check of the prospective match to avoid matrimonial fraud."
+           3)If it is a NRI profile check their document related to their address and employment abroad.\n
+           4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds."
+
+  utter_sexualexplicitawar:
+  - text: "1)Don't Panic ! report and block that ID or account or website.\n
+           2)Report a cyber crime as sexual explicit undex crimes related to sex.\n
+           3)please keep a screenshot as a proof inorder to take necessary cations."
+
+  utter_sexualobscenityawar:
+  - text: "1)Don't Panic ! report and block that ID or account or website immediately.\n
+           2)Report a cyber crime as sexual obscenity undex crimes related to sex\n
+           3)please keep a screenshot as a proof inorder to take necessary cations."
+
+  utter_definesexualexplicit:
+  - text: "The term sexually explicit is often used as euphemism for pornography. It includes unsimulated sex acts, sexual intercourse and uncovered genitalia."
+
+  utter_crime_statistics_list: 
+  - text: select crime type 
+    buttons: 
+    - title: “Total” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Total”}’ 
+    - title: “Personal Revenge” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Personal_Revenge”}’
+    - title: “Anger” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Anger”}’
+    - title: “Fraud” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Fraud”}’ 
+    - title: “Extortion” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Extortion”}’
+    - title: “Causing Disrepute” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Causing_Disrepute”}’
+    - title: “Prank” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Prank”}’
+    - title: “Sexual Exploitation” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Sexual_Explotation”}’
+    - title: “Political Motives” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Political_Motives”}’
+    - title: “Terrorist Activities” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Terrorist_Activities”}’
+    - title: “Inciting Hate against Country” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Inciting_Hate_against_Country”}’ 
+    - title: “Disrupt Public Service” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Disrupt_Public_Service”}’
+    - title: “Sale Purchase Illegal Drugs” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Sale_Purchase_Illegal_Drugs”}’
+    - title: “Developing own Business” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Developing_own_ Business”}’ 
+    - title: “Spreading Piracy” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Spreading_Piracy”}’
+    - title: “Psycho or Pervert” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Psycho_or_Pervert”}’
+    - title: “Steal Information” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Steal_Information”}’
+    - title: “Abetment to Suicide” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Abetment_to_Suicide”}’
+    - title: “Other crimes” 
+      payload: ‘/choose_crime_type_statistics{“crime_type_statistics”:”Other_crimes”}’ 
+
   utter_threatmeasures:
   - text: "1)A online threat is a message or call or notification makes you scared of a thing and blackmailing you to do some task or offense for their use.\n
            2)Never react to online threats if a website leads you to some random sites.\n
@@ -509,117 +560,6 @@ responses:
 
   utter_childponography:
   - text: "Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old). Images of child pornography are also referred to as child sexual abuse images."
-  
-  utter_internetbankingfraud:
-  - text: "Internet Banking Fraud is a fraud or theft committed using online technology to illegally remove money from a bank account and/or transfer money to an account in a different bank."
-
-  utter_internetbanking_safely:
-  - text: "Follow the following steps to browse safely,\n
-		1.Always use genuine anti-virus software.\n
-		2. Avoid Using Public Wi-Fi or Use VPN software\n
-		3. Check for latest updates of your Smartphone's operating system \n
-		4. Change your password regularly and ensure it's a strong one \n
-		5. Subscribe for mobile notifications\n
-		6. Avoid signing-in to your net-banking account via mailers\n
-		7. Do not use public computers to login to netbanking.\n
-		8. Check your account regularly."
-
-  utter_Ewallet_fraud:
-  - text: " You can report any fraudulent online transaction in E-Wallet which is being charged to you and occurred without your knowledge. Wallet summary showing the details of fraudulent transactions. "
-
-  utter_Ewalletloot_example:
-  - text: "Here, some of the examples for Ewallet loot,\n
-           Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of the digital wallets."
-
-  utter_ewallet_precaution:
-  - text: "1.Regularly monitoring your bank accounts.\n
-           2.Dont share sensitive information with anyone else.\n
-           3.Transfer money into their e-wallets rather then link it directly to their bank accounts.\n
-           4.Change passwords.\n 
-           5.If possible, maintain separate email Ids for e-wallet transactions .\n
-           6.make sure to log out their e-wallets after use"
-
-  utter_ewallet_report:
-  - text: " 1.Report fraud immediately in when you spot it.\n
-	    2.Be very sure of details you reveal or who you reveal it to.\n
-	    3. If you have received an e-wallet fraud transaction on your email. \n
-	    4. You can save details of wallet transactions email of such transactions as .pdf/.eml file and keep it ready for uploading as evidence \n
-            5.Provide the screenshot/s or copy of your ID proof and address proof as shown in the bank records.\n
-            6.You must preserve the original evidence i.e. do not delete transactions."
-
-  utter_ATM/Creditcard_precautions:
-  - text: " 1. Do not make it a habit to carry all your credit and debit cards in your wallet. Only carry the card you use on a daily basis.\n
-            2.Take advantage of online banking to check your account activity regularly\n
-            3.When using debit/credit cards in stores or restaurants, be aware of how they are being handled. Pay close attention to how the cards are swiped by the clerk or waiter\n
-            4. Be very careful when using your debit or credit card online.\n
-            5. Maintain a list of all your cards and keep a separate list for account numbers, dates of expiration and phone numbers of customer service and fraud establishments\n
-            6. Do not give out any personal information over the phone, or email. \n
-            7. Do not write your entire credit card number on your checks.\n
-            8. If you are anticipating the arrival of a new credit card in the mail, keep an eye on your mailbox. If it does not arrive in reasonable time, contact the card company.\n
-            9. Request a credit report at least once a year."
-
-  utter_ATM/Creditcard_report:
-  - text: "If you have received financial debit/credit card fraud  transaction related SMS/emails:\n
-	   a. Take a screenshot/s or copy of SMSs received related to the alleged transactions and upload this as evidence\n
-	   b. Details of date/time when such SMS have been received \n
-	   c. keep scan of email to be uploaded as evidence \n
-	   d. you lost the money then provide the screenshot/s or copy details of banking transaction details, bank account transaction details, suspect address, company name, website URL,email id, mobile no, or any information of the platform source where the incident has happened.\n
-	   e.emails,sms,contact number,screenshots etc. must preserve the original evidence i.e. do not delete SMSs,emails or contact number."
-
-  utter_jobfraud_precautions:
-  -text : “1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
-           2)Always check the organization's website for Job offers and related details.\n
-           3) It is advisable to search and apply for jobs posted on prominent job portals. Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links”
- 
-  utter_jobfraud_report:
-  - text: "1.If you have received job fraud sms\n
-	     a.Take the screenshot/s of the SMS (depicting the content details) and the sender details (name, email, other details) and also note the date and time when you have received the SMS .\n
-           2.If you have received job fraud email:\n
-	     a. Save the received e-mails in pdf or .eml format or take the screenshot/s of the received e-mail and the same needs to be uploaded on the portal as evidence\n
-	     b. If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device for updating the same as an evidence on the portal\n
-          3. If you received or found job fraud related information on social media platforms/forums/blogs such as Facebook, Twitter, LinkedIn etc.\n
-	     a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
-	     b. Provide the other details like user ID, email, contact number, job details etc.\n
-	     c. Take the screen shot of the page or save the page(as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal\n
-          4. If you lost the money then provide the banking transaction details.\n
-          5. You must preserve the original evidence i.e. do not delete SMSs, emails,screenshots, Website URL etc. as these could be needed by law enforcement agencies as evidence for prosecuting the offender."
-
-  utter_matrimonialfraud_percautions:
-  - text:  “1)Never react to the Matrimonial offers posted on social media platforms.\n
-            2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
-            3)If it is a NRI profile document check their  related to their address and employment abroad.\n
-            4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds.”
-
-  utter_matrimonialfraud_report:
-  - text: "1.If you have received matrimonial fraud related details on SMS/email/:\n
-             a.Take the screenshot/s of the SMS/EMAIL (depicting the content details) and the sender details (name, email, other details) need to be updated on the portal as evidence\n
-             b.Note the date and time when you have received the SMS/EMAIL.\n
-             c.If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device\n
-           2.If you received or found online matrimonial fraud related content on social media platforms/forums/blogs such as Facebook, twitter, LinkedIn etc.\n
-             a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
-             b. Provide the other details like user ID, email, contact number, matrimonial details etc.\n
-             c. Take the screen shot of the page or save the page (as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal.\n
-           3.If you lost the money then provide the banking transaction details, bank account, transaction details, suspect address, company name, website URL, email id, mobile no, or any information of the platform source where the incident has happened. "
-
-  utter_fraudcall_precuations:
-  - text: "1. Banks or any of their representatives never send their customers email/SMS or call them over the phone to ask for personal information, password or one time SMS (high security) password. Any such e-mail/SMS or phone call is an attempt to fraudulently withdraw money from the customer’s account through Internet Banking. Never respond to such email/SMS or phone call.\n
-           2. Never respond to emails/embedded links/calls asking you to update or verify User ID/Password/Debit Card Number/PIN/CVV, etc. Inform your bank about such email/SMS or phone call. Immediately change your passwords if you have accidentally revealed your credentials.\n
-           3. Do not provide any personal or confidential information on a page which might have come up as a pop-up window.\n
-           4. Always remember that information like password, PIN, TIN, etc., are strictly confidential and are not known even to employees/service personnel of the bank. You should therefore, never divulge such information even if asked for.\n
-           5. Never provide your identity proof to anyone without any genuine reason.\n
-           6. Never click on any links in any e-mail to access the bank’s site.\n
-           7. Access your bank website only by typing the URL in address bar of browser.\n
-           8. Do not provide your bank account details to emails offering a job or claiming that you have won a lottery. Avoid opening attachment of emails from unknown senders.\n
-           9. Avoid accessing Internet banking accounts from cyber cafes or shared PCs.\n
-          10. When on your bank website, look for the padlock symbol either in the address bar or the status bar (mostly in the address bar) but not within the web page display area. Verify the security certificate by clicking on the padlock.\n
-          11. Keep your system up to date."
-
-  utter_fraudcall_report:
-  - text: "1.Provide the fraud callers number details .\n
-           2.If you received an internet based fraud or vishing call, take the screenshot/s of the sender’s number along with date and time.\n
-           3.In case, if you are having the call recording, then have with you.\n
-           4.If you lost the money then provide the screenshot/s or copy details of banking transaction \n
-           5.Do not delete any  call details, numbers, call recordings, email etc"
 
   utter_desconlineharss:
   - text: "Under the Information Technology Act, 2000, (IT Act) online harassment is used as an umbrella term to describe the use of the internet to harass, threaten or maliciously embarrass another party. It can be in the form of verbal, sexual, emotional, or social abuse and aimed at a person, a group of persons, or even an organization."
@@ -644,6 +584,9 @@ responses:
 
   utter_Catfishing:
   - text: "Catfishing is a deceptive activity where a person creates a sockpuppet presence or fake identity on a social networking service, usually targeting a specific victim for abuse or fraud. Catfishing is often employed for romance scams on dating websites. The practice may be used for financial gain, to compromise a victim in some way, or simply as forms of trolling or wish fulfillment."
+
+  utter_Swatting:
+  - text: "Swatting is a criminal harassment tactic of deceiving an emergency service into sending a police and emergency service response team to another person's address. This is triggered by false reporting of a serious law enforcement emergency, such as a bomb threat, murder, hostage situation, or a false report."
 
   utter_Doxing:
   - text: "Doxing is the Internet-based practice of researching and publicly broadcasting private or identifying information (especially personally identifying information) about an individual or organization.Doxing may be carried out for various reasons, including inflicting harm, harassment, online shaming, extortion, coercion, business analysis and risk analytics."
@@ -708,9 +651,117 @@ responses:
           5)Be skeptical about links and attachments.\n
           6)Erase the cookies."
 
-  utter_Swatting:
-  - text: "Swatting is a criminal harassment tactic of deceiving an emergency service into sending a police and emergency service response team to another person's address. This is triggered by false reporting of a serious law enforcement emergency, such as a bomb threat, murder, hostage situation, or a false report."
-  
+  utter_internetbankingfraud:
+  - text: "Internet Banking Fraud is a fraud or theft committed using online technology to illegally remove money from a bank account and/or transfer money to an account in a different bank."
+
+  utter_internetbanking_safely:
+  - text: "Follow the following steps to browse safely,\n
+		1.Always use genuine anti-virus software.\n
+		2. Avoid Using Public Wi-Fi or Use VPN software\n
+		3. Check for latest updates of your Smartphone's operating system \n
+		4. Change your password regularly and ensure it's a strong one \n
+		5. Subscribe for mobile notifications\n
+		6. Avoid signing-in to your net-banking account via mailers\n
+		7. Do not use public computers to login to netbanking.\n
+		8. Check your account regularly."
+
+  utter_Ewallet_fraud:
+  - text: " You can report any fraudulent online transaction in E-Wallet which is being charged to you and occurred without your knowledge. Wallet summary showing the details of fraudulent transactions. "
+
+  utter_Ewalletloot_example:
+  - text: "Here, some of the examples for Ewallet loot,\n
+              Paytm, Mobikwik, Alipay, American Express, Apple pay, Microsoft Wallet, Samsung Pay etc, are some of the digital wallets."
+
+  utter_ewallet_precaution:
+  - text: "1.Regularly monitoring your bank accounts.\n
+           2.Dont share sensitive information with anyone else.\n
+           3.Transfer money into their e-wallets rather then link it directly to their bank accounts.\n
+           4.Change passwords.\n 
+           5.If possible, maintain separate email Ids for e-wallet transactions .\n
+           6.make sure to log out their e-wallets after use"
+
+  utter_ewallet_report:
+  - text: " 1.Report fraud immediately in when you spot it.\n
+	    2.Be very sure of details you reveal or who you reveal it to.\n
+	    3. If you have received an e-wallet fraud transaction on your email. \n
+	    4. You can save details of wallet transactions email of such transactions as .pdf/.eml file and keep it ready for uploading as evidence \n
+            5.Provide the screenshot/s or copy of your ID proof and address proof as shown in the bank records.\n
+            6.You must preserve the original evidence i.e. do not delete transactions."
+
+  utter_ATM_Creditcard_precautions:
+  - text: " 1. Do not make it a habit to carry all your credit and debit cards in your wallet. Only carry the card you use on a daily basis.\n
+            2.Take advantage of online banking to check your account activity regularly\n
+            3.When using debit/credit cards in stores or restaurants, be aware of how they are being handled. Pay close attention to how the cards are swiped by the clerk or waiter\n
+            4. Be very careful when using your debit or credit card online.\n
+            5. Maintain a list of all your cards and keep a separate list for account numbers, dates of expiration and phone numbers of customer service and fraud establishments\n
+            6. Do not give out any personal information over the phone, or email. \n
+            7. Do not write your entire credit card number on your checks.\n
+            8. If you are anticipating the arrival of a new credit card in the mail, keep an eye on your mailbox. If it does not arrive in reasonable time, contact the card company.\n
+            9. Request a credit report at least once a year."
+
+  utter_ATM_Creditcard_report:
+  - text: "If you have received financial debit/credit card fraud  transaction related SMS/emails:\n
+	   a. Take a screenshot/s or copy of SMSs received related to the alleged transactions and upload this as evidence\n
+	   b. Details of date/time when such SMS have been received \n
+	   c. keep scan of email to be uploaded as evidence \n
+	   d. you lost the money then provide the screenshot/s or copy details of banking transaction details, bank account transaction details, suspect address, company name, website URL,email id, mobile no, or any information of the platform source where the incident has happened.\n
+	   e.emails,sms,contact number,screenshots etc. must preserve the original evidence i.e. do not delete SMSs,emails or contact number."
+
+  utter_jobfraud_precautions:
+  - text : "1)Beware of the emails, which offer jobs in exchange for money, such emails are spam.\n
+           2)Always check the organization's website for Job offers and related details.\n
+           3) It is advisable to search and apply for jobs posted on prominent job portals. Be careful about the jobs posted on social media advertisements and search engine results labeled as sponsored links"
+ 
+  utter_jobfraud_report:
+  - text: "1.If you have received job fraud sms\n
+	     a.Take the screenshot/s of the SMS (depicting the content details) and the sender details (name, email, other details) and also note the date and time when you have received the SMS .\n
+           2.If you have received job fraud email:\n
+	     a. Save the received e-mails in pdf or .eml format or take the screenshot/s of the received e-mail and the same needs to be uploaded on the portal as evidence\n
+	     b. If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device for updating the same as an evidence on the portal\n
+          3. If you received or found job fraud related information on social media platforms/forums/blogs such as Facebook, Twitter, LinkedIn etc.\n
+	     a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
+	     b. Provide the other details like user ID, email, contact number, job details etc.\n
+	     c. Take the screen shot of the page or save the page(as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal\n
+          4. If you lost the money then provide the banking transaction details.\n
+          5. You must preserve the original evidence i.e. do not delete SMSs, emails,screenshots, Website URL etc. as these could be needed by law enforcement agencies as evidence for prosecuting the offender."
+
+  utter_matrimonialfraud_precautions:
+  - text:  “1)Never react to the Matrimonial offers posted on social media platforms.\n
+            2)Always be careful while dealing with 'NRI' profiles on matrimonial websites. Commit to marriage only after verifying their documents. \n
+            3)If it is a NRI profile document check their  related to their address and employment abroad.\n
+            4) Conduct an end-to-end background check of the prospective match to avoid matrimonial frauds.”
+
+  utter_matrimonialfraud_report:
+  - text: "1.If you have received matrimonial fraud related details on SMS/email/:\n
+             a.Take the screenshot/s of the SMS/EMAIL (depicting the content details) and the sender details (name, email, other details) need to be updated on the portal as evidence\n
+             b.Note the date and time when you have received the SMS/EMAIL.\n
+             c.If the received emails had an attachment/s, then keep the attachment/s ready on your desktop/ device\n
+           2.If you received or found online matrimonial fraud related content on social media platforms/forums/blogs such as Facebook, twitter, LinkedIn etc.\n
+             a. Note down/ Copy (to your device/ desktop) the URL where you have seen such content\n
+             b. Provide the other details like user ID, email, contact number, matrimonial details etc.\n
+             c. Take the screen shot of the page or save the page (as .pdf) showing content on your device/ desktop for uploading the same as an evidence on the portal.\n
+           3.If you lost the money then provide the banking transaction details, bank account, transaction details, suspect address, company name, website URL, email id, mobile no, or any information of the platform source where the incident has happened. "
+
+  utter_fraudcall_precuations:
+  - text: "1. Banks or any of their representatives never send their customers email/SMS or call them over the phone to ask for personal information, password or one time SMS (high security) password. Any such e-mail/SMS or phone call is an attempt to fraudulently withdraw money from the customer’s account through Internet Banking. Never respond to such email/SMS or phone call.\n
+           2. Never respond to emails/embedded links/calls asking you to update or verify User ID/Password/Debit Card Number/PIN/CVV, etc. Inform your bank about such email/SMS or phone call. Immediately change your passwords if you have accidentally revealed your credentials.\n
+           3. Do not provide any personal or confidential information on a page which might have come up as a pop-up window.\n
+           4. Always remember that information like password, PIN, TIN, etc., are strictly confidential and are not known even to employees/service personnel of the bank. You should therefore, never divulge such information even if asked for.\n
+           5. Never provide your identity proof to anyone without any genuine reason.\n
+           6. Never click on any links in any e-mail to access the bank’s site.\n
+           7. Access your bank website only by typing the URL in address bar of browser.\n
+           8. Do not provide your bank account details to emails offering a job or claiming that you have won a lottery. Avoid opening attachment of emails from unknown senders.\n
+           9. Avoid accessing Internet banking accounts from cyber cafes or shared PCs.\n
+          10. When on your bank website, look for the padlock symbol either in the address bar or the status bar (mostly in the address bar) but not within the web page display area. Verify the security certificate by clicking on the padlock.\n
+          11. Keep your system up to date."
+
+  utter_fraudcall_report:
+  - text: "1.Provide the fraud callers number details .\n
+           2.If you received an internet based fraud or vishing call, take the screenshot/s of the sender’s number along with date and time.\n
+           3.In case, if you are having the call recording, then have with you.\n
+           4.If you lost the money then provide the screenshot/s or copy details of banking transaction \n
+           5.Do not delete any  call details, numbers, call recordings, email etc"
+
   utter_email_hacking: 
   - text: "In order to check if your email has been hacked/breached, you can visit the website www.haveibeenpwned.com and enter your email there! If you have received any message or malware suggesting your email has been hacked, you can report it in CyberCrime portal with relevant proofs."
   
@@ -728,7 +779,8 @@ responses:
   
   utter_crypto_safety:
   - text: "It is advised not to deal with cryptocurrency as criminals use such information in the dark web. Be careful with your digital currency!"
-  
+
+
 entities:
 - type_of_crime
 - content_crime_confirmation
@@ -779,6 +831,7 @@ slots:
       - online gambling
   other_crime_sub_category:
     type: text
+  
 
 actions:
 - utter_greet
@@ -812,6 +865,37 @@ actions:
 - utter_cybercrimedesc
 - utter_frauddetect
 - utter_onlinebullying
+- utter_cybercrimetypes
+- utter_typedesc
+- utter_personaldesc
+- utter_propertydesc
+- utter_Inchoatedesc
+- utter_Statutorydesc
+- utter_financialdesc
+- utter_financialtypecrime
+- utter_deposit
+- utter_fraudtypes
+- utter_cyberex
+- utter_mobilehacking
+- utter_employmentfraud
+- utter_socialmedia
+- utter_protectyourself_cybercrimes
+- utter_childpronography
+- utter_financialfraud
+- utter_matrimonialfraudsafety
+- utter_crime_statistics_list
+- utter_ask_crimestatistics
+- action_crime_stat
+- utter_sexualexplicitawar
+- utter_definesexualexplicit
+- utter_sexualobscenityawar
+- utter_threatmeasures
+- utter_hatredandthreat
+- utter_onlinegambling
+- utter_onlineprostitution
+- utter_rape_meaning
+- utter_rape
+- utter_childponography
 - utter_desconlineharss
 - utter_typesonlineharass
 - utter_hatespeech
@@ -837,45 +921,17 @@ actions:
 - utter_preventhack
 - utter_reporthacked
 - utter_wayshacked
-- utter_cybercrimetypes
-- utter_typedesc
-- utter_personaldesc
-- utter_propertydesc
-- utter_Inchoatedesc
-- utter_Statutorydesc
-- utter_financialdesc
-- utter_financialtypecrime
-- utter_deposit
-- utter_fraudtypes
-- utter_cyberex
-- utter_mobilehacking
-- utter_employmentfraud
-- utter_socialmedia
-- utter_protectyourself_cybercrimes
-- utter_childpronography
-- utter_financialfraud
-- utter_matrimonialfraudsafety
-- utter_sexualexplicitawar
-- utter_definesexualexplicit
-- utter_sexualobscenityawar
-- utter_threatmeasures
-- utter_hatredandthreat
-- utter_onlinegambling
-- utter_onlineprostitution
-- utter_rape_meaning
-- utter_rape
-- utter_childponography
 - utter_internetbankingfraud
 - utter_internetbanking_safely
 - utter_Ewallet_fraud
 - utter_Ewalletloot_example
 - utter_ewallet_precaution
 - utter_ewallet_report
-- utter_ATM/Creditcard_precautions
-- utter_ATM/Creditcard_report
+- utter_ATM_Creditcard_precautions
+- utter_ATM_Creditcard_report
 - utter_jobfraud_precautions
 - utter_jobfraud_report
-- utter_matrimonialfraud_percautions
+- utter_matrimonialfraud_precautions
 - utter_matrimonialfraud_report
 - utter_fraudcall_precuations
 - utter_fraudcall_report
@@ -884,10 +940,12 @@ actions:
 - utter_crypto_safety
 - utter_email_hacking
 - utter_email_safety
+- custom_fallback 
 
 forms:
 - content_crime_form
 - other_crime_form
+
 
 session_config:
   session_expiration_time: 60
