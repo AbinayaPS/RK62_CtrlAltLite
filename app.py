@@ -3,10 +3,12 @@ import pyotp
 import requests
 import re
 import json
+import mysql.connector
+from flask import *
 
 # create the application object
 app = Flask(__name__)
-
+app.secret_key = "Crime Bot"
 # use decorators to link the function to a url
 @app.route('/')
 def home():
@@ -44,6 +46,8 @@ def login():
             'Cache-Control': "no-cache",
             }
             response = requests.request("POST", url, data=payload, headers=headers)
+            session['username'] = request.form['username']
+            session['phno'] = request.form['phno']
             return redirect(url_for('authenticate'))
     return render_template('login.html', error=error)
 
@@ -54,6 +58,20 @@ def isValidOTP(otp):
         return otp == original
     else:
         return False
+
+def store_user_details(name,phno,otp):
+    mydb = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="abinaya123",
+        database="crimebot"
+    )
+    mycursor = mydb.cursor()
+    sql = "INSERT INTO user_info (UserName, PhoneNumber, OTP) VALUES (%s, %s, %s)"
+    val = (name,phno,otp)
+    mycursor.execute(sql, val)
+    mydb.commit()
+    
 @app.route('/authenticate', methods=['GET','POST'])
 def authenticate():
     error = None
@@ -61,19 +79,10 @@ def authenticate():
         if not isValidOTP(request.form['otp']):
             error = 'Invalid OTP.'
         else:
+            store_user_details(session['username'],session['phno'],request.form['otp'])
             return redirect(url_for('index'))
     return render_template('authenticate.html',error=error)
 
-"""@app.route('/index', methods = ['POST', 'GET'])
-def index():
-    if request.method == 'GET':
-      val = str(request.args.get('text'))
-      data = json.dumps({"sender": "Rasa","message": val})
-      headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
-      res = requests.post('http://localhost:5005/webhooks/rest/webhook', data= data, headers = headers)
-      res = res.json()
-      val = res[0]['text']
-      return render_template('index.html', val=val)"""
 
 @app.route('/index', methods = ['POST', 'GET'])
 def index():

@@ -11,6 +11,7 @@ from typing import Any, Text, Dict, List, Union
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
+import mysql.connector
 
 class ActionConfirmType(Action):
     def name(self) -> Text:
@@ -101,6 +102,19 @@ class ContentCrimeForm(FormAction):
             ],
         }
 
+    def add_crime_details(details):
+        mydb = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="abinaya123",
+        database="crimebot"
+        )
+        mycursor = mydb.cursor()
+        sql = "INSERT INTO crime_reg_details (CrimeType, Platform, Link, State, District, AddInfo) VALUES (%s, %s, %s, %s, %s, %s)"
+        mycursor.execute(sql,details)
+        mydb.commit()
+    
+
     def submit(self,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
@@ -108,7 +122,14 @@ class ContentCrimeForm(FormAction):
     ) -> List[Dict]:
 
         # utter submit template
-        #message = "Your report: \nType of crime: "+tracker.get_slot("content_crime_type")+ "\n Platform: "+tracker.get_slot("platform")+"\n Link: "+tracker.get_slot("link_ID") + "\n Date: "+tracker.get_slot("date_of_incident")+"\n Information: "+tracker.get_slot("additional_information")
+        content_crime_type = str(tracker.get_slot("content_crime_type"))
+        platform = str(tracker.get_slot("platform"))
+        link = str(tracker.get_slot("link_ID"))
+        state_ut = str(tracker.get_slot("state_ut"))
+        district = str(tracker.get_slot("district"))
+        info = str(tracker.get_slot("additional_information"))
+        add_crime_details((content_crime_type,platform,link,state_ut,district,info,add_details))
+        
         message = "Your report has been taken in. Do not panic!"
         
         dispatcher.utter_message(message)
@@ -149,6 +170,18 @@ class OtherCrimeForm(FormAction):
             ],
         }
 
+    def add_other_details(details):
+        mydb = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="abinaya123",
+        database="crimebot"
+    )
+        mycursor = mydb.cursor()
+        sql = "INSERT INTO crime_reg_details (CrimeType, SubCategory, Platform, Link, State, District, AddInfo) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+        mycursor.execute(sql,details)
+        mydb.commit()
+
     def submit(self,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
@@ -156,6 +189,15 @@ class OtherCrimeForm(FormAction):
     ) -> List[Dict]:
 
         # utter submit template
+        other_crime_type = str(tracker.get_slot("other_crime_type"))
+        other_crime_sub_category = str(tracker.get_slot("other_crime_sub_category"))
+        platform = str(tracker.get_slot("platform"))
+        link = str(tracker.get_slot("link_ID"))
+        state_ut = str(tracker.get_slot("state_ut"))
+        district = str(tracker.get_slot("district"))
+        info = str(tracker.get_slot("additional_information"))
+        add_other_details((other_crime_type,other_crime_sub_category,platform,link,state_ut,district,info,add_details))
+        
         # message = "Your report: \nType of crime: "+tracker.get_slot("other_crime_type")+ "\n Sub catgory: "+ tracker.get_slot("other_crime_sub_category")+"\n Platform: "+tracker.get_slot("platform")+"\n Link: "+tracker.get_slot("link_ID") + "\n Date: "+tracker.get_slot("date_of_incident")+"\n Information: "+tracker.get_slot("additional_information")
         message = "Your report has been taken in. Do not panic!"
         dispatcher.utter_message(message)
