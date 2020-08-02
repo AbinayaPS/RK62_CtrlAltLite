@@ -303,4 +303,51 @@
 * reporthacked
   - utter_reporthacked  
 
+## internet banking
+* internetbankingfraud
+  - utter_internetbankingfraud
+
+## internet banking safely
+* internetbanking_safely
+  - utter_internetbanking_safely
+
+## ewallet fraud
+* Ewallet_fraud
+  - utter_Ewallet_fraud
+
+## ewallet examples
+* Ewallet_example
+  - utter_Ewalletloot_example
+
+## ewallet precautions
+* ewallet_precautions
+  - utter_ewallet_precaution
+
+## ewallet report
+* ewallet_report
+  - utter_ewallet_report
+
+## ATM/Credit card precautions
+* ATM/Creditcard_precautions
+  - utter_ATM/Creditcard_precautions
+
+## ATM/Credit card report
+* ATM/Creditcard_report
+  - utter_ATM/Creditcard_report
+
+## jobfraud precautions
+* jobfraud_precautions
+  - utter_jobfraud_precautions
+
+## jobfraud_report
+* jobfraud_report
+  - utter_jobfraud_report
+
+## matrimonialfraud precautions
+  - utter_fraudcall_precuations
+
+## fraudcall report
+* fraudcall_report
+  - utter_fraudcall_report
+
 
