@@ -92,6 +92,10 @@ intents:
 - matrimonialfraud_report
 - fraudcall_precautions
 - fraudcall_report
+- desc_cryptocurrency
+- help_cryptocurrency
+- email_hacking
+- email_safety 
 
 responses:
   utter_greet:
@@ -706,7 +710,25 @@ responses:
 
   utter_Swatting:
   - text: "Swatting is a criminal harassment tactic of deceiving an emergency service into sending a police and emergency service response team to another person's address. This is triggered by false reporting of a serious law enforcement emergency, such as a bomb threat, murder, hostage situation, or a false report."
-
+  
+  utter_email_hacking: 
+  - text: "In order to check if your email has been hacked/breached, you can visit the website www.haveibeenpwned.com and enter your email there! If you have received any message or malware suggesting your email has been hacked, you can report it in CyberCrime portal with relevant proofs."
+  
+  utter_email_safety:
+  - text: "Here are some safe email practices for you: \n 1) Maintain a strong password and don't share it. \n 2) Keep 2 factor authentications. \n 3) Change your passwords frequently. \n 4) Avoid clicking on dangerous malicious mails or contents and report them immediately."
+  
+  utter_crypto_desc:
+  - text: "Cryptocurrency is a form of digital currency that is created and stored by solving a complex mathematical equation. RBI has not given any license to deal with this type of currency. So, proceed with caution if you're using this!"
+  
+  utter_crypto_help:
+  - text: "If you are facing any cryptocurrency fraud, do the following: \n 1) Take\
+      \ screenshot of the fraud SMS/email. \n 2) Report using the screenshots and\
+      \ details of what is being hacked for eg., bitcoin address, wallet details.\
+      \ \n 3) Provide relevant information like purchase of bitcoin."
+  
+  utter_crypto_safety:
+  - text: "It is advised not to deal with cryptocurrency as criminals use such information in the dark web. Be careful with your digital currency!"
+  
 entities:
 - type_of_crime
 - content_crime_confirmation
@@ -857,6 +879,11 @@ actions:
 - utter_matrimonialfraud_report
 - utter_fraudcall_precuations
 - utter_fraudcall_report
+- utter_crypto_desc
+- utter_crypto_help
+- utter_crypto_safety
+- utter_email_hacking
+- utter_email_safety
 
 forms:
 - content_crime_form
