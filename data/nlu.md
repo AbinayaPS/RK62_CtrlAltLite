@@ -1330,3 +1330,55 @@
 - steps to be followed to report fraud call fraud?
 - guidelines to be followed to report fraud call  fraud?
 
+## intent:desc_cryptocurrency
+- What is cryptocurrency?
+- whats crypto currency?
+- what is crypto currency
+- what is bitcoin
+- what is a bit coin
+- tell me about bitcoins
+- tell me about cryptocurrency
+- what is digital currency
+- tell me about digital currency
+- can you tell me about bitcoins
+- how does bitcoin work
+- how does cryptocurrency work
+- What is a bit coin?
+
+## intent:help_cryptocurrency
+- I received a fake SMS about bitcoin
+- I received a fake SMS about cryptocurrency
+- I received a fake email about bitcoins
+- I got a fake mail about crypto currency
+- What to do about scam mails of crypto currency
+- I saw a fake website that sold bitcoins
+- I saw an ad about bitcoins
+- I saw a scam ad about cryptocurrency
+- Someone hacked my bitcoins
+- I got hacked in bitcoin website
+- I was looted by a fake bitcoin website
+- My bitcoin is hacked
+- My bitcoin address is hacked
+- How to be safe with bitcoins?
+- Can I use bitcoins in India?
+- Is cryptocurrency safe?
+- Is crpto currency safe?
+- Is it advisable to use cryptocurrency?
+- My bitcoin is missing
+
+## intent:email_hacking
+- My email has been hacked. 
+- How to check if my email has been hacked
+- I feel like my email has been hacked 
+- My gmail was logged in an unknown device 
+- My email is hacked 
+- I have been pwned 
+- How to know if my email has been hacked 
+- Did someone hack my email
+
+## intent:email_safety
+- Can you tell me some safe practices of email
+- How to be safe with email?
+- How to protect my mail ID
+- How to protect my mail 
+- Safe practices for mail ID
