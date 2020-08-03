@@ -37,7 +37,8 @@
           request.form.phno }}">
             	   </div>
             	</div>
-            	<input type="submit" class="btn" value="Login">
+            	<input type="submit" class="btn" name = "action" value="Login">
+		<input type="submit" class="btn" name = "action" value="Login Anonymously">
 		{% if error %}
         		<p class="error"><strong>Error:</strong> {{ error }}
 	      	{% endif %}
